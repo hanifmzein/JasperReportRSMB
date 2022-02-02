@@ -1,0 +1,148 @@
+{
+	"jenis_chateter":{
+		"pilihan":"lain_lain",
+		"lain_lain":""
+	},
+	"item_pencegahan_phlebitis":{
+		"pasang":{
+			"tanggal":[
+				
+			],
+			"total":21,
+			"keterangan":""
+		},
+		"lepas":{
+			"tanggal":[
+				
+			],
+			"total":2,
+			"keterangan":""
+		},
+		"pemasangan_dengan_tehnik_aseptik":{
+			"tanggal":[
+				
+			],
+			"total":12,
+			"keterangan":""
+		},
+		"fiksasi_dengan_baik":{
+			"tanggal":[
+				
+			],
+			"total":0,
+			"keterangan":""
+		},
+		"urin_bag_dibawah_bladder":{
+			"tanggal":[
+				
+			],
+			"total":2,
+			"keterangan":""
+		},
+		"urin_bag_tidak_menyentuh_lantai":{
+			"tanggal":[
+				
+			],
+			"total":14,
+			"keterangan":""
+		},
+		"tidak_dilakukan_bladder":{
+			"tanggal":[
+				
+			],
+			"total":2,
+			"keterangan":""
+		}
+	},
+	"nomor_chat":"value",
+	"tidak_membuka_sambungan":{
+		"tanggal":[
+			
+		],
+		"total":10,
+		"keterangan":""
+	},
+	"mue_hygiene":{
+		"tanggal":[
+			
+		],
+		"total":21,
+		"keterangan":""
+	},
+	"gelas_ukur_terpisah":{
+		"tanggal":[
+			
+		],
+		"total":3,
+		"keterangan":""
+	},
+	"masih_ada_indikasi":{
+		"tanggal":[
+			
+		],
+		"total":41,
+		"keterangan":""
+	},
+	"gejala_isk":{
+		"demam":{
+			"tanggal":[
+				
+			],
+			"total":10,
+			"keterangan":""
+		},
+		"nyeri_supra":{
+			"tanggal":[
+				
+			],
+			"total":20,
+			"keterangan":""
+		},
+		"urgency":{
+			"tanggal":[
+				
+			],
+			"total":2,
+			"keterangan":""
+		},
+		"frequency":{
+			"tanggal":[
+				
+			],
+			"total":2,
+			"keterangan":""
+		},
+		"dysuria":{
+			"tanggal":[
+				
+			],
+			"total":1,
+			"keterangan":""
+		},
+		"nyeri_coctovertebral":{
+			"tanggal":[
+				
+			],
+			"total":2,
+			"keterangan":0
+		},
+		"kuman_biakan_urin":{
+			"tanggal":[
+				
+			],
+			"total":12,
+			"keterangan":0
+		},
+		"pyuria":{
+			"tanggal":[
+				
+			],
+			"total":4,
+			"keterangan":""
+		}
+	},
+	"ttd":{
+		"dibuat_oleh":"Jhone",
+		"mengetahui":"Wijck"
+	}
+}

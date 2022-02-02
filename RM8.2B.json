@@ -1,0 +1,59 @@
+{
+	"tanggal":"2021-11-01",
+	"diagnosis_medis":"Telat minum",
+	"asesmen_gizi":{
+		"antropometri":{
+			"berat_badan":60,
+			"tinggi_badan":170,
+			"lingkar_lengan_atas":25,
+			"lingkar_kepala":30,
+			"berat_badan_ideal":60,
+			"berat_badan_umur":2.3,
+			"tinggi_badan_umur":4,
+			"berat_badan_tinggi_badan":0.4
+		},
+		"biokimia":"Terlalu banyak makanan vermentasi",
+		"klinik_fisik":"Normal",
+		"riwayat_gizi":{
+			"alergi_makanan":{
+				"telur":"Tidak",
+				"susu_sapi":"Ya",
+				"kacang_kedelai":"Tidak",
+				"gandum":"Ya",
+				"udang":"Tidak",
+				"ikan":"Ya",
+				"hazelnut":"Tidak",
+				"lain_lain":""
+			},
+			"pola_makan":"3 kali sehari"
+		},
+		"total_asupan":{
+			"zat_gizi":{
+				"energi":{
+					"nilai":"56",
+					"kebutuhan":"60",
+					"persentase":"96"
+				},
+				"protein":{
+					"nilai":"43",
+					"kebutuhan":"40",
+					"persentase":"105"
+				}
+			},
+			"perhitungan_kebutuhan":{
+				"energi":"50",
+				"protein":"60",
+				"cairan":"70"
+			}
+		},
+		"riwayat_personal":"Tidak memiliki penyakit keturunan"
+	},
+	"diagnosa_gizi":"Baik semua",
+	"intervensi_gizi":"Gizi OKE",
+	"monitoring_evaluasi":"Kontrol tiga bulan sekali",
+	"tanda_tangan":{
+		"tanggal":"2021-11-01",
+		"jam":"06:00:00",
+		"nutrisionis":"Saya"
+	}
+}

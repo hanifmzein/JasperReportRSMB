@@ -1,0 +1,30 @@
+[
+	{
+		"diagnosis":"catchpharse",
+		"dpjp":{
+			"nama":"Dude",
+			"tanggal_mulai":"2021-11-01",
+			"tanggal_akhir":"2021-11-01"
+		},
+		"dpjp_utama":{
+			"nama":"Guy",
+			"tanggal_mulai":"2021-11-01",
+			"tanggal_akhir":"2021-11-01"
+		},
+		"keterangan":"catchpharse1"
+	},
+	{
+		"diagnosis":"Kurang bahagia",
+		"dpjp":{
+			"nama":"Jhone",
+			"tanggal_mulai":"2021-11-01",
+			"tanggal_akhir":"2021-11-01"
+		},
+		"dpjp_utama":{
+			"nama":"Jhane",
+			"tanggal_mulai":"2021-11-01",
+			"tanggal_akhir":"2021-11-01"
+		},
+		"keterangan":"catchpharse2"
+	}
+]

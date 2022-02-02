@@ -1,0 +1,46 @@
+{
+    "tanggal": "2021-11-01",
+    "jam": "06:00:00",
+    "usia_lanjut": "Ya",
+    "hambatan_mobilisasi": "Ya",
+    "membutuhkan_pelayanan_medis": "Ya",
+    "membutuhkan_pelayanan_medis_dan_perawatan_berkelanjutan_ya_tidak_tergantung_dengan_orang_lain": "Ya",
+    "transportasi_pulang": "Becak",
+    "orang_yang_mendampingi": "Thanos",
+    "pengobatan_dirumah": [
+		"obat 1",
+		"obat 2",
+		"obat 3"
+	],
+    "diet_khusus_pasien": "Diet pisang",
+    "perawatan_medis_dirumah": [
+    	"Ocygen Portable",
+		"NGT"
+    ],
+    "alat_bantu_dirumah": [
+		"Kursi Roda", 
+		"Tongkat"
+	],
+    "pendidikan_kesehatan_dirumah": [
+    	"Balutan jangan basah /kotor",
+		"Hindari mengangkat beban berat"
+    ],
+    "diberikan_kepada_pasien": {
+      "pilihan": "Hasil pemeriksaan penunjang",
+      "lain_lain": []
+    },
+    "jadwal_kontrol_berikutnya": {
+      "nama_dokter": "Ahmad Soekro",
+      "tanggal": "2021-11-01",
+      "jam": "06:00:00",
+      "petugas_admission": "Jhon Noe",
+      "perawat_appointment": "Sha Rie Min"
+    },
+    "instruksi_diberikan": {
+      "pilihan": "Lain - lain",
+      "lain_lain": "Catchpharse"
+    },
+    "saya_dapat_menerima": true,
+    "pihak_pasien": "Su Crow",
+    "perawat_yang_menjelaskan": "Soe Came Tie"
+}

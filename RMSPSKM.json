@@ -1,0 +1,54 @@
+{
+	"hal1":{
+		"saya":{
+			"nama":"Slamet Alex",
+			"umur":26,
+			"pekerjaan":"Bapak Rumah tangga",
+			"alamat":"Kebebekan",
+			"hubungan_keluarga":"Keponakan"
+		},
+		"wali_pasien":{
+			"nama":"Alexander Tirtojero",
+			"umur":62,
+			"pekerjaan":"Pengangguran",
+			"alamat":"Bojong wetan"
+		},
+		"telah_menjalani":"Rawat inap",
+		"tanggal":{
+			"mulai":"2021-11-01",
+			"sampai":"2021-11-01"
+		},
+		"no_rm":"000051",
+		"untuk_keperluan":"Adu nasib",
+		"ttd":{
+			"kota":"Banjarnegara",
+			"tanggal":"2021-11-01",
+			"hormat_saya":"Lerry The Lobster"
+		}
+	},
+	"hal2":{
+		"kepada":{
+			"dokter":"Stephen Strange",
+			"di":"Khamr Taj"
+		},
+		"saya":{
+			"nama":"Vladimir Sutiyoso",
+			"umur":57,
+			"agama":"Lainnya",
+			"pekerjaan":"Presiden Asgard",
+			"alamat":"Anu Arendel",
+			"telah_menjalani":"IGD",
+			"tanggal":{
+				"mulai":"2021-11-01",
+				"sampai":"2021-11-01"
+			}
+		},
+		"no_rm":"000521",
+		"untuk_keperluan":"Cuti selamanya",
+		"ttd":{
+			"kota":"Banjarnegara",
+			"tanggal":"2021-11-01",
+			"hormat_saya":"Sarimin"
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"yang_bertanda_tangan":{
+		"hari":"Senin",
+		"jam":"06:00:00",
+		"tanggal":"2021-11-01",
+		"tempat":"RSU PKU Muhammadiyah Banjarnegara"
+	},
+	"telah_lahir":"Laki-laki",
+	"dalam_keadaan":"Hidup",
+	"nomor_rekam_medis_bayi":"0008214",
+	"bayi":{
+		"nama_bayi":"Alero Solerano El Perte",
+		"nama_ibu":"Marina",
+		"nama_ayah":"Alexander Poniman",
+		"nomor_rekam_medis_ibu":"000421",
+		"umur_ibu":30,
+		"alamat":"Uruk, Mesopotamia"
+	},
+	"keterangan_lain":{
+		"berat_badan":31,
+		"panjang_badan":40
+	},
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"dokter":"Kemal"
+	}
+}

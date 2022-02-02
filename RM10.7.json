@@ -1,0 +1,27 @@
+{
+	"privasi":{
+		"rumah_sakit_privasi_khusus":"Saya menginginkan",
+		"rumah_sakit_memberi_akses":"Saya menginginkan",
+		"sebutkan_nama":[
+			"Nama Satu",
+			"Nama Dua"
+		]
+	},
+	"kebutuhan_pendampingan":{
+		"pilihan":"Ya",
+		"oleh":"Miskun"
+	},
+	"nilai_dan_kepercayaan_yang_bertetangan":{
+		"pilihan":"Ya",
+		"sebutkan":"Aliran sesat"
+	},
+	"saya_telah_membaca_dan_sepenuhnya_setuju":true,
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"pasien":"Lerry",
+		"pemberi_informasi":"Soffie",
+		"saksi1":"Jhonno",
+		"saksi2":"Fred"
+	}
+}

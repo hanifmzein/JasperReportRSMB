@@ -1,0 +1,141 @@
+{
+    "sputum_bta": {
+      "pertama": "baik",
+      "kedua": "",
+      "ketiga": ""
+    },
+    "identitas": {
+      "nama": "Zonata",
+      "tanggal_lahir": "2021-11-01",
+      "kelamin": "Laki-laki",
+      "agama": "Islam",
+      "alamat": "Jogja",
+      "perkawinan": "Menikah",
+      "kebangsaan": "WNI",
+      "telepon": "025684556"
+    },
+    "riwayat": {
+      "alergi_obat": {
+        "pilihan": "Tidak",
+        "nama_obat": ""
+      },
+      "tanggal_kunjungan": "2021-11-01",
+      "tekanan_darah": {
+        "sistole": 30,
+        "diastole": 70
+      },
+      "nadi": 23,
+      "suhu": 35,
+      "nafas": 20,
+      "berat_badan": 60,
+      "saturasi_oksigen": 30,
+      "nutrisi": "normoweight",
+      "anamnesis": "Sehat fisik tampak",
+      "keluhan_utama": "sakit perut",
+      "penyakit_sekarang": "Tidak ada",
+      "penyakit_dahulu": "Magh",
+      "konsumsi_obat": "Mylantha"
+    },
+    "kondisi": {
+      "umum": {
+        "pilihan": "baik",
+        "gcs": ""
+      },
+      "kepala": {
+        "konjungtiva": "anemis",
+        "sklera": "normal",
+        "sianosis": "tidak",
+        "nafas_cuping_hidung": "tidak",
+        "jvp": "normal",
+        "lain_lain": ""
+      },
+      "kgb": "Tidak ada",
+      "thorak": {
+        "jantung": {
+          "pilihan": "normal",
+          "kelainan": ""
+        },
+        "paru": {
+          "inspeksi": {
+            "pilihan": "simetris",
+            "keterangan": ""
+          },
+          "palpasi": {
+            "stem_fremitus": "normal"
+          },
+          "perkusi": "sonor",
+          "auskultasi": {
+            "suara_nafas": "vesikuler"
+          },
+          "ronchi": {
+            "pembilang": 3,
+            "pembanding": 6
+          },
+          "wheezing": {
+            "pembilang": 6,
+            "pembanding": 3
+          }
+        },
+        "lain_lain": ""
+      },
+      "abdomen": {
+        "pilihan": "Lemas",
+        "nyeri_tekan": "",
+        "bising_usus": "",
+        "hepar": {
+          "pilihan": "tidak teraba",
+          "teraba": ""
+        },
+        "lien": {
+          "pilihan": "tidak teraba",
+          "teraba": ""
+        },
+        "massa": "",
+        "lain_lain": ""
+      },
+      "ektremitas": {
+        "edema": "tidak",
+        "akral": "hangat"
+      }
+    },
+    "uji_paru": {
+      "fvc": {
+        "pred": "",
+        "actl": "",
+        "pred_persen": "",
+        "keterangan": ""
+      },
+      "fev": {
+        "pred": "",
+        "actl": "",
+        "pred_persen": "",
+        "keterangan": ""
+      },
+      "pev": {
+        "pred": "",
+        "actl": "",
+        "pred_persen": "",
+        "keterangan": ""
+      },
+      "keterangan_lokalis": "tampak bagus",
+      "pemeriksaan_laboratorium": "",
+      "radiologi": "",
+      "pemeriksaan_lainnya": "",
+      "diagnosis_kerja": "",
+      "diagnosis_banding": "",
+      "permasalahan": "",
+      "terapi_pengobatan": "",
+      "tindakan_rencana": "",
+      "anjuran_kontrol_kembali": "2021-11-01",
+      "indikasi_rawat_inap": "",
+      "edukasi": {
+        "nama_pasien": "",
+        "nama_keluarga_pasien": "",
+        "hubungan": "",
+        "alasan_tidak_edukasi": ""
+      }
+    },
+    "nama_dpjp": "Sungok",
+    "nama_pasien_wali": "Zonata",
+    "tanggal": "2021-11-01"
+  }

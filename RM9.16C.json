@@ -1,0 +1,106 @@
+{
+	"tanggal":"2021-11-01",
+	"jam":"06:00:00",
+	"tindakan":{
+		"tanggal":"2021-11-01",
+		"operasi":"Jantung",
+		"lokasi_tindakan":"Kiri",
+		"jenis_tindakan":"Elective",
+		"tindakan_karena_trauma":"Ya",
+		"tingkatan_dokter_bedah":"Pro player, top global dokter",
+		"kode_dokter":{
+			"pilihan":"lain_lain",
+			"lain_lain":"Dr Strange"
+		},
+		"apakah_tindakan":{
+			"pilihan":"Ya",
+			"ya":"Ya"
+		},
+		"menggunakan_antibiotik":"Ya"
+	},
+	"skor_resiko":{
+		"jenis_luka":"Luka hati",
+		"waktu_operasi":{
+			"tanggal":"2021-11-01",
+			"jam":"06:00:00"
+		},
+		"waktu_penutupan_luka":{
+			"tanggal":"2021-11-01",
+			"jam":"06:00:00"
+		},
+		"skor_asa":3
+	},
+	"anastesi":{
+		"jenis_anastesi":"Regional",
+		"regional":"Spinal"
+	},
+	"antibiotik_profilaksis":{
+		"apakah_sudah_diberikan_antibiotik":{
+			"pilihan":"Ya",
+			"ya":{
+				"pilihan":"Ya",
+				"nama_antibiotik":"Ethereum Clasic"
+			}
+		}
+	},
+	"ringkasan_informasi_untuk_referensi_cepat":{
+		"tanggal_untuk_meninjau_dalam_30_hari":"2021-11-01",
+		"peninjauan_selesai":"Ya",
+		"infeksi_luka":"Ya",
+		"tanggal_untuk_meninjau_dalam_90_hari":"2021-11-01",
+		"peninjauan_selesai_dalam_90_hari":"Tidak",
+		"jenis":"Superficial",
+		"kapan_pasien_dirawat_kembali":"<= 30 hari"
+	},
+	"kolom_pilihan":{
+		"antibiotik":[
+			{
+				"nama":"Solana",
+				"dosis":"10 botol 100ml",
+				"frekuensi\t":"4x",
+				"diberikan_>_24_jam":"Iya"
+			},
+			{
+				"nama":"Metamask",
+				"dosis":"1 galon 9000ml",
+				"frekuensi\t":"4x",
+				"diberikan_>_24_jam":"Tidak"
+			}
+		],
+		"jenis_yang_digunakan":"2 % chlorhexidine\/alcohol",
+		"pasien_bmi":{
+			"tinggi_badan":169,
+			"berat_badan":70
+		}
+	},
+	"perawatan_kembali":{
+		"sudahkah_pasien":"Ya",
+		"tanggal_perawatan_kembali":"2021-11-01",
+		"apakah_perawatan":"Tidak",
+		"sudahkah_kriteria":"Ya"
+	},
+	"rincian_infeksi_daerah_operasi":{
+		"diagnosis_infeksi":"Tidak",
+		"kapan_terdiagnosis":"Pada saat perawatan kembali sampai 90 hari setelah tindakan",
+		"jenis_infeksi_luka_operasi":"Organ\/space"
+	},
+	"mikrobiologi":{
+		"sampel_klinis":"Ya",
+		"letak_sampel":{
+			"pilihan":"Lainnya",
+			"lain_lain":"Lain lainya"
+		},
+		"apakah_organisme":{
+			"pilihan":"Ya",
+			"ya":{
+				"pilihan":"Lainnya",
+				"lain_lain":"Dan lain lain"
+			}
+		},
+		"rincian_organisme":{
+			"pilihan":"Lainnya",
+			"lain_lain":"And the other"
+		}
+	},
+	"nama_pemeriksa":"Gerraint"
+}

@@ -1,0 +1,78 @@
+{
+	"identitas":{
+		"nama_penderita":"Tontowi Prasetyo",
+		"kelamin":"L",
+		"alamat":"Bandung",
+		"tanggal_diterima":"2019-04-21",
+		"kelas":"VIP",
+		"ruang":"Olivia",
+		"usia":{
+			"value":17,
+			"pilihan":"Tahun"
+		},
+		"tanggal_jadi":"2019-04-21",
+		"norm":"00001234"
+	},
+	"pemeriksaan":{
+		"dokter_peminta":"Siti Mayanti",
+		"no_lab_pa":"LAB0908778",
+		"jaringan_tubuh":[
+			"Biopsi",
+			"Kerokan"
+		],
+		"lokalisasi":"Punggung"
+	},
+	"diagnosa_klinik":"Kurang sinar matahari",
+	"keterangan_klinik":"Perbanyak berjemur",
+	"sitologi":{
+		"sediaan":{
+			"pilihan":[
+				"Rongga Mulut",
+				"Sputum"
+			],
+			"lain_lain":""
+		},
+		"keganasan":{
+			"x_ray":"Tidak Dilakukan",
+			"endoskopi":"Tidak Dilakukan",
+			"evaluasi_klinik":"Tidak Dilakukan"
+		},
+		"ginekologik":{
+			"pilihan":{
+				"haid_akhir":{
+					"pilihan":true,
+					"tanggal":"2019-04-21"
+				},
+				"paritas":{
+					"pilihan":true,
+					"value":4
+				},
+				"hamil":false,
+				"kimia":{
+					"pilihan":true,
+					"value":"fluor"
+				},
+				"menopause":false,
+				"terapi":{
+					"pilihan":true,
+					"hormon":"Ekstoteron"
+				}
+			},
+			"kontrasepsi":{
+				"pilihan":"IUD",
+				"tanggal":"2019-04-21"
+			},
+			"radiasi":{
+				"keterangan":"",
+				"tanggal":"2019-04-21"
+			}
+		}
+	},
+	"pernah_histopalogik":{
+		"lokasi":"Punggung",
+		"tanggal":"2019-04-21",
+		"no_pa":"LAB0908778"
+	},
+	"tanggal_periksa":"2019-04-21",
+	"nama_dokter":"Muhammad Rafif Adum Pratama"
+}

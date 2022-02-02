@@ -1,0 +1,59 @@
+{
+    "identitas_bayi": {
+      "nama": "Udin",
+      "no_identitas": "87951639136",
+      "alamat_orang_tua": "Jong gool",
+      "tanggal_lahir": {
+        "tanggal": "2021-11-01",
+        "jam": "06:00:00",
+        "kelamin": "Laki-laki"
+      },
+      "tanggal_pindah": {
+        "tanggal": "2021-11-01",
+        "jam": "06:00:00"
+      },
+      "pindah_ke_ruang": "mayad",
+      "dx_pindah": "catchparse"
+    },
+    "kondisi_bayi": {
+      "ttv_jam": "06:00:00",
+      "t": 23,
+      "n": 2,
+      "s": 42,
+      "r": 20,
+      "reflek_hisap": "Kuat"
+    },
+    "alat_yang_terpasang": {
+      "gelang_bayi": "Terpasang",
+      "lain_lain": "ada deh"
+    },
+    "pindah_atas": "Ijin Dokter",
+    "terapi_yang_di_berikan": [
+        "Imunisasi HB O",
+        "Tetes mata"
+    ],
+    "hasil_pemeriksaan": "catchpharse 100x",
+    "diagnosis_keperawatan": [
+        "In efektif ekebrsihan jalan nafas",    
+        "Resiko hipoptermi",    
+        "Resiko infeksi",    
+        "Ketergantungan pemenuhan kebutuhan nutrisi dan hygiene personal",    
+        "Kurang penetahuan keluarga tentang perawatan bayi"    
+    ],
+    "tindakan_keperawatan": [
+        "Managemen bersihan jalan nafas neonatus",
+        "Managemen pencegahan hipotermi neonatus",
+        "Managemen pencegahan infeksi neonatus",
+        "Managemen pemenuhan nutrisi neonatus",
+        "Managemen pemenuhan hygiene personal",
+        "Penkes perawatan tali pusat",
+        "Penkes memandikan bayi",
+        "Penkes meneteki bayi",
+        "Penkes menganti pakaian bayi",
+        "Penkes membuat PASI"
+    ],
+    "perawat": {
+      "menyerahkan": "Kamsha Hamida",
+      "menerima": "Mi Chien"
+    }
+}

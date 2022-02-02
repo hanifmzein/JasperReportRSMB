@@ -1,0 +1,452 @@
+{
+	"asesmen_awal":{
+		"pasien":{
+			"ruangan":"xxi",
+			"tiba_di_ruangan":"2021-11-01",
+			"tanggal_pengkajian":"2021-11-01",
+			"di_dapat_dari":"catchpharse",
+			"diagnosa_medis":"catchpharse1",
+			"asal_masuk":"OK",
+			"agama":"Lainnya",
+			"pukul":"06:00:00",
+			"dikaji_pukul":"06:00:00",
+			"hubungan":"Tak berhubungan"
+		},
+		"ayah":{
+			"nama":"Xavier Soejono",
+			"umur":0,
+			"pekerjaan":"Bapak Rumah tangga",
+			"golongan_darah":"AB",
+			"pendidikan":"",
+			"agama":"Konghucu"
+		},
+		"ibu":{
+			"nama":"Marlin Siregar",
+			"umur":32,
+			"pekerjaan":"Kuli Coding",
+			"agama":""
+		}
+	},
+	"riwayat_kesehatan":{
+		"keluhan_utama":"Buang duit",
+		"riwayat_penyakit_sekarang":"Mageran",
+		"riwayat_penyakit_keluarga":{
+			"value":"Lain-lain",
+			"lain_lain":"Kurang tamvan"
+		},
+		"riwayat_alergi":{
+			"pilihan":"Ya",
+			"bila_ya":{
+				"pilihan":"Lain- Lain",
+				"lain_lain":""
+			}
+		},
+		"riwayat_prenatal":{
+			"hpht":21,
+			"taksiran_partus":42,
+			"umur_kehamilan":31,
+			"penyulit":"Pre\/Eklampsi"
+		},
+		"riwayat_intranatal":{
+			"jenis_persalinan":"Forcep",
+			"letak_bayi":{
+				"pilihan":"lain_lain",
+				"lain_lain":"Tangan"
+			},
+			"penolong":{
+				"pilihan":"Lain-Lain",
+				"lain_lain":"Tukang kebun"
+			},
+			"penyulit":{
+				"pilihan":"Infeksi Ibu, jenis",
+				"infeksi_ibu":"Infeksi kemager-an"
+			}
+		},
+		"riwayat_postnatal":{
+			"resusitasi":{
+				"lama_tindakan":{
+					"value":12,
+					"pilihan":"Hari"
+				},
+				"pilihan":{
+					"value":"Terapi O2",
+					"02":"Nasal"
+				}
+			},
+			"ketuban":{
+				"pecah":"Pecah < 18 jam",
+				"jumlah":"",
+				"kondisi":{
+					"pilihan":"Berwarna",
+					"berwarna":"Pink"
+				}
+			},
+			"apgar_score":{
+				"1_menit":12,
+				"5_menit":2,
+				"10_menit":35
+			},
+			"riwayat_kelahiran":{
+				"bbl":214,
+				"pbl":41,
+				"lk":3,
+				"pilihan":{
+					"keadaan":"Langsung Menangis",
+					"kondisi":{
+						"pilihan":"Ikterus",
+						"cyanosis":"Central",
+						"ikterus":"Banyak"
+					}
+				}
+			},
+			"perawatan_tali_pusat":{
+				"pilihan":{
+					"value":"Kassa",
+					"kasa":"alkohol"
+				},
+				"frekuensi":21
+			}
+		},
+		"riwayat_vaksinasi":{
+			"imunisasi":{
+				"bcg":{
+					"pilihan":"Ya",
+					"tanggal":"2021-11-01"
+				},
+				"hb":{
+					"pilihan":"Ya",
+					"tanggal":"2021-11-01"
+				},
+				"polio":{
+					"pilihan":"Ya",
+					"tanggal":"2021-11-01"
+				},
+				"hepatitis":{
+					"pilihan":"Ya",
+					"tanggal":"2021-11-01"
+				}
+			}
+		}
+	},
+	"pengkajian_fisik":{
+		"keadaan_umum":"Cukup",
+		"kesadaran":{
+			"pilihan":"GCS",
+			"gcs":{
+				"e":12,
+				"m":32,
+				"v":1
+			}
+		},
+		"fisik":{
+			"bb":20,
+			"tb":20,
+			"lk":0,
+			"ld":2,
+			"lla":342
+		},
+		"ttv":{
+			"td":32,
+			"hr":234,
+			"rr":4,
+			"suhu":0,
+			"spo":342
+		},
+		"kepala_dan_leher":{
+			"kepala":{
+				"pilihan":"Normal",
+				"bentuk":"Jajar genjang"
+			},
+			"ubun_ubun":"Belum menutup",
+			"muka":{
+				"pilihan":"Tidak Normal",
+				"bentuk":"Seperti manusia"
+			},
+			"mata":{
+				"pilihan":"Mata",
+				"bentuk":"Kubus",
+				"kondisi":"Bersih"
+			},
+			"palpebra":"Cekung",
+			"konjungtiva":"Tidak Anemis",
+			"sklera":"Putih",
+			"pupil":{
+				"pilihan":"Midriasis",
+				"midriasis":21
+			},
+			"reflek_buka_mata":"Spontan",
+			"telinga":{
+				"pilihan":"Tidak Normal",
+				"bentuk":"Caplang",
+				"kondisi":{
+					"pilihan":"Kotor",
+					"kotor":"Emas"
+				}
+			},
+			"hidung":{
+				"pilihan":"Lain-lain",
+				"kotor":"",
+				"lain_lain":""
+			},
+			"mulut":{
+				"bentuk":"Tidak Normal",
+				"kelembaban":"Lembab",
+				"refleks_rooting":"Positif",
+				"refleks_sucking":"Positif"
+			},
+			"leher":{
+				"bentuk":"Panjang",
+				"pilihan":"Tidak Normal",
+				"keadaan":{
+					"pilihan":"lain_lain",
+					"lain_lain":"Panjang"
+				}
+			},
+			"kelainan":{
+				"pilihan":"Hematoma",
+				"lokasi":"tengkuk"
+			}
+		},
+		"dada":{
+			"bentuk":"Hourglass",
+			"kondisi":"Tidak normal",
+			"pergerakan":"Tidak Normal",
+			"pernapasan":"Penggunaan Otot Pernapasan Tambahan",
+			"irama_napas":"Regular",
+			"bunyi_jantung":"Normal",
+			"irama_jantung":"Regular",
+			"lain_lain":"tidak ada"
+		},
+		"abdomen":{
+			"bentuk":"",
+			"tali_pusat":{
+				"keadaan":"Belum Lepas",
+				"basah_kering":"Basah",
+				"berbau":"Berbau",
+				"kondisi":"Bernanah Datar"
+			},
+			"bising_usus":{
+				"pilihan":"Ada",
+				"keadaan":"Kuat",
+				"frekuensi":21
+			},
+			"kelainan":{
+				"pilihan":"Lain-lain",
+				"lain_lain":"Lainnya"
+			}
+		},
+		"genetalia":{
+			"laki_laki":{
+				"kondisi":"Bersih",
+				"miksi":{
+					"pilihan":"Tidak Normal",
+					"frek":210
+				},
+				"scrotum_testis":{
+					"lengkap":"Lengkap",
+					"turun":"Turun"
+				},
+				"kelainan":"Lain-lain"
+			},
+			"perempuan":{
+				"kondisi":"Bersih",
+				"miksi":{
+					"pilihan":"Tidak Normal",
+					"frek":21
+				},
+				"labia":"Menutupi",
+				"kelainan":{
+					"pilihan":"Tidak Normal",
+					"ada":"Tidak ada"
+				}
+			}
+		},
+		"anus":{
+			"keadaan":"Bersih",
+			"refleks_anus":"+"
+		},
+		"bab":{
+			"kondisi":"Ada",
+			"konsistensi":true,
+			"frekuensi":2,
+			"warna":"Kuning",
+			"kelainan":{
+				"pilihan":"Lain-lain",
+				"lain_lain":"Bisa terbang"
+			}
+		},
+		"ekstremitas":{
+			"atas":{
+				"bentuk":"oval",
+				"pilihan":"Normal",
+				"refleks_palmar":"Gesit",
+				"tonus_otot":"Kuat",
+				"kelainan":{
+					"pilihan":"Ada, sebutkan",
+					"ada":"terlalu tamvan"
+				}
+			},
+			"bawah":{
+				"bentuk":"Jajargenjang",
+				"pilihan":"Normal",
+				"refleks_palmar":"Kilat",
+				"tonus_otot":"Hipertonik",
+				"kelainan":{
+					"pilihan":"Ada, sebutkan",
+					"ada":"terlalu besar"
+				}
+			}
+		},
+		"integumen":{
+			"integritas":"Lembah",
+			"turgor":{
+				"kondisi":"Baik",
+				"ada_tidak":{
+					"pilihan":"Ada, sebutkan",
+					"ada":"Apa itu tugor?"
+				}
+			}
+		}
+	},
+	"pengkajian_ibu":{
+		"keadaan_umum":"Baik",
+		"kesadaran":"Composmentis",
+		"payudara":"Besar",
+		"produksi_asi":"Banyak"
+	},
+	"nutrisi_dan_hidrasi":{
+		"masalah":"Tidak ada masalah",
+		"nutrisi":"ASI",
+		"volume":32,
+		"frekuensi":4,
+		"strong_kids":{
+			"apakah_ada_penyakit_yang_berisiko":{
+				"pilihan":"Ya",
+				"value":2
+			},
+			"apakah_pasien_tampak_kurus":{
+				"pilihan":"Tidak",
+				"value":0
+			},
+			"apakah_terdapat_salah_satu":{
+				"pilihan":"Diare >5x \/ hari dan \/atau muntah 3x \/ hari"
+			},
+			"apakah_ada_penurunan_berat_badan":{
+				"pilihan":"Ya",
+				"value":1
+			},
+			"total_skor":0
+		}
+	},
+	"nyeri":{
+		"pengkajian_nyeri":{
+			"nyeri":{
+				"pilihan":"Ada",
+				"skala_nyeri":2
+			},
+			"frekwensi":{
+				"pilihan":"Lama nyeri",
+				"lama_nyeri":"30 hari"
+			}
+		},
+		"penilaian_skala_nyeri":{
+			"ekspresi_wajah":{
+				"kategori":"Santai",
+				"skor":0
+			},
+			"menangis":{
+				"kategori":"Menangis keras",
+				"skor":2
+			},
+			"pola_nafas":{
+				"kategori":"Rileks",
+				"skor":0
+			},
+			"lengan":{
+				"kategori":"Fleksi \/ ektensi",
+				"skor":1
+			},
+			"tungkai":{
+				"kategori":"Fleksi \/ Ekstensi",
+				"skor":1
+			},
+			"keadaan_tersangsang":{
+				"kategori":"Tidur \/ bangun",
+				"skor":1
+			},
+			"total_skor":5
+		}
+	},
+	"pola_fungisonal":{
+		"pergerakan":"Aktif",
+		"menangis":"Tidak menangis",
+		"kejang":{
+			"pilihan":"Ya",
+			"jenis":"Tonik",
+			"lama":21,
+			"frek":3
+		},
+		"ikterus":"Lengan tangan & kaki"
+	},
+	"kebutuhan_edukasi_pasien_dan_keluarga":{
+		"pilihan":"Lain-lain",
+		"lain_lain":"Membuka pintu geser",
+		"value":[
+			
+		]
+	},
+	"aspek_psikologis_dan_spiritual":{
+		"respon_emosi":"Takut terhadap terapi\/ pembedahan\/ lingkungan RS"
+	},
+	"masalah_keperawatan":[
+		"Hipotermia",
+		"Resiko Infeksi",
+		"Resiko jatuh"
+	],
+	"data_penunjang":{
+		"usg_atau_rongent":{
+			"jenis_pemeriksaan":"catchpharse",
+			"kesimpulan":"some catchpharse"
+		},
+		"laboratorium":{
+			"jenis_pemeriksaan":"catchparse2",
+			"kesimpulan":"some catchparse2"
+		}
+	},
+	"program_terapi":{
+		"tgl":"2021-11-01",
+		"nama_obat":"Amoxcilin",
+		"dosis":"3x perjam",
+		"po":true,
+		"im":true,
+		"iv":true,
+		"sc":true,
+		"ic":true
+	},
+	"rencana_keperawatan":{
+		"value":"catchpharse 100x"
+	},
+	"discharge_planning":{
+		"pasien_dan_keluarga_diberikan_informasi":true,
+		"lama_perawatan":21,
+		"tanggal_perencanaan_pulang":"2021-11-01",
+		"perawatan_lanjutan":[
+			"Perawatan luka",
+			"Pemberian minum NGT / Sendok / dot bayi"
+		],
+		"bayi_tinggal_bersama":{
+			"pilihan":"Keluarga",
+			"keluarga":"Cemara"
+		},
+		"transportasi":{
+			"pilihan":"Lain-lain",
+			"lain_lain":"Pesawat telepon"
+		}
+	},
+	"ttd":{
+		"tanggal":"2021-11-01",
+		"jam":"06:00:00",
+		"pasien":"Soekireman",
+		"perawat":"Mirna"
+	}
+}

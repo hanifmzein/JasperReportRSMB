@@ -1,0 +1,154 @@
+{
+	"tanggal":"2021-11-01",
+	"jam":"06:00:00",
+	"oleh":"Andrew Garfield",
+	"pengkajian_keperawatan":{
+		"pernafasan":{
+			"irama_nafas":"Cepat dan dangkal",
+			"suara_nafas_tambahan":{
+				"pilihan":"Ada",
+				"ada":"Whezing"
+			},
+			"sesak_nafas":{
+				"pilihan":"Ya",
+				"laju_pernapasan":2
+			},
+			"batuk":{
+				"pilihan":"Ya",
+				"ada_seputum":"Tidak"
+			},
+			"alat_bantu_nafas":{
+				"ventilator":"Tidak",
+				"mode":"Catchpharse",
+				"sao":10
+			}
+		},
+		"kardiovaskuler":{
+			"irama_jantung":"Reguler",
+			"akral":"Hangat",
+			"pulsasi_iktus_cordis":"Tidak Kuat Angkat",
+			"perdarahan":{
+				"pilihan":"Ya",
+				"jelaskan":"???"
+			},
+			"tanda_vital":{
+				"td":{
+					"sistole":1,
+					"diastole":30
+				},
+				"nadi":23,
+				"map":10,
+				"suhu":2
+			}
+		},
+		"persyaratan":{
+			"gcs":{
+				"e":1,
+				"v":2,
+				"m":10
+			},
+			"kesadaran":"Compos mentis",
+			"tanda_tanda_peningkatan_tik_":"Pandangan double",
+			"konjungtiva_anemis":"kanan kiri"
+		},
+		"perkemihan":{
+			"kebersihan_area_genetalia":"Tidak bersih",
+			"jumlah_cairan_masuk":{
+				"infus":21,
+				"cairan_parenteral":1,
+				"total":22
+			},
+			"buang_air_kecil":"Spontan",
+			"produksi_urine":{
+				"pilihan":"Ada",
+				"jumlah":10
+			}
+		},
+		"pencernaan":{
+			"nafsu_makan":"Baik",
+			"ngt":"Terpasang",
+			"porsi_makan":"Habis",
+			"minum":20,
+			"mulut":"Bersih",
+			"mual":"Tidak",
+			"muntah":"Ya",
+			"buang_air_besar":"Lancar"
+		},
+		"musculoskeletal":{
+			"kemampuan_pergerakan_sendi":{
+				"value":"Biasa aja",
+				"rom":"Catchpharse"
+			},
+			"warna_kulit":"Merahmuda",
+			"odema":{
+				"pilihan":"Ya",
+				"di":"Tengkuk"
+			},
+			"dekubitus":{
+				"pilihan":"Ya",
+				"jelaskan":"Catchpharse"
+			},
+			"luka":{
+				"pilihan":"Ya",
+				"jelaskan":"catchpharse"
+			},
+			"kontraktur":{
+				"pilihan":"Ya",
+				"jelaskan":"Jelas ga?"
+			},
+			"fraktur":{
+				"pilihan":"Ya",
+				"jelaskan":"?"
+			},
+			"jalur_infuse":{
+				"jalur":2,
+				"letak":"Pantat"
+			}
+		},
+		"skrining_nyeri":{
+			"kenyamanan_nyeri":{
+				"skala":7,
+				"kualitas":"Terbakar",
+				"waktu":"",
+				"lokasi":"Punggung bagian atas"
+			}
+		},
+		"skrining_gizi":{
+			"malnutrition_screening":{
+				"apakah_ada_penurunan_berat_badan":{
+					"pilihan":"Ya",
+					"ya":"1-5 kg",
+					"skor":1
+				},
+				"apakah_asupan_makanan_menurun":{
+					"pilihan":"Ya",
+					"skor":2
+				},
+				"total_skor":6
+			},
+			"modifikasi_strongkids":{
+				"apakah_ada_penyakit":{
+					"pilihan":"Ya",
+					"skor":2
+				},
+				"apakah_pasien_tampak_kurus":{
+					"pilihan":"Ya",
+					"skor":2
+				},
+				"apakah_terdapat_salah_satu":{
+					"pilihan":"Diare >5x \/ hari dan \/atau muntah 3x \/ hari"
+				},
+				"apakah_ada_penurunan_berat_badan":{
+					"pilihan":"Ya",
+					"skor":1
+				},
+				"total_skor":5
+			}
+		},
+		"kebutuhan_unik_pasien":"Mandi kembang 7 rupa"
+	},
+	"diagnosa_keperawatan":"Kurang bahagia",
+	"rencana_penatalaksanaan":"Memberi kebahagian",
+	"tindakan":"Kasih uang",
+	"nama_perawat":"Kamingsun"
+}

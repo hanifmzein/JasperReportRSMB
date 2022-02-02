@@ -1,0 +1,28 @@
+{
+	"saya_yang_bertandatangan":{
+		"nama":"Sabine",
+		"umur":38,
+		"hubungan_dengan_pasien":"Teman",
+		"alamat":"Fracture"
+	},
+	"barang":{
+		"jenis_harta":"Racun",
+		"jumlah":21,
+		"kondisi_barang":{
+			"saat_dititipkan":{
+				"tanggal":"2021-11-01",
+				"pilihan":"Baik"
+			},
+			"saat_diserahkan":{
+				"tanggal":"2021-11-01",
+				"pilihan":"Buruk"
+			}
+		}
+	},
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"pasien":"Ethereum",
+		"petugas":"Soreana"
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"tanggal":"2021-11-01",
+	"jam":"06:00:00",
+	"dirujuk_ke":"Jonggol",
+	"petugas_penerima":{
+		"nama":"Pai Joe",
+		"jabatan":"Office Boy"
+	},
+	"alasan":"gabut",
+	"kondisi":"bahagia",
+	"saat_dirujuk":[
+		{
+			"jam":"06:00:00",
+			"gcs":23,
+			"td":5,
+			"nadi":32,
+			"rr":45,
+			"suhu":3,
+			"saturasi":29
+		},
+		{
+			"jam":"06:00:00",
+			"gcs":1,
+			"td":2,
+			"nadi":3,
+			"rr":4,
+			"suhu":5,
+			"saturasi":6
+		}
+	],
+	"saat_diterima":[
+		{
+			"jam":"13:03:00",
+			"gcs":325,
+			"td":46,
+			"nadi":3,
+			"rr":7,
+			"suhu":24,
+			"saturasi":1
+		},
+		{
+			"jam":"05:01:00",
+			"gcs":5,
+			"td":4,
+			"nadi":3,
+			"rr":2,
+			"suhu":1,
+			"saturasi":69
+		}
+	],
+	"petugas_perujuk":{
+		"nama":"Joe Taslim",
+		"jabatan":"HRD"
+	},
+	"transportasi":"Ambulans",
+	"petugas_penerima_rujukan":"Stephen Strange"
+}

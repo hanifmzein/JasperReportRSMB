@@ -1,0 +1,56 @@
+{
+    "pemberian_informasi_penundaan_pelayanan": {
+      "dokter_pelaksana_tindakan": "Jhonney",
+      "pemberi_informasi": "Marsiyem",
+      "penerima_informasi": "Athem"
+    },
+    "informasi": {
+      "diagnosis_dan_keadaan_kesehatan_pasien": {
+        "isi": "Pemeriksaan kejiwaan",
+        "tanda": true
+      },
+      "nama_dan_tujuan_tindakan": {
+        "isi": "Psikotes",
+        "tanda": true
+      },
+      "alasan_penundaan": {
+        "isi": "Covid",
+        "tanda": true
+      },
+      "lain_lain": {
+        "isi": "test",
+        "tanda": true
+      },
+      "ttd": {
+        "pemberi_indormasi": "Marsiyem",
+        "pasien": "Solana"
+      }
+    },
+    "penundaan_pelayanan": {
+      "yang_bertandatangan": {
+        "nama": "Reinhard",
+        "umur": 38,
+        "kelamin": "Laki-laki",
+        "alamat": "Kebebekan",
+        "penundaan": "Perawatan medis dan kejiwaan",
+        "terhadap": {
+          "pilihan": "lain_lain",
+          "lain_lain": "Teman"
+        }
+      },
+      "pasien": {
+        "nama": "Suryani",
+        "umur": 41,
+        "kelamin": "Perempuan",
+        "alamat": "Bulus pesantren"
+      }
+    },
+    "ttd": {
+      "kota": "Banjarnegara",
+      "tanggal": "2021-11-01",
+      "jam": "06:00:00",
+      "saksi1": "Rommy",
+      "saksi2": "Samuel",
+      "yang_menyatakan": "Sarinem"
+    }
+  }

@@ -1,0 +1,142 @@
+{
+  "waktu": "2019-04-21T13:00:00",
+  "anamnesa": {
+    "masalah_keluhan": "Reproduksi terlalu lancar",
+    "riwayat_kehamilan_persalinan_nifas": {
+      "riwayat_menstruasi": {
+        "menarche": {
+          "umur": 24,
+          "teratur_tidak": {
+            "pilihan": true,
+            "keterangan": "Sebulan sekali"
+          },
+          "siklus": 28,
+          "lama": 7,
+          "banyak": 10,
+          "sifat_darah": "Amis"
+        },
+        "dismenorrhoe": {
+          "teratur_tidak": {
+            "pilihan": true,
+            "keterangan": "-"
+          },
+          "lama": 7
+        }
+      },
+      "planning": "Olahraga yang cukup",
+      "asesmen": "Olahraga ringan"
+    },
+    "riwayat_kb": {
+      "jenis": "Spiral",
+      "lama_pakai": 2,
+      "tanggal_lepas": "2019-04-21"
+    },
+    "riwayat_alergi": "Sea Food",
+    "riwayat_operasi": "Melahirkan",
+    "psiko_spiritual": "Sangat berserah diri"
+  },
+  "gizi_awal": {
+    "penurunan_berat_badan_6_bulan_akhir": {
+      "pilihan": "Tidak",
+      "nilai": 0
+    },
+    "asupan_makan_berkurang": {
+      "pilihan": "Tidak",
+      "nilai": 0
+    },
+    "diagnosa_khusus": "Tidak ada",
+    "total_skor": 0,
+    "resiko_malnutrisi": false,
+    "rujuk_ke_dietisien": false
+  },
+  "resiko_jatuh": {
+    "alat_bantu": "Tidak",
+    "sempoyongan": "Tidak",
+    "kesimpulan": "Rendah",
+    "tindakan": "Edukasi"
+  },
+  "skrining_nyeri": {
+    "pilihan": "Ya",
+    "waktu": "2019-04-21T13:00:00",
+    "skala": 4,
+    "lokasi": "Lutut"
+  },
+  "pemeriksaan_fisik": {
+    "tekanan_darah": {
+      "nadi": 20,
+      "respirasi": 80,
+      "suhu": 49,
+      "berat_badan": {
+        "tanggal_lalu": "2019-04-21",
+        "lalu": 60,
+        "sekarang": 60
+      },
+      "tinggi_badan": 170
+    },
+    "abdomen": {
+      "bekas_luka_operasi": {
+        "kering_basah": "Kering",
+        "pilihan": "Edema"
+      },
+      "tfu": 0,
+      "kontraksi": "Tidak ada",
+      "kandung_kemih": "Normal"
+    },
+    "ano_genital": {
+      "perineum": "Kaku",
+      "keadaan": "Terbilang normal",
+      "kelenjar_bartholini": "Pembengkakan",
+      "anus": "Haemorhoid"
+    },
+    "periksa_inspekulo": {
+      "vulva": "Dinding vagina licin",
+      "portio": "Lesi",
+      "keadaan": "Baik"
+    },
+    "periksa_dalam": {
+      "vulva": "Dinding vagina licin",
+      "portio": "Lunak",
+      "keadaan": "Baik"
+    },
+    "diagnosa": [
+      {
+        "planning": "Olahraga yang cukup",
+        "asesmen": "Olahraga ringan"
+      }
+    ],
+    "masalah": {
+      "pilihan": [
+        "Pendarahan",
+        "Nyeri"
+      ],
+      "lain_lain": ""
+    },
+    "kebutuhan": {
+      "pilihan": [
+		  "Edukasi",
+		  "Dorongan psikologis"
+	  ],
+      "lain_lain": ""
+    },
+    "tindakan": {
+      "pilihan": [
+		  "Monitor, KU",
+		  "Kolab medis"
+	  ],
+      "lain_lain": ""
+    }
+  },
+  "asesmen_status_lokalis": {
+    "pemeriksaan_fisik": "Nampak baik hanya sedikit lunglai",
+    "pemeriksaan_penunjang": "Lab OK, Radiologi OK",
+    "diagnosa_kerja": "Metode 2",
+    "diagnosa_banding": "Metode 5",
+    "perencanaan_pelayanan": {
+      "diagnosis": "Perlu reposisi",
+      "terapi": "Kretek",
+      "monitoring": "Tidak terlalu perlu",
+      "edukasi": "Sudah memahami"
+    }
+  },
+  "nama_dokter": "Dedy Fajar Setyawan"
+}

@@ -1,0 +1,36 @@
+{
+	"pasien":{
+		"nama":"Solhem",
+		"kelamin":"Laki-laki",
+		"umur":31,
+		"alamat":"Mesopotamia",
+		"telepon":"085151231"
+	},
+	"penanggung_jawab":{
+		"nama":"Urilem",
+		"kelamin":"Perempuan",
+		"umur":{
+			"value":21,
+			"pilihan":"Tahun"
+		},
+		"no_rm":"0001512",
+		"alamat":"Uruk",
+		"telepon":"0816124214"
+	},
+	"perawatan":{
+		"pilihan":"High Care Unit (HCU)",
+		"ruang":"Melati",
+		"penanggung_biaya":"Pribadi \/ Umum"
+	},
+	"mendapat_edukasi":"Bersedia",
+	"diberikan_obat":"Tidak Bersedia",
+	"memberi_kuasa":"Bersedia",
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"mengetahui":{
+			"mengetahui":"Rosyid",
+			"pasien":"Enkidu"
+		}
+	}
+}

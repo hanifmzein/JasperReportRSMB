@@ -1,0 +1,51 @@
+{
+    "berat_badan": {
+      "pilihan": "a",
+      "keterangan": "Naik"
+    },
+    "asupan_makanan": {
+      "pilihan": "b",
+      "keterangan": "Turun saat masuk RS"
+    },
+    "gejala_gastrointestinal": {
+      "pilihan": "c",
+      "keterangan": "Bila ada >3 gejala",
+      "detail": {
+        "anoreksia": "Ya",
+        "mual": "Tidak",
+        "muntah": "Ya",
+        "diare": "Tidak",
+        "konstipasi": "Ya"
+      }
+    },
+    "perubahan_aktivitas": {
+      "pilihan": "a",
+      "keterangan": "Normal"
+    },
+    "diagnosa_medis": "fisik ok, psikis ok",
+    "pemeriksaan_fisik_klinis": {
+      "pilihan": "b",
+      "keterangan": "Bila ada 2-3 gejala",
+      "detail": {
+        "ikterus": "Ada",
+        "edema_ascites": "Tidak Ada",
+        "suhu": "Tinggi",
+        "tensi": "Normal"
+      }
+    },
+    "diet_khusus": {
+      "pilihan": "c",
+      "keterangan": "Ya dengan modifikasi"
+    },
+    "status_gizi": {
+      "pilihan": "a",
+      "keterangan": "Baik"
+    },
+    "kesimpulan": {
+      "keterangan": "semua baik",
+      "skor_a": 2,
+      "skor_b": 4,
+      "skor_c": 8
+    },
+    "keterangan": "Ringan"
+}

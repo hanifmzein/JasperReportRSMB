@@ -1,0 +1,113 @@
+{
+	"pencegahan_phlebitis":{
+		"letak":{
+			"pilihan":"lain_lain",
+			"lain_lain":"Kepala"
+		},
+		"item_pencegahan_phlebitis":{
+			"pasang":{
+				"tanggal":[
+					
+				],
+				"total":10,
+				"keterangan":""
+			},
+			"lepas":{
+				"tanggal":[
+					
+				],
+				"total":1,
+				"keterangan":""
+			},
+			"pemasangan_dengan_tehnik_aseptik":{
+				"tanggal":[
+					
+				],
+				"total":21,
+				"keterangan":""
+			},
+			"fiksasi_dengan_baik":{
+				"tanggal":[
+					
+				],
+				"total":2,
+				"keterangan":""
+			},
+			"disinfeksi_hub_cvc":{
+				"tanggal":[
+					
+				],
+				"total":1,
+				"keterangan":""
+			},
+			"tehnik_aspetik_saat_injeksi":{
+				"tanggal":[
+					
+				],
+				"total":2,
+				"keterangan":""
+			},
+			"kondisi_dressing_baik":{
+				"tanggal":[
+					
+				],
+				"total":31,
+				"keterangan":""
+			},
+			"infus_terpasang":{
+				"tanggal":[
+					
+				],
+				"total":1,
+				"keterangan":""
+			}
+		},
+		"no_iv_chat":"26"
+	},
+	"skala_phlebitis":{
+		"jenis_cairan":"Isotonis",
+		"tidak_ada_nyeri_tidak_ada_kemerahan":{
+			"tanggal":[
+				
+			],
+			"total":2,
+			"keterangan":""
+		},
+		"tidak_ada_nyeri_tampak_sedikit_kemerahan":{
+			"tanggal":[
+				
+			],
+			"total":2,
+			"keterangan":""
+		},
+		"nyeri_lokasi_iv_tampak_sedikit_kemerahan":{
+			"tanggal":[
+				
+			],
+			"total":2,
+			"keterangan":""
+		},
+		"nyeri_lokasi_iv_kemerahan":{
+			"tanggal":[
+				
+			],
+			"total":2,
+			"keterangan":""
+		},
+		"nyeri_lokasi_iv_kemerahan_tidak_ada_pengeluaran_cairan":{
+			"tanggal":[
+				
+			],
+			"total":2,
+			"keterangan":""
+		},
+		"nyeri_lokasi_iv_kemerahan_ada_pengeluaran_cairan_puluren":{
+			"tanggal":[
+				
+			],
+			"total":2,
+			"keterangan":""
+		}
+	},
+	"dibuat_oleh":""
+}

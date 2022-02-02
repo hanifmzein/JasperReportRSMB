@@ -1,0 +1,33 @@
+{
+	"pasien":{
+		"nama":"Jane",
+		"ttl":{
+			"tempat":"Asgard",
+			"tanggal_lahir":"2021-11-01"
+		},
+		"no_rekam_medik":"0008321",
+		"rawat_di_ruangan":"Shield",
+		"untuk_izin_pulang":"Bosen di rumah sakit",
+		"waktu":{
+			"hari":5,
+			"tmt":{
+				"awal":"2021-11-01",
+				"akhir":"2021-11-01"
+			},
+			"jam":"06:00:00"
+		}
+	},
+	"bertanggung_jawab":{
+		"nama":"Jared",
+		"ktp":"3011571001",
+		"hubungan_dengan_pasien":"Teman",
+		"alamat":"Tepi jurang",
+		"di_luar_sakit_beralamat_di":"Tepi jurang juga",
+		"nomor_telepon":"08561824612"
+	},
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"pemohon":"Balmond"
+	}
+}

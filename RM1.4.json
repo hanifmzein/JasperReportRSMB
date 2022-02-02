@@ -1,0 +1,32 @@
+[
+	{
+    	"tanggal": "2019-04-21",
+    	"poliklinik": "Kebidanan",
+    	"riwayat_perawatan_pembedahan": "Tidak pernah",
+    	"temuan_klinik": "Sakit perut bagian bawah",
+    	"temuan_penunjang": "Aduh, sakit",
+    	"riwayat_alergi": "Tidak ada",
+    	"diagnosis": "Tidak ada",
+    	"pengobatan": "Paracetamol"
+	},
+	{
+    	"tanggal": "2019-04-21",
+    	"poliklinik": "Kebidanan",
+    	"riwayat_perawatan_pembedahan": "Tidak pernah",
+    	"temuan_klinik": "Sakit perut bagian bawah",
+    	"temuan_penunjang": "Aduh, sakit",
+    	"riwayat_alergi": "Tidak ada",
+    	"diagnosis": "Tidak ada",
+    	"pengobatan": "Paracetamol"
+	},
+	{
+    	"tanggal": "2019-04-21",
+    	"poliklinik": "Kebidanan",
+    	"riwayat_perawatan_pembedahan": "Tidak pernah",
+    	"temuan_klinik": "Sakit perut bagian bawah",
+    	"temuan_penunjang": "Aduh, sakit",
+    	"riwayat_alergi": "Tidak ada",
+    	"diagnosis": "Tidak ada",
+    	"pengobatan": "Paracetamol"
+	}
+]

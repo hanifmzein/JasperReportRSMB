@@ -1,0 +1,32 @@
+{
+	"pasien":{
+		"nama":"Sukro",
+		"tanggal_lahir":"2021-11-01",
+		"no_identitas":"0000412",
+		"alamat":"Kebulusan",
+		"home_visit":{
+			"perawat":{
+				"x":21,
+				"pilihan":"hari"
+			},
+			"petugas_lainnya":{
+				"x":3,
+				"pilihan":"sesuai kebutuhan"
+			}
+		}
+	},
+	"wali":{
+		"terhadap":"anak",
+		"nama":"Solena",
+		"tanggal_lahir":"2021-11-01",
+		"no_rm":"000412",
+		"alamat":"Karang kadri"
+	},
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"perawat":"Sakir",
+		"saksi_pasien":"Sakhoy",
+		"yang_membuat_pernyataan":"Liam"
+	}
+}

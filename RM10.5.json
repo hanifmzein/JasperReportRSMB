@@ -1,0 +1,18 @@
+{
+	"yang_bertandatangan":{
+		"nama":"Alfredo",
+		"tanggal_lahir":"2021-11-01",
+		"alamat":"Bulusan",
+		"dengan_ini_menyatakan":"Catchpharse~"
+	},
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"saksi1":{
+			"nama":"Jeanne",
+			"pilihan":"Pasien"
+		},
+		"saksi2":"Yaphet",
+		"saksi3":"Solem"
+	}
+}

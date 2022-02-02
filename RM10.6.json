@@ -1,0 +1,53 @@
+{
+	"identitas_pasien":{
+		"nama":"Jannet",
+		"tanggal_lahir":"2021-11-01",
+		"alamat":"Kebebekan",
+		"nomor_rekam_medis":"0021415",
+		"kelamin":"Laki-laki"
+	},
+	"diagnosis":"Mageran",
+	"status_resusitasi":{
+		"apakah_pasien_ini_dilakukan_resusitasi":{
+			"pilihan":"Tidak",
+			"tidak":{
+				"pilihan":"Alasan lain, sebutkan",
+				"alasan":"Lain lain"
+			}
+		}
+	},
+	"komunikasi":{
+		"didiskusikan_dengan_pasien":{
+			"pilihan":"Tidak",
+			"tidak":"Alasan kenapa tidak"
+		},
+		"didiskusikan_dengan_keluarga_pasien":{
+			"pilihan":"Tidak",
+			"tidak":"Alasan tidak karena..."
+		}
+	},
+	"pasien":{
+		"nama":"Ulil",
+		"waktu":{
+			"tanggal":"2021-11-01",
+			"jam":"06:00:00"
+		}
+	},
+	"dokter":{
+		"nama":"Vlad",
+		"waktu":{
+			"tanggal":"2021-11-01",
+			"jam":"06:00:00"
+		}
+	},
+	"tanggal_peninjauan_ulang":[
+		{
+			"tanggal":"2021-11-01",
+			"pilihan":"DNR Dibatalkan"
+		},
+		{
+			"tanggal":"2021-01-21",
+			"pilihan":"DNR Berlaku"
+		}
+	]
+}

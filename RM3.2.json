@@ -1,0 +1,71 @@
+{
+  "ruang": "A103",
+  "tanggungan": 10,
+  "tanggal_masuk": "2019-04-21",
+  "jam_masuk": "13:00:00",
+  "diagnosa_masuk": "Telat makan",
+  "indikasi_dirawat": "Magh kambuh",
+  "diagnosa_primer": {
+    "deskripsi": "Magh kambuh",
+    "kode_icd_x": "I90"
+  },
+  "diagnosa_sekunder": [
+    {
+      "deskripsi": "Magh kambuh",
+      "kode_icd_x": "I90"
+    },
+    {
+      "deskripsi": "Magh kambuh lagi",
+      "kode_icd_x": "I90"
+    }
+  ],
+  "komorbid": "Bronkitis",
+  "pemeriksaan_fisik": {
+    "awal": "Pernafasan lancar",
+    "akhir": "Pernafasan tetap lancar"
+  },
+  "hasil_pemeriksaan_penunjang": "Letih lesu lunglai",
+  "tindakan_or_operasi": "Pemberian obat penurun asam lambung",
+  "kode_icd_ix_cm": "O90",
+  "terapi": {
+    "dirawat": "Infus dengan nutrisi terbaik",
+    "pulang": "Makan teratur"
+  },
+  "bukti_hasil_pemeriksaan": {
+    "pilihan": [
+      "Rongent"
+    ],
+    "lain_lain": "Resep makanan anti magh"
+  },
+  "kondisi_pulang": {
+    "keadaan_keluar": "Sembuh",
+    "tanda_vital": {
+      "tekanan_darah": {
+        "sistole": 100,
+        "diastole": 100
+      },
+      "suhu": 100,
+      "nafas": 100,
+      "nadi": 100
+    },
+    "cara_keluar": {
+      "pilihan": "Persetujuan",
+      "rujuk_ke": ""
+    }
+  },
+  "rencana_perawatan_di_rumah": {
+    "pilihan": [
+      "Makan teratur, banyak minum"
+    ],
+    "lain_lain": "Makan daging"
+  },
+  "instruksi": {
+    "klinik_spesialis": "Dalam",
+    "tanggal": "2019-04-21",
+    "jam": "13:00:00"
+  },
+  "tanggal_keluar": "2019-04-21",
+  "jam_keluar": "13:00:00",
+  "pasien_or_wali": "Lingga Aswasada",
+  "dpjp": "Hiranya Enda"
+}

@@ -1,0 +1,136 @@
+{
+        "pengkajian" : {
+            "tanggal" : "2019-04-21",
+            "jam": "13:00:00",
+            "oleh": "saya"
+        },
+        "data_subyektif" : {
+            "keluhan_utama" : "ngantuk",
+            "riwayat_obstetri" : {
+                "p" : 0,
+                "a" : 0,
+                "ah" : 0,
+                "persalinan_terakhir" : {
+                    "tanggal" : "2019-04-21",
+                    "jam": "13:00:00",
+                    "ditolong_oleh": "kamu"
+                },
+                "jenis_persalinan" : {
+                    "pilihan" : "Lain-lain",
+                    "lain_lain": "Salto"
+                },
+                "jenis_anesthesi" : "ILA",
+                "anak" : {
+                    "pilihan" : "hidup",
+                    "jenis_kelamin": "Laki-laki"
+                },
+                "lama_persalinan" : [
+                    {
+                        "jam" : 1,
+                        "menit": 30
+                    },
+                    {
+                        "jam" : 5,
+                        "menit": 59
+                    }
+                ],
+                "jumlah_perdarahan" : 0,
+                "perineum" : "utuh",
+                "bekas_luka_sc" : {
+                    "pilihan" : "Lain-lain",
+                    "lain_lain": "Bekas luka dihati"
+                }
+            },
+            "pemenuhan_kebutuhan" : {
+                "pola_makan" : 0,
+                "pola_minum" : 0,
+                "pola_eliminasi": {
+                    "bak" : {
+                        "value" : 0,
+                        "warna" : "Pink",
+                        "tanggal" : "2019-04-21"
+                    },
+                    "bab" : {
+                        "value" : 0,
+                        "warna" : "Biru Langit",
+                        "tanggal" : "2019-04-21"
+                    }
+                },
+                "pola_istirahat": {
+                    "tidur_malam" :0,
+                    "tidur_siang" :0
+                }
+            },
+            "kb_pascasalin" : "tidak",
+            "nutrisi" : {
+                "asupan_makan_berkurang": {
+                    "pilihan" : "Tidak",
+                    "nilai" : 0
+                },
+                "gangguan_metabolisme": {
+                    "pilihan" : "Tidak",
+                    "nilai" : 0
+                },
+                "pertambahan_bb": {
+                    "pilihan" : "Tidak",
+                    "nilai" : 0
+                },
+                "nilai_hb": {
+                    "pilihan" : "Tidak",
+                    "nilai" : 0
+                },
+                "total_skor": 0
+            }
+        },
+        "data_obyektif" : {
+            "pemeriksaan_umum" : {
+                "keadaan_umum" : "baik",
+                "kesadaran" : "compos mentis",
+                "tanda_vital" : {
+                    "td" : 0,
+                    "n": 0,
+                    "t": 0,
+                    "r": 0
+                }
+            },
+            "pemeriksaan_kepala" : {
+                "konjungtiva" : "merah muda",
+                "sklera" : "putih"
+            },
+            "pemeriksaan_payudara" : {
+                "puting_susu" : {
+                    "value" : "masuk",
+                    "luka" : "ada"
+                },
+                "pengeluaran_kolostrum" : "banyak",
+                "pembengkakan" : "ada"
+            },
+            "pemeriksaan_perut" : {
+                "tfu" : {
+                    "value" : "mungkin saja ada",
+                    "kontraksi_uterus" : "keras"
+                },
+                "kandung_kemih" : "berisi",
+                "luka_post_operasi" : "basah"
+            },
+            "pemeriksaan_vulva" : {
+                "lokhea" : {
+                    "pilihan" : "Lain-lain",
+                    "lain_lain" : "Apaan tuh?"
+                },
+                "udem" : "tidak",
+                "jahitan_perineum" : "ada banyak",
+                "kebersihan" : "kurang",
+                "pemeriksaan_laborat" : 0,
+                "angka_leucocyt" : 0,
+                "hbsag" : 0
+            }
+        },
+        "diagnosa_kebidanan" : "Sepertinya pasien terluka, mungkin perlu diobati",
+        "program_terapi" : [
+            "catchphrase",
+            "catchphrase too",
+            "there's catchphrase too"
+        ],
+        "nama_terang" : "Adinda Kakkanda Ibunda Bapanda Wakanda"
+    }

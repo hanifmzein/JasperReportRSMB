@@ -1,0 +1,52 @@
+{
+    "diagnosa_medis": "Kurang Piknik",
+    "dpjp": "Tontowi Prasetyo",
+    "tekanan_darah": {
+      "sistole": 30,
+      "diastole": 60
+    },
+    "nadi": 40,
+    "suhu": 30,
+    "respirasi": 40,
+    "sp02": 9,
+    "indikasi_pasien_masuk": {
+      "berpotensi_resiko_tinggi": {
+        "kardiovaskuler": [
+          "Miokard infark dengan hemodinamika tidak stabil",
+          "Hipertensi Urgensy tanpa ada gagal organ target"
+        ],
+        "pernafasan": [
+          "Gangguan pernafasan yang memerlukan fisioterapi yang agresif dan intensif"
+        ],
+        "syaraf": [
+          "Cedera sumsum tulang belakang bagian leher yang stabil"
+        ],
+        "saluran_cerna": [
+          "Perdarahan saluran cerna bagian atas tanpa hipotensi ortostatik dan respon dengan pemberian cairan"
+        ],
+        "endokrin": [
+          "Diabetic ketoasidosis dengan infus insulin kontinu"
+        ],
+        "kebidanan": [
+          "Pre eklamsi pada kehamilan atau pasca persalinan"
+        ]
+      },
+      "pengawasan_perioperative": [
+        "Pasca bedah besar dengan hemodinamika stabil tapi masih memerlukan resusitasi cairan"
+      ],
+      "perawatan_khusus": [
+        "Tes123",
+        "abcd",
+        "catchparse"
+      ],
+      "tanggal": "2019-04-21",
+      "pukul": "13:00:00",
+      "dokter": "Siti Mayanti"
+    },
+    "indikasi_pasien_keluar": {
+      "pilihan": "Pasien yang memerlukan penanganan medislanjutan di RS lain\/rujuk",
+      "tanggal": "2019-04-21",
+      "pukul": "13:00:00",
+      "dokter": "Muhammad Rafif Adum Pratama"
+    }
+}

@@ -1,0 +1,95 @@
+{
+  "data_awal": {
+    "no_rekam_medik": "00001234",
+    "nama_pasien": "Tontowi Prasetyo",
+    "kelamin_pasien": "Laki-laki",
+    "tempat_lahir": "Sleman",
+    "tanggal_lahir": "2019-04-21",
+    "pekerjaan": "Pegawai Swasta",
+    "agama": "Islam",
+    "status_kawin": "Belum Kawin",
+    "pendidikan_akhir": "S1",
+    "no_identitas": "3300003333000033",
+    "data_ktp": {
+      "alamat": "Sleman",
+      "rt": "001",
+      "rw": "021",
+      "no": "321",
+      "kelurahan": "Triharjo",
+      "kecamatan": "Sleman",
+      "kab_kot": "Sleman"
+    },
+    "alamat_ringkas": "Sleman",
+    "telp_hp": "+62876543210",
+    "telp_rumah": "+62876543210",
+    "email": "info@farmagitechs.co.id",
+    "nama_ibu_kandung": "Siti Mayanti",
+    "bahasa": {
+      "pilihan": [
+        "Indonesia",
+        "Daerah"
+      ],
+      "daerah": "Jawa",
+      "asing": ""
+    },
+    "suku": {
+      "pilihan": "Jawa",
+      "lain_lain": ""
+    },
+    "kebangsaan": "Indonesia",
+    "kekhususan": [
+      "Kursi Dorong"
+    ],
+    "penerjemah": "Tidak",
+    "hambatan_kognitif": "Tidak"
+  },
+  "penanggung_jawab": {
+    "nama_penanggung_jawab": "Dedy Fajar Setyawan",
+    "alamat_penanggung_jawab": "Sleman",
+    "hubungan_dg_pasien": "Kakak",
+    "telp_hp": "+62876543210"
+  },
+  "data_sos_eko_fun": {
+    "cara_bayar": {
+      "pilihan": [
+        "Jaminan Perusahaan",
+        "Pribadi"
+      ],
+      "lain_lain": ""
+    },
+    "tinggal_bersama": {
+      "pilihan": [
+        "Orang Tua",
+        "Suami/Istri"
+      ],
+      "lain_lain": ""
+    },
+    "alat_bantu": {
+      "pilihan": [
+        "Kawat Gigi",
+        "Kacamata/Lensa Kontak"
+      ],
+      "lain_lain": ""
+    }
+  },
+  "riwayat_kesehatan": {
+    "dibawah_18_tahun": {
+      "riwayat_kehamilan": "Lebih Bulan",
+      "riwayat_persalinan": {
+        "cara_lahir": "Spontan",
+        "berat_badan": 10,
+        "panjang_badan": 50
+      }
+    },
+    "diatas_65_tahun": {
+      "riwayat_stroke": "Tidak"
+    }
+  },
+  "riwayat_vaksinasi": [
+    "Covid19",
+    "Polio"
+  ],
+  "nama_petugas": "Muhammad Rafif Adum Pratama",
+  "nama_pasien_or_wali": "Dedy Fajar Setyawan",
+  "waktu_simpan": "2019-04-21T13:00:00"
+}

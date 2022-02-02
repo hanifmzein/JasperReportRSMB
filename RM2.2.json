@@ -1,0 +1,298 @@
+{
+    "asesmen_keperawatan_medis_igd": {
+      "tanggal_masuk": "2019-04-21",
+      "jam_masuk": "13:00:00",
+      "cara_masuk": {
+        "pilihan": "Datang Sendiri",
+        "diantar": "",
+        "rujukan_dari": ""
+      },
+      "penanggung_jawab_biaya": {
+        "pilihan": "Asuransi",
+        "asuransi": "Jamkesda"
+      },
+      "trauma": "",
+      "triase": "Hijau"
+    },
+    "pengkajian_keperawatan": {
+      "ttv": {
+        "tekanan_darah": {
+          "sistole": 90,
+          "diastole": 60
+        },
+        "nadi": 60,
+        "nafas": 15,
+        "suhu": 39.9,
+        "saturasi": 98
+      },
+      "airway": {
+        "pilihan": "Bebas",
+        "lain_lain": "",
+        "penjelasan": ""
+      },
+      "breathing": {
+        "nafas": {
+          "true_false": true,
+          "value": 15
+        },
+        "irama": "Teratur",
+        "pola": "Apneu",
+        "bunyi": "Vasikuler",
+        "alat_bantu": "Retraksi Dada",
+        "jenis": "Pernapasan Dada",
+        "trauma_dada": {
+          "pilihan": "Ya",
+          "ya": "Tumpul"
+        }
+      },
+      "circulation": {
+        "akral": "Dingin",
+        "pucat": "Ya",
+        "pengisian_kapiler": "> 2 detik",
+        "nadi": 60,
+        "irama": "Teratur",
+        "pendarahan": {
+          "pilihan": "Tidak",
+          "jelaskan": "",
+          "lokasi": ""
+        }
+      },
+      "disability": {
+        "tingkat_kesadaran": {
+          "gcs_dewasa": {
+            "e": 3,
+            "v": 3,
+            "m": 3
+          }
+        },
+        "pupil": {
+          "normal": "Normal",
+          "ukuran": "Isokor"
+        },
+        "penilai_ekstremitas": {
+          "sensorik": "Ya",
+          "motorik": "Ya"
+        }
+      },
+      "riwayat_psikososial_ekonomi": {
+        "hubungan_dengan_keluarga": "Baik",
+        "status_psikologi": "Tenang",
+        "kecenderungan_bunuh_diri": "Tuhan",
+        "pekerjaan": "Dirumah, makan"
+      },
+      "skrining_gizi": {
+        "berat_badan": 70,
+        "tinggi_badan": 160,
+        "lingkar_kepala": 50,
+        "index_massa_tubuh": 25
+      },
+      "pasien_dewasa": {
+        "penurunan_berat_badan_6_bulan_akhir": {
+          "pilihan": "Tidak",
+          "nilai": 0
+        },
+        "asupan_makan_berkurang": {
+          "pilihan": "Tidak",
+          "nilai": 0
+        },
+        "total_skor": 0
+      },
+      "pasien_anak": {
+        "resiko_malnutrisi": {
+          "pilihan": "Tidak",
+          "nilai": 0
+        },
+        "pasien_kurus": {
+          "pilihan": "Tidak",
+          "nilai": 0
+        },
+        "kondisi_1_minggu_akhir": {
+          "pilihan": "Tidak",
+          "nilai": 0
+        },
+        "penurunan_berat_badan_1_bulan_akhir": {
+          "pilihan": "Tidak",
+          "nilai": 0
+        },
+        "total_skor": 0
+      },
+      "pola_eliminasi": {
+        "bab": "Normal",
+        "bak": "Normal"
+      },
+      "asesmen_luka": {
+        "jenis": "Akut",
+        "diagnosa": {
+          "pilihan": "IDO",
+          "lain_lain": ""
+        },
+        "kondisi": "Bersih"
+      },
+      "skor_nyeri": {
+        "pilihan": "Tidak ada nyeri",
+        "skala": 2,
+        "lokasi": "Tumit",
+        "durasi": "",
+        "frekuensi": "",
+        "hilang_bila": {
+          "pilihan": "Istirahat",
+          "lain_lain": ""
+        }
+      },
+      "masalah_keperawatan_evaluasi": {
+        "diagnosa_keperawatan": {
+          "aktual_resiko": "Aktual",
+          "pilihan": [
+            "Pola nafas tidak efektif",
+            "Defisit nutrisi"
+          ],
+          "lain_lain": ""
+        },
+        "rencana_keperawatan": {
+          "pilihan": [
+            "Pola nafas tidak efektif",
+            "Defisit nutrisi"
+          ],
+          "lain_lain": ""
+        },
+        "tindakan_keperawatan": {
+          "pilihan": [
+            "Pola nafas tidak efektif",
+            "Defisit nutrisi"
+          ],
+          "lain_lain": ""
+        },
+        "pemberian_obat_infus": [
+          {
+            "pukul": "13:00:00",
+            "nama_obat": "Paracetamol",
+            "dosis": "1 tablet",
+            "rute": "Oral",
+            "diperiksa_oleh": "Tontowi Prasetyo",
+            "diberikan_oleh": "Muhammad Rafif Adum Pratama"
+          }
+        ],
+        "evaluasi_keperawatan": ""
+      },
+      "tanggal_pengkajian": "2019-04-21",
+      "jam_pengkajian": "13:00:00",
+      "pasien_or_wali": "Dedy Fajar Setyawan",
+      "nama_perawat": "Siti Mayanti"
+    },
+    "pengkajian_dokter": {
+      "anamnesa": "Auto Anamnesa",
+      "keluhan_utama": "",
+      "perjalanan_penyakit_sekarang": "",
+      "riwayat_penyakit_dahulu": "",
+      "riwayat_penyakit_keluarga": "",
+      "survei_primer": {
+        "jalan_nafas": "Paten",
+        "pernafasan": {
+          "pilihan": "Normal",
+          "gerakan_dada": "Simetri"
+        },
+        "sirkulasi": {
+          "pendarahan": "Ada",
+          "kulit": "Teraba Hangat",
+          "mukosa": "Merah",
+          "pulse": {
+            "pilihan": "Normal",
+            "rate": 4
+          },
+          "ritme": "Reguler"
+        },
+        "neurologi": {
+          "gcs": {
+            "e": 3,
+            "v": 3,
+            "m": 3,
+            "nilai": 5
+          },
+          "reflek_cahaya": {
+            "pembilang": 4,
+            "penyebut": 4
+          },
+          "diameter_pupil": {
+            "pembilang": 4,
+            "penyebut": 4
+          },
+          "kekuatan_motorik": ""
+        }
+      },
+      "status_lokalis": {
+        "keterangan_status_lokalis": "",
+        "efek_samping_alergi_obat": [
+          {
+            "nama_obat": "Paracetamol",
+            "reaksi": "Dingin",
+            "tanggal": "2019-04-21"
+          }
+        ],
+        "riwayat_obat_sedang_diminum": "",
+        "pemeriksaan_fisik": "",
+        "pemeriksaan_penunjang": "",
+        "diagnosis_kerja": "",
+        "diagnosis_banding": [
+          "Naik ke PTA",
+          "Naik ke Kementerian"
+        ],
+        "permasalahan": {
+          "medis": "",
+          "keperawatan": ""
+        },
+        "planning_terapi": "",
+        "tolak_ukur_sasaran": ""
+      },
+      "konsultasi": {
+        "kepada": "Siti Mayanti",
+        "pukul": "13:00:00",
+        "advis": "",
+        "diteruskan_ke_dokter": "Muhammad Rafif Adum Pratama",
+        "observasi": ""
+      },
+      "kondisi_pasien_keluar": {
+        "tanggal_keluar": "2019-04-21",
+        "jam_keluar": "13:00:00",
+        "tanda_vital": {
+          "gcs": {
+            "e": 4,
+            "v": 4,
+            "m": 4
+          },
+          "tensi_darah": {
+            "sistole": 40,
+            "diastole": 40
+          },
+          "nadi": 40,
+          "suhu": 40,
+          "nafas": 40,
+          "spo2": 40
+        },
+        "tindak_lajut": {
+          "true_false": true,
+          "value": "VK"
+        },
+        "dirujuk": "",
+        "pulang": {
+          "value": "APS",
+          "keterangan": "",
+          "meninggal_pukul": "13:00:00"
+        },
+        "transportasi_pulang": {
+          "pilihan": "Kendaraan Pribadi",
+          "keterangan": "Motor"
+        },
+        "edukasi_kesehatan_pulang": ""
+      },
+      "tanggal_pengkajian": "2019-04-21",
+      "jam_pengkajian": "13:00:00",
+      "pasien_or_wali": "Siti Mayanti",
+      "nama_dokter": "Tontowi Prasetyo",
+      "follow_up": {
+        "pilihan": "Ya",
+        "tanggal": "2019-04-21",
+        "hasil": "",
+        "nama_perawat": "Muhammad Rafif Adum Pratama"
+      }
+    }
+  }

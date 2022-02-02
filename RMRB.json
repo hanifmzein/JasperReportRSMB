@@ -1,0 +1,18 @@
+{
+	"kota":"Banjarnegarea",
+	"tanggal":"2021-11-01",
+	"teman_sejawat":"Molena",
+	"pasien":{
+		"nama":"Jhonney",
+		"kelamin":"Laki-laki",
+		"tanggal_lahir":"2021-11-01",
+		"diagnosa":"Sangat semangat tapi tubuh lunglai"
+	},
+	"pemeriksaan_yang_telah_dilanjutkan":"Pemeriksaan kejiwaan",
+	"pengobatan":"Istirahat yang cukup, dan minum air putih",
+	"kondisi_saat_pulang":"dan lain lain",
+	"kontrol_lanjutan":"Dan lanjut lanjut",
+	"rencana_tindakan":"Piknik ke laut",
+	"keterangan_lainya":"Tidak ada",
+	"dokter_penanggung_jawab":"Wahyu"
+}

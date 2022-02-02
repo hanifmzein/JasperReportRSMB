@@ -1,0 +1,41 @@
+{
+  "tanggal": "2019-04-21",
+  "jam": "13:00:00",
+  "perkenalan_nama_dan_tugas": true,
+  "kesesuaian_pasien": true,
+  "kesesuaian_lokasi_prosedur_pasien": false,
+  "inform_consent_medis": false,
+  "antisipasi_gawat": {
+    "dokter_gigi": {
+      "langkah_kritis": {
+        "ya_tidak": true,
+        "keterangan": "-"
+      },
+      "lama_kasus": {
+        "ya_tidak": true,
+        "keterangan": "-"
+      },
+      "perkiraan_kehilangan_darah": {
+        "ya_tidak": true,
+        "keterangan": "-"
+      },
+      "perlu_diperhatikan_pasien": {
+        "ya_tidak": true,
+        "keterangan": "-"
+      }
+    },
+    "perawat_gigi": {
+      "konfirmasi_sterilisasi": {
+        "ya_tidak": true,
+        "keterangan": "-"
+      },
+      "perlu_diperhatikan_peralatan": {
+        "ya_tidak": true,
+        "keterangan": "-"
+      }
+    }
+  },
+  "gambar_rontgen_tampil": "Ya",
+  "nama_perawat": "Susisu",
+  "nama_dokter": "Rarera"
+}

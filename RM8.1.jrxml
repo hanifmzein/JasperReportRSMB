@@ -1,0 +1,2238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.18.1.final using JasperReports Library version 6.18.1-9d75d1969e774d4f179fb3be8401e98a0e6d1611  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Riwayat_Gizi" pageWidth="612" pageHeight="1008" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b608d3ad-5bd9-4336-a911-c8f8f5356288">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="RM8.1.xml"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="server_address" class="java.lang.String">
+		<defaultValueExpression><![CDATA["http://192.168.1.200:5000"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="diagnosa_medis" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="diagnosa_medis"/>
+		<fieldDescription><![CDATA[diagnosa_medis]]></fieldDescription>
+	</field>
+	<field name="riwayat_penyakit_dahulu" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="riwayat_penyakit_dahulu"/>
+		<fieldDescription><![CDATA[riwayat_penyakit_dahulu]]></fieldDescription>
+	</field>
+	<field name="diit" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="diit"/>
+		<fieldDescription><![CDATA[diit]]></fieldDescription>
+	</field>
+	<field name="riwayat_alergi_makan_minum" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="riwayat_alergi_makan_minum"/>
+		<fieldDescription><![CDATA[riwayat_alergi_makan_minum]]></fieldDescription>
+	</field>
+	<field name="karbohidrat_frekuensi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.karbohidrat.frekuensi"/>
+		<fieldDescription><![CDATA[pola_makan.karbohidrat.frekuensi]]></fieldDescription>
+	</field>
+	<field name="karbohidrat_keterangan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.karbohidrat.keterangan"/>
+		<fieldDescription><![CDATA[pola_makan.karbohidrat.keterangan]]></fieldDescription>
+	</field>
+	<field name="protein_frekuensi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.protein_hewani.frekuensi"/>
+		<fieldDescription><![CDATA[pola_makan.protein_hewani.frekuensi]]></fieldDescription>
+	</field>
+	<field name="protein_keterangan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.protein_hewani.keterangan"/>
+		<fieldDescription><![CDATA[pola_makan.protein_hewani.keterangan]]></fieldDescription>
+	</field>
+	<field name="nabati_frekuensi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.protein_nabati.frekuensi"/>
+		<fieldDescription><![CDATA[pola_makan.protein_nabati.frekuensi]]></fieldDescription>
+	</field>
+	<field name="nabati_keterangan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.protein_nabati.keterangan"/>
+		<fieldDescription><![CDATA[pola_makan.protein_nabati.keterangan]]></fieldDescription>
+	</field>
+	<field name="sayuran_frekuensi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.sayuran.frekuensi"/>
+		<fieldDescription><![CDATA[pola_makan.sayuran.frekuensi]]></fieldDescription>
+	</field>
+	<field name="sayuran_keterangan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.sayuran.keterangan"/>
+		<fieldDescription><![CDATA[pola_makan.sayuran.keterangan]]></fieldDescription>
+	</field>
+	<field name="buah_frekuensi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.buah.frekuensi"/>
+		<fieldDescription><![CDATA[pola_makan.buah.frekuensi]]></fieldDescription>
+	</field>
+	<field name="buah_keterangan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.buah.keterangan"/>
+		<fieldDescription><![CDATA[pola_makan.buah.keterangan]]></fieldDescription>
+	</field>
+	<field name="minuman_frekuensi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.minuman.frekuensi"/>
+		<fieldDescription><![CDATA[pola_makan.minuman.frekuensi]]></fieldDescription>
+	</field>
+	<field name="minuman_keterangan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.minuman.keterangan"/>
+		<fieldDescription><![CDATA[pola_makan.minuman.keterangan]]></fieldDescription>
+	</field>
+	<field name="lain_frekuensi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.lain_lain.frekuensi"/>
+		<fieldDescription><![CDATA[pola_makan.lain_lain.frekuensi]]></fieldDescription>
+	</field>
+	<field name="lain_keterangan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pola_makan.lain_lain.keterangan"/>
+		<fieldDescription><![CDATA[pola_makan.lain_lain.keterangan]]></fieldDescription>
+	</field>
+	<field name="merokok_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebiasaan_hidup.merokok.pilihan"/>
+		<fieldDescription><![CDATA[kebiasaan_hidup.merokok.pilihan]]></fieldDescription>
+	</field>
+	<field name="merokok_konsumsi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebiasaan_hidup.merokok.konsumsi"/>
+		<fieldDescription><![CDATA[kebiasaan_hidup.merokok.konsumsi]]></fieldDescription>
+	</field>
+	<field name="merokok_lama" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebiasaan_hidup.merokok.lama"/>
+		<fieldDescription><![CDATA[kebiasaan_hidup.merokok.lama]]></fieldDescription>
+	</field>
+	<field name="merokok_satuan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebiasaan_hidup.merokok.satuan"/>
+		<fieldDescription><![CDATA[kebiasaan_hidup.merokok.satuan]]></fieldDescription>
+	</field>
+	<field name="alkohol" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebiasaan_hidup.alkohol"/>
+		<fieldDescription><![CDATA[kebiasaan_hidup.alkohol]]></fieldDescription>
+	</field>
+	<field name="obat" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebiasaan_hidup.obat"/>
+		<fieldDescription><![CDATA[kebiasaan_hidup.obat]]></fieldDescription>
+	</field>
+	<field name="olahraga_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebiasaan_hidup.olahraga.pilihan"/>
+		<fieldDescription><![CDATA[kebiasaan_hidup.olahraga.pilihan]]></fieldDescription>
+	</field>
+	<field name="olahraga_sebutkan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebiasaan_hidup.olahraga.sebutkan"/>
+		<fieldDescription><![CDATA[kebiasaan_hidup.olahraga.sebutkan]]></fieldDescription>
+	</field>
+	<field name="diagnosa_gizi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="diagnosa_gizi"/>
+		<fieldDescription><![CDATA[diagnosa_gizi]]></fieldDescription>
+	</field>
+	<field name="manajemen_diet" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="manajemen_diet"/>
+		<fieldDescription><![CDATA[manajemen_diet]]></fieldDescription>
+	</field>
+	<field name="kebutuhan_gizi_energi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebutuhan_gizi.energi"/>
+		<fieldDescription><![CDATA[kebutuhan_gizi.energi]]></fieldDescription>
+	</field>
+	<field name="kebutuhan_gizi_karbohidrat" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebutuhan_gizi.karbohidrat"/>
+		<fieldDescription><![CDATA[kebutuhan_gizi.karbohidrat]]></fieldDescription>
+	</field>
+	<field name="kebutuhan_gizi_protein" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebutuhan_gizi.protein"/>
+		<fieldDescription><![CDATA[kebutuhan_gizi.protein]]></fieldDescription>
+	</field>
+	<field name="kebutuhan_gizi_lemak" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebutuhan_gizi.lemak"/>
+		<fieldDescription><![CDATA[kebutuhan_gizi.lemak]]></fieldDescription>
+	</field>
+	<field name="riwayat_tanggal" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.riwayat.tanggal"/>
+		<fieldDescription><![CDATA[evaluasi.riwayat.tanggal]]></fieldDescription>
+	</field>
+	<field name="riwayat_diet" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.riwayat.diet"/>
+		<fieldDescription><![CDATA[evaluasi.riwayat.diet]]></fieldDescription>
+	</field>
+	<field name="asupan_energi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.riwayat.asupan.energi"/>
+		<fieldDescription><![CDATA[evaluasi.riwayat.asupan.energi]]></fieldDescription>
+	</field>
+	<field name="asupan_karbohidrat" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.riwayat.asupan.karbohidrat"/>
+		<fieldDescription><![CDATA[evaluasi.riwayat.asupan.karbohidrat]]></fieldDescription>
+	</field>
+	<field name="asupan_protein" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.riwayat.asupan.protein"/>
+		<fieldDescription><![CDATA[evaluasi.riwayat.asupan.protein]]></fieldDescription>
+	</field>
+	<field name="asupan_lemak" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.riwayat.asupan.lemak"/>
+		<fieldDescription><![CDATA[evaluasi.riwayat.asupan.lemak]]></fieldDescription>
+	</field>
+	<field name="asupan_vitamin" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.riwayat.asupan.vitamin"/>
+		<fieldDescription><![CDATA[evaluasi.riwayat.asupan.vitamin]]></fieldDescription>
+	</field>
+	<field name="asupan_mineral" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.riwayat.asupan.mineral"/>
+		<fieldDescription><![CDATA[evaluasi.riwayat.asupan.mineral]]></fieldDescription>
+	</field>
+	<field name="riwayat_berat_badan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.riwayat.berat_badan"/>
+		<fieldDescription><![CDATA[evaluasi.riwayat.berat_badan]]></fieldDescription>
+	</field>
+	<field name="riwayat_tinggi_badan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.riwayat.tinggi_badan"/>
+		<fieldDescription><![CDATA[evaluasi.riwayat.tinggi_badan]]></fieldDescription>
+	</field>
+	<field name="riwayat_lingkar_lengan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.riwayat.lingkar_lengan"/>
+		<fieldDescription><![CDATA[evaluasi.riwayat.lingkar_lengan]]></fieldDescription>
+	</field>
+	<field name="riwayat_lingkar_kepala" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.riwayat.lingkar_kepala"/>
+		<fieldDescription><![CDATA[evaluasi.riwayat.lingkar_kepala]]></fieldDescription>
+	</field>
+	<field name="riwayat_status_gizi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.riwayat.status_gizi"/>
+		<fieldDescription><![CDATA[evaluasi.riwayat.status_gizi]]></fieldDescription>
+	</field>
+	<field name="catatan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="evaluasi.catatan"/>
+		<fieldDescription><![CDATA[evaluasi.catatan]]></fieldDescription>
+	</field>
+	<field name="nutrisionis" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="nutrisionis"/>
+		<fieldDescription><![CDATA[nutrisionis]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="968" splitType="Stretch">
+			<rectangle radius="1">
+				<reportElement x="13" y="25" width="544" height="905" uuid="6d66812b-2c94-46f6-b59b-df62ead64365"/>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Opaque" x="13" y="82" width="544" height="30" backcolor="#DBD9D9" uuid="11c76f96-05e0-46ae-8290-50d6f91bcdc6"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FORMULIR RIWAYAT GIZI DAN POLA MAKAN PASIEN RAWAT INAP]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="90" y="25" width="180" height="57" uuid="cf6312c5-3964-4180-bc75-a502d0355333"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="90" y="25" width="180" height="15" uuid="b356fe13-91bd-45da-87f0-ae7deb804947"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Liberation Serif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RUMAH SAKIT UMUM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="90" y="40" width="180" height="12" uuid="5a901874-0578-42a1-a35c-95e15e999f2e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PKU MUHAMMADIYAH]]></text>
+			</staticText>
+			<image>
+				<reportElement x="30" y="29" width="50" height="50" uuid="34376e3a-2515-41b2-822f-7e9b4a37749d"/>
+				<imageExpression><![CDATA[new java.net.URL($P{server_address}+"/images/rs/LogoPKU.jpeg")]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="90" y="52" width="180" height="12" uuid="ef51859d-fdf7-4a8e-8bef-aa6d97079f62">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BANJARNEGARA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="90" y="64" width="180" height="9" uuid="65208b1b-c04e-42cd-afe3-6ac833f6b970">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" size="7"/>
+				</textElement>
+				<text><![CDATA[Jln Raya Banjarnegara-Banyumas Km 18 Danaraja,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="90" y="73" width="180" height="9" uuid="0c80b6a0-f8e0-4d89-a1fc-a42d253b2a61">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" size="7"/>
+				</textElement>
+				<text><![CDATA[Purwanegara, Banjarnegara]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="510" y="25" width="47" height="57" uuid="6f897238-2b4e-4e7f-9671-7b48e40ccc3f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="525" y="38" width="20" height="30" uuid="9759976a-88cb-4df1-b842-e6768e29798b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[RM 8.1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="273" y="28" width="77" height="10" uuid="3bcba30a-d041-45f0-93d0-82fc96955d81"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[No. Rekam Medik :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="353" y="27" width="13" height="13" uuid="aaa61904-de74-4318-8f2b-2b8c7218572f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="366" y="27" width="13" height="13" uuid="c304998a-208c-45a2-a17a-bbc2b87c42bb">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="379" y="27" width="13" height="13" uuid="6c3ff0fb-3d05-44a1-8ecf-b294e33611da">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="418" y="27" width="13" height="13" uuid="2475b32d-1aca-4844-8e90-c7c3d32698e6">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="405" y="27" width="13" height="13" uuid="04fe0f67-7427-4de0-aefb-0954b9fe02e4">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="392" y="27" width="13" height="13" uuid="adfd4764-8216-4d9a-96a7-7eef7b5bc831">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="273" y="55" width="37" height="10" uuid="8e07bb51-b40c-405f-a31b-88dfa48ed044"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Tgl Lahir]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="273" y="69" width="37" height="10" uuid="c082c701-2340-444b-abe7-3e603c484ca2"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Alamat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="312" y="42" width="6" height="10" uuid="b85ee546-65c2-4431-bbd0-fc31d662c4f9">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="312" y="55" width="6" height="10" uuid="c7b3c198-4e7c-4fe4-b013-f573094cee85">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="312" y="69" width="6" height="10" uuid="e033d86d-6b3b-4dd3-9206-8883e7917d99">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="42" width="109" height="10" uuid="35ace23b-fe8a-4307-877a-e0cb4e3eab47"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[............................... (L / P)*]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="55" width="83" height="10" uuid="802aeeda-cdbd-48bc-8fd9-26fee2f95b00"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[...............................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="69" width="83" height="10" uuid="466e2e35-0daa-4b30-bdec-d57b07250c00"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[...............................]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="13" y="112" width="544" height="38" uuid="8eb6c9d6-7204-476d-b3c4-607c10f3e869"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="13" y="150" width="544" height="38" uuid="abc89d8b-ae87-4ef0-857a-621cf4c4af6f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="13" y="188" width="544" height="38" uuid="5021d5e9-e8ff-449a-8f58-a3019067c5cf"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="13" y="226" width="544" height="38" uuid="787697d3-dd8b-496d-b476-7cda14eefd54"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="13" y="290" width="117" height="60" uuid="23a70148-58aa-4821-a912-e1b53dcb1fc4"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="130" y="290" width="360" height="25" uuid="26b608a4-5c2e-45ba-a6e8-f1f2bacba477">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="190" y="315" width="60" height="35" uuid="59b39cee-3bf6-43ee-8099-a32327672738"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="250" y="315" width="60" height="35" uuid="3e1d8806-0731-499e-8d79-223867311d22"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="430" y="315" width="60" height="35" uuid="d2a03565-bf96-457a-b694-5f59a94c2b4c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="310" y="315" width="60" height="35" uuid="0c41f67e-eed7-4498-afc6-a6500c68c62a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="370" y="315" width="60" height="35" uuid="bded4b90-314f-44c1-9b2a-9b5be75505a5"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="490" y="290" width="67" height="60" uuid="2fefa44a-d92a-4a2d-9c9a-5d6df675ca1e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="13" y="350" width="117" height="60" uuid="fb80b152-9717-4782-89d7-1d412428d863"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="13" y="410" width="117" height="60" uuid="17e660fc-1715-4d9f-b512-8ecde34bb13f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="13" y="650" width="117" height="60" uuid="3ca3fb5b-0cb4-4d13-8b0a-942bb78880f9"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="13" y="590" width="117" height="60" uuid="dcac9fd6-4c92-4c33-a792-c441dab476cf"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="13" y="470" width="117" height="60" uuid="7a2b03b6-f581-4bb4-b27b-d760630dc76a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="13" y="530" width="117" height="60" uuid="70fb5ce2-1329-4e8f-8514-2f3b60163431"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="13" y="710" width="117" height="60" uuid="e5242744-d86e-4b34-8b47-2cb435b2671b"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="13" y="770" width="544" height="18" uuid="0cb90cbd-dad5-4635-94cc-dad48e03b25e"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[KEBIASAAN HIDUP (*)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="264" width="544" height="26" uuid="03ba6501-1118-4793-8637-8efa98febbf2"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[POLA MAKAN PASIEN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="230" width="240" height="12" uuid="e063d97c-d76c-4578-aa83-ac7362798450"/>
+				<text><![CDATA[Riwayat alergi makanan, minuman/pantangan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="192" width="90" height="12" uuid="414057fb-f734-47aa-8cb9-1e36b2064aec"/>
+				<text><![CDATA[Diit sebelumnya]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="155" width="180" height="12" uuid="056f3f33-c453-4be7-8641-b0d20e96e261"/>
+				<text><![CDATA[Riwayat penyakit dahulu/keluarga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="117" width="90" height="12" uuid="1c551754-23c8-4346-982f-911e159cbdba"/>
+				<text><![CDATA[Diagnosa medis]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="130" y="315" width="60" height="34" uuid="84974397-3ab2-4347-8802-19e8b5b1e9f4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[>1x sehari]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="315" width="60" height="34" uuid="1f692941-de80-4f26-a702-ed3fe933ba52"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[1x sehari]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="315" width="60" height="34" uuid="6fbe8116-f445-4529-836f-64769f826a52"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[3-6x / minggu]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="315" width="60" height="34" uuid="079c7df8-e965-4446-8cc6-340994d31fe5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[1-2x /minggu]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="315" width="60" height="34" uuid="58ac1828-0b55-4eef-b901-46537dcd0855"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[<1x /minggu]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="315" width="60" height="34" uuid="6e3fe2f7-3a42-4be8-9998-5baaa23b2785"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Tidak pernah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="490" y="290" width="66" height="58" uuid="be4262bb-1f34-4fb5-a3af-e51fe4c9da81"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Ket]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="130" y="290" width="360" height="24" uuid="e7d1450c-1fb7-4776-939d-054d00d220a1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Frekuensi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="290" width="116" height="60" uuid="00cb5e0a-8313-4ae8-94db-b6a0512e2610"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Bahan makanan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="350" width="116" height="60" uuid="903db0dd-f52a-4887-8b05-7dc8f910deec"/>
+				<text><![CDATA[ 1. Karbohidrat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="410" width="116" height="60" uuid="4b63ce2b-1039-4f68-9e48-8008afc8140b"/>
+				<text><![CDATA[ 2. Protein Hewani]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="470" width="116" height="60" uuid="32262adb-6735-42db-b764-5cfcb8691299"/>
+				<text><![CDATA[ 3. Protein Nabati]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="530" width="116" height="60" uuid="bfdf9fe1-4ed5-4156-97c1-b4b85678c7c6"/>
+				<text><![CDATA[ 4. Sayuran]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="590" width="116" height="60" uuid="52bd0f1b-8be0-4bf9-8648-6cfa7dc8be0f"/>
+				<text><![CDATA[ 5. Buah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="650" width="116" height="60" uuid="9e40ab86-eb24-498e-96cd-40ecac0f39ce"/>
+				<box>
+					<topPen lineStyle="Solid"/>
+					<leftPen lineStyle="Solid"/>
+					<bottomPen lineStyle="Solid"/>
+					<rightPen lineStyle="Solid"/>
+				</box>
+				<text><![CDATA[ 6. Minuman]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="710" width="116" height="60" uuid="f8a20531-dbf5-4366-8461-a968495cfb54"/>
+				<text><![CDATA[ 7. Lain-lain]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="273" y="42" width="37" height="10" uuid="b3798bec-3058-4eb6-9971-77af0018f34c"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="800" width="503" height="12" uuid="6c63d5b2-b2d0-442a-93c2-ade6f3ec07a0"/>
+				<text><![CDATA[1. Merokok : Ya / Tidak, Konsumsi: ............batang per hari, Lamanya : ..................bulan/tahun]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="840" width="313" height="12" uuid="2fcfc854-a7f5-4169-b845-ff63c4d34604"/>
+				<text><![CDATA[3. Obat-obatan yang biasa diminum : ......................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="820" width="183" height="12" uuid="659e7877-8581-4736-b56d-b2bc78e92da8"/>
+				<text><![CDATA[2. Minuman alkohol : Ya / Tidak]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="860" width="313" height="12" uuid="e7d039cd-5bc0-4a2f-84cc-9f18779fca3e"/>
+				<text><![CDATA[4. Olahraga : Ya / Tidak, sebutkan : .........................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="880" width="143" height="20" uuid="29bb25b0-46e4-43f1-b95c-5cd627cf84e9"/>
+				<textElement>
+					<font isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(*) Coret yang tidak perlu]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="130" y="350" width="60" height="60" uuid="0c88a69b-cbfe-4990-ba6e-3cbbf9af2745">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{karbohidrat_frekuensi}.contains("> 1x sehari")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="350" width="60" height="60" uuid="00f2f963-4a97-4dc8-8ad7-e7cb62a10038">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{karbohidrat_frekuensi}.equals("1x sehari"))?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="310" y="350" width="60" height="60" uuid="56113008-a19f-4446-a664-b389a89bcd5c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{karbohidrat_frekuensi}.contains("1-2x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="350" width="60" height="60" uuid="c5d70740-e565-4c8a-916b-25dc651c6442">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{karbohidrat_frekuensi}.contains("3-6x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="350" width="60" height="60" uuid="cc63cce5-be89-41ae-b4ae-13410db17337">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{karbohidrat_frekuensi}.contains("Tidak pernah")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="350" width="60" height="60" uuid="46638ae9-9780-471c-ad29-0aae3f6301d7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{karbohidrat_frekuensi}.contains("< 1x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="490" y="350" width="67" height="60" uuid="df2aabc9-5539-4f35-8af3-f3d23575fefe">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{karbohidrat_keterangan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="20" y="130" width="535" height="20" uuid="44789d2a-4bba-4745-b5c4-2bec0b7de07a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{diagnosa_medis}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="21" y="168" width="535" height="20" uuid="49f11bee-e70f-40ac-b8f1-9ed76bab4221"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{riwayat_penyakit_dahulu}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="20" y="205" width="535" height="20" uuid="c9d6c364-8d27-4c1f-922a-3794dfbe86ad"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{diit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="20" y="244" width="535" height="20" uuid="b24e9e56-50be-4c35-aba2-83b796898286"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{riwayat_alergi_makan_minum}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="202" y="798" width="41" height="12" uuid="ac3a0a46-b60d-46f4-b8b5-446474b57bdc"/>
+				<textFieldExpression><![CDATA[$F{merokok_konsumsi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="798" width="41" height="12" uuid="0e84204d-b783-4b15-b5db-3f472bed1d41"/>
+				<textFieldExpression><![CDATA[$F{merokok_lama}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="110" y="804" width="31" height="5" uuid="2890a7f4-f99a-4e37-aa83-7e5f68f04628">
+					<printWhenExpression><![CDATA[$F{merokok_pilihan}.equals("Ya")]]></printWhenExpression>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="90" y="804" width="20" height="5" uuid="dc07321e-dc13-48fe-aba1-3b93507b243b">
+					<printWhenExpression><![CDATA[$F{merokok_pilihan}.equals("Tidak")]]></printWhenExpression>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="190" y="410" width="60" height="60" uuid="6cc4e2b2-b599-40f7-b976-62041c96e863">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{protein_frekuensi}.equals("1x sehari"))?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="310" y="410" width="60" height="60" uuid="1c6c3c74-ceb7-4269-a38b-9272a8448fc2">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{protein_frekuensi}.contains("1-2x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="410" width="60" height="60" uuid="e599a16f-68a7-4fee-a0f2-19589613b110">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{protein_frekuensi}.contains("Tidak pernah")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="410" width="60" height="60" uuid="e6a6b6ad-2386-43e8-b9dd-ab351eb10835">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{protein_frekuensi}.contains("< 1x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="410" width="60" height="60" uuid="b97b63ae-8c59-470e-897a-47399605a27e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{protein_frekuensi}.contains("3-6x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="410" width="60" height="60" uuid="6dbf6ac9-02af-46cf-a727-a7dd43613843">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{protein_frekuensi}.contains("> 1x sehari")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="490" y="410" width="67" height="60" uuid="1a96ed49-9d8b-443a-a21f-545fd27b768d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{protein_keterangan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="310" y="470" width="60" height="60" uuid="7816f1e1-7bc1-4792-a675-e50404c123a6">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{nabati_frekuensi}.contains("1-2x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="470" width="60" height="60" uuid="e4279ee8-fb52-4514-bbb0-0f89d4a42e64">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{nabati_frekuensi}.contains("< 1x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="470" width="60" height="60" uuid="c1e363a6-2d5f-4fcd-a7b6-90c6348bd6d8">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{nabati_frekuensi}.contains("Tidak pernah")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="470" width="60" height="60" uuid="fa800869-216f-4e68-b642-35c76324aca1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{nabati_frekuensi}.equals("1x sehari"))?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="490" y="470" width="67" height="60" uuid="eeb880bf-29d0-443c-8f52-b57ae2c628ef">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{nabati_keterangan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="470" width="60" height="60" uuid="15cd36e9-07bf-4910-9166-6ec5fe039606">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{nabati_frekuensi}.contains("3-6x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="470" width="60" height="60" uuid="04b55d5a-a5dc-4e97-a3d8-55048e089294">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{nabati_frekuensi}.contains("> 1x sehari")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="310" y="530" width="60" height="60" uuid="64000f0c-8fdd-4fb6-8d3d-96a4981fcb21">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{sayuran_frekuensi}.contains("1-2x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="530" width="60" height="60" uuid="47e0690d-a573-4500-b702-2a10add9d477">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{sayuran_frekuensi}.contains("< 1x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="530" width="60" height="60" uuid="0e8c2bad-a52f-4878-b926-909181700369">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{sayuran_frekuensi}.contains("Tidak pernah")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="530" width="60" height="60" uuid="030927e0-e538-4d26-aa66-92436e63f71a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{sayuran_frekuensi}.equals("1x sehari"))?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="490" y="530" width="67" height="60" uuid="e9b8735c-5ee9-47aa-a4c9-a33db4371f19">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{sayuran_keterangan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="530" width="60" height="60" uuid="0c730576-5ef2-482a-98e4-4d3a334a405e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{sayuran_frekuensi}.contains("3-6x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="530" width="60" height="60" uuid="7e7f0a2e-55b8-4d02-9cf8-8e3bb346f9ff">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{sayuran_frekuensi}.contains("> 1x sehari")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="310" y="590" width="60" height="60" uuid="ed9e63ee-82c3-455f-a424-511aab59e863">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{buah_frekuensi}.contains("1-2x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="590" width="60" height="60" uuid="88cc9299-d8ba-41e5-a1ec-cdd106219d26">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{buah_frekuensi}.contains("< 1x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="590" width="60" height="60" uuid="73d4c338-c396-4018-a41a-b2d0443e826d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{buah_frekuensi}.contains("Tidak pernah")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="590" width="60" height="60" uuid="ac9914e3-048d-4e7c-aef9-afe9cb7db5e2">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{buah_frekuensi}.equals("1x sehari"))?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="490" y="590" width="67" height="60" uuid="95ae9bde-cba0-4f39-a21b-341712b83d3e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{buah_keterangan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="590" width="60" height="60" uuid="54c11fec-d781-4001-875a-b6af4651ac04">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{buah_frekuensi}.contains("3-6x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="590" width="60" height="60" uuid="80952907-7e94-40d6-bdd7-a27ac37495c1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{buah_frekuensi}.contains("> 1x sehari")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="310" y="650" width="60" height="60" uuid="b288f0bd-b8a3-43a7-8db9-12b44c201ba3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{minuman_frekuensi}.contains("1-2x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="650" width="60" height="60" uuid="f0cb614f-980d-4699-95eb-c4964b53d543">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{minuman_frekuensi}.contains("< 1x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="650" width="60" height="60" uuid="fb675a5e-3cdd-4b6f-80c6-09f9f40259bc">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{minuman_frekuensi}.contains("Tidak pernah")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="650" width="60" height="60" uuid="80c5a489-e873-4ff0-8808-34bc93d056ff">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{minuman_frekuensi}.equals("1x sehari"))?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="490" y="650" width="67" height="60" uuid="743cc9cb-8776-4c04-b828-82064c2841f4">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{minuman_frekuensi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="650" width="60" height="60" uuid="82853c5e-cf88-41b0-9ccf-825926d8a416">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{minuman_frekuensi}.contains("3-6x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="650" width="60" height="60" uuid="ed58c5ef-752a-4b64-93ed-b2e6f112d8bc">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{minuman_frekuensi}.contains("> 1x sehari")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="310" y="710" width="60" height="60" uuid="d2399cf7-e3a4-499c-bc34-f06a23297c8c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{lain_frekuensi}.contains("1-2x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="710" width="60" height="60" uuid="78731cf9-0d22-40f7-8774-bdba84be660e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{lain_frekuensi}.contains("< 1x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="710" width="60" height="60" uuid="f062d9ca-bd39-4e33-bd40-101ff7163ccd">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{lain_frekuensi}.contains("Tidak pernah")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="710" width="60" height="60" uuid="7f8275fd-cbc0-4a6b-82bb-47ef0fcdf93c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{lain_frekuensi}.equals("1x sehari"))?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="490" y="710" width="67" height="60" uuid="d3477d6a-66ac-41bf-9313-7391802045f5">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{lain_keterangan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="710" width="60" height="60" uuid="da4309a8-4e4a-4179-a6af-b9ba3083412d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{lain_frekuensi}.contains("3-6x")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="710" width="60" height="60" uuid="c7b33959-7ba0-4adc-a8d3-9d8023b3c0c4">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{lain_frekuensi}.contains("> 1x sehari")?"V":""]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="150" y="824" width="31" height="5" uuid="771afe33-e7ea-4843-886c-b0cbea03b838">
+					<printWhenExpression><![CDATA[$F{alkohol}.equals("Ya")]]></printWhenExpression>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="130" y="824" width="20" height="5" uuid="195c05cc-aab6-494b-8816-3a70ad59641d">
+					<printWhenExpression><![CDATA[$F{alkohol}.equals("Tidak")]]></printWhenExpression>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="214" y="838" width="116" height="12" uuid="3df25c37-d65e-47bf-aa35-7ead4305ef09"/>
+				<textFieldExpression><![CDATA[$F{obat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="205" y="858" width="116" height="12" uuid="56952bd8-9b4c-4c68-900a-cffb3f8a354a"/>
+				<textFieldExpression><![CDATA[$F{olahraga_sebutkan}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="90" y="864" width="20" height="5" uuid="201a1547-307b-4f3d-a82f-48b5db8be95f">
+					<printWhenExpression><![CDATA[$F{olahraga_pilihan}.equals("Tidak")]]></printWhenExpression>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="110" y="864" width="31" height="5" uuid="031335ca-502e-4d54-80ed-ef14e04cc0b6">
+					<printWhenExpression><![CDATA[$F{olahraga_pilihan}.equals("Ya")]]></printWhenExpression>
+				</reportElement>
+			</line>
+		</band>
+		<band height="968">
+			<rectangle radius="1">
+				<reportElement x="12" y="32" width="544" height="758" uuid="04b0ccf6-8c74-4c24-ad87-1b19afa34371">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="12" y="32" width="544" height="18" uuid="8a8d9068-ef2c-44fa-8d59-829ebe2b6177">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[DIAGNOSA GIZI]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="13" y="50" width="542" height="119" uuid="00e0ac13-80b0-45c9-9200-c716526d0558"/>
+				<textFieldExpression><![CDATA[" "+$F{diagnosa_gizi}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="12" y="170" width="544" height="18" uuid="6f66eb12-ec4a-45d3-8fd6-691445c8aade">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[MANAJEMEN DIET]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="12" y="188" width="544" height="110" uuid="712b0439-1e5e-4124-ba73-21582d18bde2">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" Nama Diet : "+$F{manajemen_diet}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="12" y="299" width="544" height="18" uuid="41fe8178-32d1-4c2a-89ea-4a84b61a2391">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[KEBUTUHAN GIZI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="359" width="544" height="18" uuid="1755ab46-cf23-4f66-a55e-f3755997d7d0">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[EVALUASI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="377" width="114" height="32" uuid="a6ab87d9-2f40-4c70-a52f-3caf9b964d4b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[ 1.  Tanggal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="409" width="114" height="32" uuid="fbbbb1e4-bd2e-4325-99fa-90f64cc624e6"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[ 2.  Diet]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="12" y="317" width="114" height="42" uuid="0e08eb30-815a-4ec8-b703-bc2164c02aad">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA["Energi : " + $F{kebutuhan_gizi_energi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="241" y="317" width="115" height="42" uuid="90cd5e32-45f2-4e24-9bae-bf15556e53b5">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA["Protein : " + $F{kebutuhan_gizi_protein}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="317" width="115" height="42" uuid="0d53ed33-cf5b-48f8-af2a-aa8133f0de48">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA["Karbohidrat : " + $F{kebutuhan_gizi_karbohidrat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="356" y="317" width="115" height="42" uuid="6fb94b67-2805-418b-a83c-e23d172b259a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA["Lemak : " + $F{kebutuhan_gizi_lemak}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="471" y="317" width="84" height="42" uuid="9897276f-76b0-4cb0-ab23-234bdcc976c8"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="12" y="659" width="544" height="132" uuid="8ab267e0-376e-4925-9f4b-ea9f76d25968">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA["Catatan " + $F{catatan}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="12" y="441" width="543" height="18" uuid="306face0-1067-4902-9f70-3e7403496f10">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<text><![CDATA[ 3. Asupan : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="459" width="114" height="20" uuid="30950fd0-8a49-494b-97c7-ecbc271f28f2"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[      Energi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="479" width="114" height="20" uuid="86839bd8-8b10-48c5-90cd-7afd7e8b5b51">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[      Karbohidrat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="499" width="114" height="20" uuid="45b2212d-ac63-440e-a339-cfeafeb8daa7">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[      Protein]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="519" width="114" height="20" uuid="935e39a4-4832-4124-99bf-66a82183ed6d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[      Lemak]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="539" width="114" height="20" uuid="8b648b7e-0ed5-4615-98aa-b6d792a5dd60">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[      Vitamin]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="559" width="114" height="20" uuid="d0f5aa0a-e518-46d2-8b12-f0e7844da6d8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[      Mineral]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="579" width="114" height="20" uuid="bb7f8e77-a608-4a4e-b6cb-746ca331d37c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[ 4.  Berat Badan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="599" width="114" height="20" uuid="9c0a356b-fd1c-4bf7-b839-d591ff4d3a9f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[ 5.  Tinggi Badan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="438" y="800" width="60" height="19" uuid="e06be42d-24fa-468a-978e-d125101a58ba"/>
+				<text><![CDATA[Nutrisionis]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="403" y="860" width="146" height="30" uuid="25699c6d-97e0-461c-9593-49a66c4e2c14"/>
+				<text><![CDATA[(..........................................)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="619" width="114" height="20" uuid="4e2864cb-560e-4063-8c8f-f2d4b52e801c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[ 6. LILA/LIKA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="639" width="114" height="20" uuid="947dd73d-2f48-4fcc-a226-d7ac6013c18a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<text><![CDATA[ 7. Status Gizi]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="405" y="857" width="135" height="12" uuid="895bdccf-86c9-4afa-bc8d-460111df3a48"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{nutrisionis}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="377" width="106" height="32" uuid="e49ea640-093c-4d04-8d22-5236b917ce6c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_tanggal}.substring(1, $F{riwayat_tanggal}.length()-1).replace("\"","").split(",").length>=1)?$F{riwayat_tanggal}.substring(1, $F{riwayat_tanggal}.length()-1).replace("\"","").split(",")[0]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="409" width="106" height="32" uuid="482845e3-74a4-4944-8fac-4281bfac2a03">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_diet}.substring(1, $F{riwayat_diet}.length()-1).replace("\"","").split(",").length>=1)?$F{riwayat_diet}.substring(1, $F{riwayat_diet}.length()-1).replace("\"","").split(",")[0]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="459" width="106" height="20" uuid="6e40ff14-2c6c-4791-99ba-9c4fccd883a2">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_energi}.substring(1, $F{asupan_energi}.length()-1).replace("\"","").split(",").length>=1)?$F{asupan_energi}.substring(1, $F{asupan_energi}.length()-1).replace("\"","").split(",")[0]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="479" width="106" height="20" uuid="3be21fcc-2247-47dd-a9a5-71c7d9c98a96">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_karbohidrat}.substring(1, $F{asupan_karbohidrat}.length()-1).replace("\"","").split(",").length>=1)?$F{asupan_karbohidrat}.substring(1, $F{asupan_karbohidrat}.length()-1).replace("\"","").split(",")[0]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="499" width="106" height="20" uuid="c66f135d-64b0-4e0a-b0f3-d0b97b28d0e0">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_protein}.substring(1, $F{asupan_protein}.length()-1).replace("\"","").split(",").length>=1)?$F{asupan_protein}.substring(1, $F{asupan_protein}.length()-1).replace("\"","").split(",")[0]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="519" width="106" height="20" uuid="dffb0ab9-c33d-45cd-8a80-598ef25111bb">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_lemak}.substring(1, $F{asupan_lemak}.length()-1).replace("\"","").split(",").length>=1)?$F{asupan_lemak}.substring(1, $F{asupan_lemak}.length()-1).replace("\"","").split(",")[0]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="539" width="106" height="20" uuid="24ce0b32-b7a2-4223-9caf-7ccc53f5c0d6">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_vitamin}.substring(1, $F{asupan_vitamin}.length()-1).replace("\"","").split(",").length>=1)?$F{asupan_vitamin}.substring(1, $F{asupan_vitamin}.length()-1).replace("\"","").split(",")[0]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="559" width="106" height="20" uuid="10857ab1-2672-436a-ba09-2557f7d4f38e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_mineral}.substring(1, $F{asupan_mineral}.length()-1).replace("\"","").split(",").length>=1)?$F{asupan_mineral}.substring(1, $F{asupan_mineral}.length()-1).replace("\"","").split(",")[0]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="579" width="106" height="20" uuid="86405650-5bc4-4456-ac5f-8059777fb1fd">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_berat_badan}.substring(1, $F{riwayat_berat_badan}.length()-1).replace("\"","").split(",").length>=1)?$F{riwayat_berat_badan}.substring(1, $F{riwayat_berat_badan}.length()-1).replace("\"","").split(",")[0]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="599" width="106" height="20" uuid="78279831-94c7-4a98-bfb0-58f870bc4d3b">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_tinggi_badan}.substring(1, $F{riwayat_tinggi_badan}.length()-1).replace("\"","").split(",").length>=1)?$F{riwayat_tinggi_badan}.substring(1, $F{riwayat_tinggi_badan}.length()-1).replace("\"","").split(",")[0]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="619" width="106" height="20" uuid="90c3506d-8faa-4c8a-a405-1ecc0f709ec1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_lingkar_lengan}.substring(1, $F{riwayat_lingkar_lengan}.length()-1).replace("\"","").split(",").length>=1)?$F{riwayat_lingkar_lengan}.substring(1, $F{riwayat_lingkar_lengan}.length()-1).replace("\"","").split(",")[0]+"/"+$F{riwayat_lingkar_kepala}.substring(1, $F{riwayat_lingkar_kepala}.length()-1).replace("\"","").split(",")[0]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="639" width="106" height="20" uuid="57e089a1-feb2-40eb-8c4d-1ecdbfc2c828">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_status_gizi}.substring(1, $F{riwayat_status_gizi}.length()-1).replace("\"","").split(",").length>=1)?$F{riwayat_status_gizi}.substring(1, $F{riwayat_status_gizi}.length()-1).replace("\"","").split(",")[0]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="559" width="106" height="20" uuid="681d0f19-56cb-498c-8c6e-51c9bed8758a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_mineral}.substring(1, $F{asupan_mineral}.length()-1).replace("\"","").split(",").length>=2)?$F{asupan_mineral}.substring(1, $F{asupan_mineral}.length()-1).replace("\"","").split(",")[1]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="377" width="106" height="32" uuid="7c903fea-5160-47db-add5-711f45d570cb">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_tanggal}.substring(1, $F{riwayat_tanggal}.length()-1).replace("\"","").split(",").length>=2)?$F{riwayat_tanggal}.substring(1, $F{riwayat_tanggal}.length()-1).replace("\"","").split(",")[1]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="519" width="106" height="20" uuid="70d20471-e5a9-44a7-9fc9-e1013fafffa7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_lemak}.substring(1, $F{asupan_lemak}.length()-1).replace("\"","").split(",").length>=2)?$F{asupan_lemak}.substring(1, $F{asupan_lemak}.length()-1).replace("\"","").split(",")[1]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="479" width="106" height="20" uuid="03685cf8-2521-488d-bd00-6b5283da0977">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_karbohidrat}.substring(1, $F{asupan_karbohidrat}.length()-1).replace("\"","").split(",").length>=2)?$F{asupan_karbohidrat}.substring(1, $F{asupan_karbohidrat}.length()-1).replace("\"","").split(",")[1]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="459" width="106" height="20" uuid="9659b338-179c-4af2-ab0e-a2b0ec389e96">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_energi}.substring(1, $F{asupan_energi}.length()-1).replace("\"","").split(",").length>=2)?$F{asupan_energi}.substring(1, $F{asupan_energi}.length()-1).replace("\"","").split(",")[1]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="619" width="106" height="20" uuid="d0dc5971-0d78-49b9-ad82-02defb02af36">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_lingkar_lengan}.substring(1, $F{riwayat_lingkar_lengan}.length()-1).replace("\"","").split(",").length>=2)?$F{riwayat_lingkar_lengan}.substring(1, $F{riwayat_lingkar_lengan}.length()-1).replace("\"","").split(",")[1]+"/"+$F{riwayat_lingkar_kepala}.substring(1, $F{riwayat_lingkar_kepala}.length()-1).replace("\"","").split(",")[1]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="499" width="106" height="20" uuid="ef6e3576-a912-44bd-b28b-8be6cff7ed47">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_protein}.substring(1, $F{asupan_protein}.length()-1).replace("\"","").split(",").length>=2)?$F{asupan_protein}.substring(1, $F{asupan_protein}.length()-1).replace("\"","").split(",")[1]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="539" width="106" height="20" uuid="6dbcbb89-7cb3-44bf-803e-add8bc01aa27">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_vitamin}.substring(1, $F{asupan_vitamin}.length()-1).replace("\"","").split(",").length>=2)?$F{asupan_vitamin}.substring(1, $F{asupan_vitamin}.length()-1).replace("\"","").split(",")[1]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="579" width="106" height="20" uuid="ca18f96d-0792-49f9-9c43-e5d3a7e7df89">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_berat_badan}.substring(1, $F{riwayat_berat_badan}.length()-1).replace("\"","").split(",").length>=2)?$F{riwayat_berat_badan}.substring(1, $F{riwayat_berat_badan}.length()-1).replace("\"","").split(",")[1]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="599" width="106" height="20" uuid="26d300ce-b259-4051-8518-0da2864ff97d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_tinggi_badan}.substring(1, $F{riwayat_tinggi_badan}.length()-1).replace("\"","").split(",").length>=2)?$F{riwayat_tinggi_badan}.substring(1, $F{riwayat_tinggi_badan}.length()-1).replace("\"","").split(",")[1]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="639" width="106" height="20" uuid="679cf3ea-56f4-4db3-ac9d-b2df9ecf1cdd">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_status_gizi}.substring(1, $F{riwayat_status_gizi}.length()-1).replace("\"","").split(",").length>=2)?$F{riwayat_status_gizi}.substring(1, $F{riwayat_status_gizi}.length()-1).replace("\"","").split(",")[1]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="409" width="106" height="32" uuid="174b2c1f-abb4-4c01-aba9-07955a32d5a3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_diet}.substring(1, $F{riwayat_diet}.length()-1).replace("\"","").split(",").length>=2)?$F{riwayat_diet}.substring(1, $F{riwayat_diet}.length()-1).replace("\"","").split(",")[1]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="338" y="539" width="106" height="20" uuid="7fa0806b-a9ef-4885-96f9-2cd63e550db8">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_vitamin}.substring(1, $F{asupan_vitamin}.length()-1).replace("\"","").split(",").length>=3)?$F{asupan_vitamin}.substring(1, $F{asupan_vitamin}.length()-1).replace("\"","").split(",")[2]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="338" y="479" width="106" height="20" uuid="49eab1f0-bbd7-40ec-8a9b-433f2d88c086">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_karbohidrat}.substring(1, $F{asupan_karbohidrat}.length()-1).replace("\"","").split(",").length>=3)?$F{asupan_karbohidrat}.substring(1, $F{asupan_karbohidrat}.length()-1).replace("\"","").split(",")[2]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="338" y="499" width="106" height="20" uuid="5abd6102-8e73-4b15-87fa-c4715c77c0f1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_protein}.substring(1, $F{asupan_protein}.length()-1).replace("\"","").split(",").length>=3)?$F{asupan_protein}.substring(1, $F{asupan_protein}.length()-1).replace("\"","").split(",")[2]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="338" y="377" width="106" height="32" uuid="b3c858a9-4e24-4225-a3dc-9f011d34b961">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_tanggal}.substring(1, $F{riwayat_tanggal}.length()-1).replace("\"","").split(",").length>=3)?$F{riwayat_tanggal}.substring(1, $F{riwayat_tanggal}.length()-1).replace("\"","").split(",")[2]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="338" y="409" width="106" height="32" uuid="0cb3095f-9103-41f9-b495-78a9301054ae">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_diet}.substring(1, $F{riwayat_diet}.length()-1).replace("\"","").split(",").length>=3)?$F{riwayat_diet}.substring(1, $F{riwayat_diet}.length()-1).replace("\"","").split(",")[2]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="338" y="639" width="106" height="20" uuid="613a0597-22b9-44e7-97c6-970aa5711343">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_status_gizi}.substring(1, $F{riwayat_status_gizi}.length()-1).replace("\"","").split(",").length>=3)?$F{riwayat_status_gizi}.substring(1, $F{riwayat_status_gizi}.length()-1).replace("\"","").split(",")[2]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="338" y="599" width="106" height="20" uuid="3881200b-4be8-46dd-8114-cced7549a559">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_tinggi_badan}.substring(1, $F{riwayat_tinggi_badan}.length()-1).replace("\"","").split(",").length>=3)?$F{riwayat_tinggi_badan}.substring(1, $F{riwayat_tinggi_badan}.length()-1).replace("\"","").split(",")[2]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="338" y="459" width="106" height="20" uuid="70b45837-44d8-4b9c-8972-d499a7a2b4cb">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_energi}.substring(1, $F{asupan_energi}.length()-1).replace("\"","").split(",").length>=3)?$F{asupan_energi}.substring(1, $F{asupan_energi}.length()-1).replace("\"","").split(",")[2]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="338" y="519" width="106" height="20" uuid="b8c26440-cce6-48c4-a413-5d78b6264543">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_lemak}.substring(1, $F{asupan_lemak}.length()-1).replace("\"","").split(",").length>=3)?$F{asupan_lemak}.substring(1, $F{asupan_lemak}.length()-1).replace("\"","").split(",")[2]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="338" y="579" width="106" height="20" uuid="e313e67b-b8f6-4ad5-91f9-256d2fc13ed4">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_berat_badan}.substring(1, $F{riwayat_berat_badan}.length()-1).replace("\"","").split(",").length>=3)?$F{riwayat_berat_badan}.substring(1, $F{riwayat_berat_badan}.length()-1).replace("\"","").split(",")[2]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="338" y="559" width="106" height="20" uuid="e7b36e00-885f-4b96-8b18-bc15fff19f88">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_mineral}.substring(1, $F{asupan_mineral}.length()-1).replace("\"","").split(",").length>=3)?$F{asupan_mineral}.substring(1, $F{asupan_mineral}.length()-1).replace("\"","").split(",")[2]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="338" y="619" width="106" height="20" uuid="5d95f162-c398-41ed-a75c-01c582099ac3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_lingkar_lengan}.substring(1, $F{riwayat_lingkar_lengan}.length()-1).replace("\"","").split(",").length>=3)?$F{riwayat_lingkar_lengan}.substring(1, $F{riwayat_lingkar_lengan}.length()-1).replace("\"","").split(",")[2]+"/"+$F{riwayat_lingkar_kepala}.substring(1, $F{riwayat_lingkar_kepala}.length()-1).replace("\"","").split(",")[2]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="559" width="112" height="20" uuid="e0b82f01-48af-4c6c-822e-8aeab72703b0">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_mineral}.substring(1, $F{asupan_mineral}.length()-1).replace("\"","").split(",").length>=4)?$F{asupan_mineral}.substring(1, $F{asupan_mineral}.length()-1).replace("\"","").split(",")[3]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="619" width="112" height="20" uuid="eefafb49-9f7a-4a3b-a28d-8e9e0cd25ca9">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_lingkar_lengan}.substring(1, $F{riwayat_lingkar_lengan}.length()-1).replace("\"","").split(",").length>=4)?$F{riwayat_lingkar_lengan}.substring(1, $F{riwayat_lingkar_lengan}.length()-1).replace("\"","").split(",")[3]+"/"+$F{riwayat_lingkar_kepala}.substring(1, $F{riwayat_lingkar_kepala}.length()-1).replace("\"","").split(",")[3]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="599" width="112" height="20" uuid="eb3f7a60-81dd-46bc-8cba-90ff83032028">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_tinggi_badan}.substring(1, $F{riwayat_tinggi_badan}.length()-1).replace("\"","").split(",").length>=4)?$F{riwayat_tinggi_badan}.substring(1, $F{riwayat_tinggi_badan}.length()-1).replace("\"","").split(",")[3]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="459" width="112" height="20" uuid="6f20f151-2938-42d1-b66b-ab5f40601077">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_energi}.substring(1, $F{asupan_energi}.length()-1).replace("\"","").split(",").length>=4)?$F{asupan_energi}.substring(1, $F{asupan_energi}.length()-1).replace("\"","").split(",")[3]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="377" width="112" height="32" uuid="92c213bc-311f-4352-95e1-ccaddb67990b">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_tanggal}.substring(1, $F{riwayat_tanggal}.length()-1).replace("\"","").split(",").length>=4)?$F{riwayat_tanggal}.substring(1, $F{riwayat_tanggal}.length()-1).replace("\"","").split(",")[3]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="519" width="112" height="20" uuid="9805ce0b-ca6d-47ae-8611-eaabea0ec32c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_lemak}.substring(1, $F{asupan_lemak}.length()-1).replace("\"","").split(",").length>=4)?$F{asupan_lemak}.substring(1, $F{asupan_lemak}.length()-1).replace("\"","").split(",")[3]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="409" width="112" height="32" uuid="f597882c-7cfb-429b-bc40-cfd48d6443c6">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_diet}.substring(1, $F{riwayat_diet}.length()-1).replace("\"","").split(",").length>=4)?$F{riwayat_diet}.substring(1, $F{riwayat_diet}.length()-1).replace("\"","").split(",")[3]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="579" width="112" height="20" uuid="942db2f5-de13-4708-b104-e4d7d8b3d443">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_berat_badan}.substring(1, $F{riwayat_berat_badan}.length()-1).replace("\"","").split(",").length>=4)?$F{riwayat_berat_badan}.substring(1, $F{riwayat_berat_badan}.length()-1).replace("\"","").split(",")[3]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="539" width="112" height="20" uuid="7f510780-4978-4c75-81b3-26671d8d7c58">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_vitamin}.substring(1, $F{asupan_vitamin}.length()-1).replace("\"","").split(",").length>=4)?$F{asupan_vitamin}.substring(1, $F{asupan_vitamin}.length()-1).replace("\"","").split(",")[3]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="639" width="112" height="20" uuid="1110b9d9-fb7f-41dc-a904-cf0719a3ac83">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{riwayat_status_gizi}.substring(1, $F{riwayat_status_gizi}.length()-1).replace("\"","").split(",").length>=4)?$F{riwayat_status_gizi}.substring(1, $F{riwayat_status_gizi}.length()-1).replace("\"","").split(",")[3]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="479" width="112" height="20" uuid="1b74c7b8-e376-47aa-8940-ef10fd4c40d9">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_karbohidrat}.substring(1, $F{asupan_karbohidrat}.length()-1).replace("\"","").split(",").length>=4)?$F{asupan_karbohidrat}.substring(1, $F{asupan_karbohidrat}.length()-1).replace("\"","").split(",")[3]:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="499" width="112" height="20" uuid="340f13d8-e3bd-46ac-b3e0-6e17c5c4c480">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textFieldExpression><![CDATA[" "+(($F{asupan_protein}.substring(1, $F{asupan_protein}.length()-1).replace("\"","").split(",").length>=4)?$F{asupan_protein}.substring(1, $F{asupan_protein}.length()-1).replace("\"","").split(",")[3]:"")]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

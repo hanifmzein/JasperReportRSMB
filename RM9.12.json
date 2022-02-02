@@ -1,0 +1,170 @@
+{
+	"dari":"Perinatal",
+	"ke":"Rawat Inap",
+	"indikasi_rawat_inap":"Catchpharse",
+	"diagnosis":"catchpharse 2",
+	"rencana_terapi":"Konservatif",
+	"pengkajian_serah_terima_pasien":{
+		"terapi_yang_sudah_diberikan":{
+			"lvfd":{
+				"value":"catchpharse",
+				"instalasi_asal":true,
+				"instalasi_tujuan":true,
+				"jam":"06:00:00",
+				"keterangan":"catchpharse"
+			},
+			"injeksi":{
+				"value1":"cp1",
+				"value2":"cp2",
+				"instalasi_asal_1":true,
+				"instalasi_asal_2":true,
+				"instalasi_tujuan_1":true,
+				"instalasi_tujuan_2":true,
+				"jam_1":"06:00:00",
+				"jam_2":"06:00:00",
+				"keterangan_1":"cp 3",
+				"keterangan_2":"cp 4"
+			},
+			"oral":{
+				"value":"cp 5",
+				"instalasi_asal":true,
+				"instalasi_tujuan":true,
+				"jam":"06:00:00",
+				"keterangan":"cp 6"
+			},
+			"lain_lain":{
+				"value":"cp 7",
+				"instalasi_asal":true,
+				"instalasi_tujuan":true,
+				"jam":"06:00:00",
+				"keterangan":"cp 8"
+			}
+		},
+		"tindakan_yang_sudah_diberikan":{
+			"regio":{
+				"value":"cp 9",
+				"instalasi_asal":true,
+				"instalasi_tujuan":true,
+				"ju":"cp 10"
+			},
+			"spalk":{
+				"value":"cp 11",
+				"instalasi_awal":true,
+				"instalasi_tujuan":true,
+				"keterangan":"cp 12"
+			},
+			"verban":{
+				"pilihan":"Elastic",
+				"instalasi_asal":true,
+				"instalasi_tujuan":true
+			},
+			"lain_lain":"cp 13"
+		},
+		"pemeriksaan_penunjang":{
+			"xray":{
+				"value1":"cpa1",
+				"value2":"cpa2",
+				"value3":"cpa3",
+				"instalasi_asal_1":true,
+				"instalasi_asal_2":true,
+				"instalasi_asal_3":true,
+				"instalasi_tujuan_1":true,
+				"instalasi_tujuan_2":true,
+				"instalasi_tujuan_3":true,
+				"keterangan_1":"EMR",
+				"keterangan_2":"Basah",
+				"keterangan_3":"EMR"
+			},
+			"laboratorium":{
+				"pilihan":"Lengkap",
+				"instalasi_asal":true,
+				"instalasi_tujuan":true
+			},
+			"electrocardiography":{
+				"instalasi_asal":true,
+				"instalasi_tujuan":true
+			}
+		},
+		"kelengkapan_lain":{
+			"marking":{
+				"regio":"chcp1",
+				"instalasi_asal":true,
+				"instalasi_tujuan":true
+			},
+			"gelang":{
+				"pilihan":"Pink",
+				"instalasi_asal":true,
+				"instalasi_tujuan":true
+			},
+			"lain_lain":{
+				"value":"cpx1",
+				"instalasi_asal":true,
+				"instalasi_tujuan":true
+			}
+		}
+	},
+	"kelengkapan_rencana_perawatan":{
+		"konsultasi_dokter_spesialis":{
+			"dokter":"Jhon theater",
+			"instalasi_asal":true,
+			"instalasi_tujuan":true,
+			"keterangan":"Dokter Jaga"
+		},
+		"kelengkapan_persyaratan_tindakan":{
+			"form_persetujuan_tindakan":{
+				"instalasi_asal":true,
+				"instalasi_tujuan":true
+			},
+			"form_persetujuan_anestesi":{
+				"instalasi_asal":true,
+				"instalasi_tujuan":true
+			},
+			"form_checklist_pre_operasi":{
+				"instalasi_asal":true,
+				"instalasi_tujuan":true
+			}
+		},
+		"perawat_serah_terima":{
+			"nama":"Lasmi ",
+			"instalasi_asal":true,
+			"instalasi_tujuan":true,
+			"keterangan":{
+				"tanggal":"2021-11-01",
+				"jam":"06:00:00"
+			}
+		}
+	},
+	"tanda_vital_saat_diserahkan":{
+		"kesadaran":{
+			"pilihan":"Somnolen",
+			"td":21,
+			"s":1,
+			"fn":2,
+			"fp":3,
+			"kondisi":"Tidak Stabil"
+		},
+		"kesimpulan":"Butuh liburan"
+	},
+	"tanda_vital_saat_diterima":{
+		"kesadaran":{
+			"pilihan":"CM",
+			"td":20,
+			"s":4,
+			"fn":3,
+			"fp":2,
+			"kondisi":"Tidak Stabil"
+		},
+		"kesimpulan":"Kondisi Ling-lung"
+	},
+	"resiko_klinis":{
+		"kategori_pasien":"Kuning",
+		"pilihan":[
+			"Curiga Trauma Thorax / Abdomen",
+			"IDO (Infeksi Daerah Operasi)",
+			"Impending Compartemen"
+		],
+		"lain_lain":[
+			"Cek"
+		]
+	}
+}

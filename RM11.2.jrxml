@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.18.1.final using JasperReports Library version 6.18.1-9d75d1969e774d4f179fb3be8401e98a0e6d1611  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Surat_Permintaan_Kerohanian_dan_Pelayanan_Penerjemah" pageWidth="612" pageHeight="1008" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c370f190-46c6-4885-b678-a97f340bc7df">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="RM11.2.xml"/>
+	<parameter name="server_address" class="java.lang.String">
+		<defaultValueExpression><![CDATA["http://192.168.1.200:5000"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="pasien_nama" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pasien.nama"/>
+		<fieldDescription><![CDATA[pasien.nama]]></fieldDescription>
+	</field>
+	<field name="pasien_kelamin" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pasien.kelamin"/>
+		<fieldDescription><![CDATA[pasien.kelamin]]></fieldDescription>
+	</field>
+	<field name="pasien_tanggal_lahir" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pasien.tanggal_lahir"/>
+		<fieldDescription><![CDATA[pasien.tanggal_lahir]]></fieldDescription>
+	</field>
+	<field name="pasien_bangsa" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pasien.bangsa"/>
+		<fieldDescription><![CDATA[pasien.bangsa]]></fieldDescription>
+	</field>
+	<field name="pasien_agama" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pasien.agama"/>
+		<fieldDescription><![CDATA[pasien.agama]]></fieldDescription>
+	</field>
+	<field name="pasien_pekerjaan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pasien.pekerjaan"/>
+		<fieldDescription><![CDATA[pasien.pekerjaan]]></fieldDescription>
+	</field>
+	<field name="pasien_alamat" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pasien.alamat"/>
+		<fieldDescription><![CDATA[pasien.alamat]]></fieldDescription>
+	</field>
+	<field name="pasien_hub_dengan_pasien" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pasien.hub_dengan_pasien"/>
+		<fieldDescription><![CDATA[pasien.hub_dengan_pasien]]></fieldDescription>
+	</field>
+	<field name="pelayanan_tanggal" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pelayanan_kerohanian.waktu_permintaan.tanggal"/>
+		<fieldDescription><![CDATA[pelayanan_kerohanian.waktu_permintaan.tanggal]]></fieldDescription>
+	</field>
+	<field name="pelayanan_jam" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pelayanan_kerohanian.waktu_permintaan.jam"/>
+		<fieldDescription><![CDATA[pelayanan_kerohanian.waktu_permintaan.jam]]></fieldDescription>
+	</field>
+	<field name="pelayanan_nama" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pelayanan_kerohanian.nama"/>
+		<fieldDescription><![CDATA[pelayanan_kerohanian.nama]]></fieldDescription>
+	</field>
+	<field name="pelayanan_tanggal_1" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pelayanan_kerohanian.waktu_kedatangan.tanggal"/>
+		<fieldDescription><![CDATA[pelayanan_kerohanian.waktu_kedatangan.tanggal]]></fieldDescription>
+	</field>
+	<field name="pelayanan_jam_1" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pelayanan_kerohanian.waktu_kedatangan.jam"/>
+		<fieldDescription><![CDATA[pelayanan_kerohanian.waktu_kedatangan.jam]]></fieldDescription>
+	</field>
+	<field name="pelayanan_telepon" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="pelayanan_kerohanian.telepon"/>
+		<fieldDescription><![CDATA[pelayanan_kerohanian.telepon]]></fieldDescription>
+	</field>
+	<field name="ttd_kota" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ttd.kota"/>
+		<fieldDescription><![CDATA[ttd.kota]]></fieldDescription>
+	</field>
+	<field name="ttd_tanggal" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ttd.tanggal"/>
+		<fieldDescription><![CDATA[ttd.tanggal]]></fieldDescription>
+	</field>
+	<field name="ttd_pasien" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ttd.pasien"/>
+		<fieldDescription><![CDATA[ttd.pasien]]></fieldDescription>
+	</field>
+	<field name="ttd_perawat" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ttd.perawat"/>
+		<fieldDescription><![CDATA[ttd.perawat]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="968" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<rectangle>
+				<reportElement x="10" y="10" width="553" height="57" uuid="c4276828-3b4c-4f5d-8142-d77db3e6e321">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="92" y="10" width="180" height="57" uuid="b601afae-ff7b-4dac-95f5-12c0fdf602ba"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="92" y="10" width="180" height="15" uuid="6586f322-90c2-4976-8dd9-fda5ed444620"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Liberation Serif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RUMAH SAKIT UMUM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="92" y="25" width="180" height="12" uuid="9e82df6e-4257-4773-a739-3245157e828b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PKU MUHAMMADIYAH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="92" y="37" width="180" height="12" uuid="dc6bebec-feb9-4bd0-9b97-7da8b6789624">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BANJARNEGARA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="92" y="49" width="180" height="9" uuid="12881a6b-277d-453f-b155-8ca476a5f4c5">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" size="7"/>
+				</textElement>
+				<text><![CDATA[Jln Raya Banjarnegara-Banyumas Km 18 Danaraja,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="92" y="58" width="180" height="9" uuid="c83f54e6-0e5d-412f-bf8e-b5878a7eb7a1">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" size="7"/>
+				</textElement>
+				<text><![CDATA[Purwanegara, Banjarnegara]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="275" y="13" width="77" height="10" uuid="e3df6b6f-5455-4e08-b6d8-f6ac9462143e"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[No. Rekam Medik :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="355" y="12" width="13" height="13" uuid="2ff849a4-387f-4665-9160-d3df31d124b1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="368" y="12" width="13" height="13" uuid="31db82f1-89dc-4e7b-a8b8-152661b7269a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="381" y="12" width="13" height="13" uuid="ada6d0e5-e575-4df5-81ce-de7accd52e12">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="420" y="12" width="13" height="13" uuid="7c991873-084a-4dbb-a2ea-cef325d0d975">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="407" y="12" width="13" height="13" uuid="1dd6dc53-f8bf-427e-807b-8c1c9224f268">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="394" y="12" width="13" height="13" uuid="d47f4347-e28b-49b7-bc63-0755dbd8b857">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="275" y="40" width="37" height="10" uuid="66356def-8a00-450b-960e-b78936dc160c"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Tgl Lahir]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="275" y="54" width="37" height="10" uuid="ee11ffa8-2381-42fb-af94-ef9263024755"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Alamat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="314" y="27" width="6" height="10" uuid="655a42dd-515a-441c-8fc9-716d784d90bb">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="314" y="40" width="6" height="10" uuid="9e06e72a-7fd5-4197-9603-3cecf710f5e8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="314" y="54" width="6" height="10" uuid="46d6b6b0-0929-4c68-b247-9e863eb16796">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="324" y="27" width="109" height="10" uuid="9e35e13a-ebdf-4f6b-959a-7409a54d023f"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[............................... (L / P)*]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="324" y="40" width="83" height="10" uuid="679c6e0a-2311-4070-8c8e-3f70ea18cb83"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[...............................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="324" y="54" width="83" height="10" uuid="cb2189d5-1f1b-4ac7-8a16-0b6e2dee185f"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[...............................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="275" y="27" width="37" height="10" uuid="28374b23-73c6-491d-9f0e-5014a0800154"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="510" y="10" width="53" height="57" uuid="9351c5ec-2109-4f17-b832-a1bb3b967d97"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="510" y="10" width="52" height="56" uuid="e01819f6-a6f0-4121-8d3e-0ec0cb1c10c5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[RM 10.3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="166" y="67" width="241" height="34" uuid="9996ffbd-b0bf-434a-9f55-ae5efd174606">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[SURAT PERMINTAAN KEROHANIAN DAN PELAYANAN PENERJEMAH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="101" width="100" height="17" uuid="cabdfc4b-5640-4a6a-8309-a15cc2ba116e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Nama ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="118" width="100" height="17" uuid="38e3489b-56d3-456f-b8af-9b8bce0cd3e0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Tanggal Lahir]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="152" width="100" height="17" uuid="742973f9-562e-479f-9982-1fdc476e1313">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Agama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="135" width="100" height="17" uuid="6553d3d1-cf1a-4e25-9d5c-dc1d5c88b53b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Suku/Bangsa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="169" width="100" height="17" uuid="cc67d03b-af84-43d1-b2d2-e7365057a43e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Pekerjaan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="186" width="100" height="17" uuid="159d2dea-6fcd-4409-b5d6-4b5f08a38fe5">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Alamat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="203" width="100" height="17" uuid="75f3834d-e5b3-44c7-9bf2-dc9ff1433333">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Hub dengan Pasien]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="237" width="230" height="17" uuid="66441833-7fec-4d2a-9cdb-3405a0296f44">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Pelayanan kerohanian dan penerjemah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="271" width="130" height="17" uuid="64f0f333-4239-4862-93a9-ef4dbea6657f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Nama Petugas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="305" width="130" height="17" uuid="1457ac5f-93d4-475d-a359-2f8ed543c69f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[No. Telepon/No.Hp]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="254" width="130" height="17" uuid="63c236da-716c-48ab-be27-389405c08df7">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Permintaan Tanggal/Jam]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="288" width="130" height="17" uuid="8c3d6af1-db15-463d-a9c4-f45dc36d60d9">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Tanggal/Jam Kedatangan]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="300" y="356" width="263" height="17" uuid="d11f4379-6e8f-419a-9d42-46b97cfc0de6">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{ttd_kota}+", "+$F{ttd_tanggal}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="354" y="444" width="209" height="1" uuid="3a58dbd9-6d53-46a1-a62b-1b2a91f89c7f"/>
+			</line>
+			<staticText>
+				<reportElement x="508" y="428" width="56" height="17" uuid="e9cdbe2b-5f1d-42be-872f-4c6156cac15d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[tandatangan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="500" y="445" width="62" height="17" uuid="42e983d5-d2ab-41da-871f-a2b49b0b4bd5">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[nama perawat]]></text>
+			</staticText>
+			<line>
+				<reportElement x="10" y="444" width="209" height="1" uuid="131c566f-17e9-404a-8694-b30347fc335a">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="163" y="428" width="56" height="17" uuid="f06994ad-2153-49f5-b028-9ee022abb01a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[tandatangan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="445" width="79" height="17" uuid="e3416b3c-944c-4bc0-b650-e010d26346cd">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[nama pasien/wali]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="101" width="10" height="17" uuid="acfb593d-3f90-488f-93fe-595766b38663">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="118" width="10" height="17" uuid="294b099e-a6cb-4f95-b754-f62c4fa20a97">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="152" width="10" height="17" uuid="c5129d77-9314-4c3a-ae7c-7373d2805f88">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="135" width="10" height="17" uuid="bd943b70-497f-4e98-ad2c-1d40d0a27a34">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="203" width="10" height="17" uuid="a38a3872-4b2e-44e3-91ad-6a0076569a7a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="186" width="10" height="17" uuid="bf935ec4-7ffc-4753-a4b0-0dc177458b53">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="169" width="10" height="17" uuid="52c5c12c-cb98-4c48-baf5-051913b683ca">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="120" y="101" width="300" height="17" uuid="2b95f7fa-0e74-4ad2-8b50-ab474b0da709">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{pasien_nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="120" y="118" width="300" height="17" uuid="ee0873eb-93f7-4da2-8b45-0db77b9a5bf8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{pasien_tanggal_lahir}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="420" y="101" width="30" height="17" uuid="092528c7-57c2-4466-8a95-aa0199391b9a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[L / P]]></text>
+			</staticText>
+			<line direction="BottomUp">
+				<reportElement x="420" y="101" width="10" height="17" uuid="3e372b50-0537-430c-a612-8d08e0acf62e">
+					<printWhenExpression><![CDATA[!$F{pasien_kelamin}.contains("Laki")]]></printWhenExpression>
+				</reportElement>
+			</line>
+			<line direction="BottomUp">
+				<reportElement x="438" y="101" width="10" height="17" uuid="bc57c8ae-1bd7-4fa9-aa94-4347f9d1315a">
+					<printWhenExpression><![CDATA[!$F{pasien_kelamin}.contains("Perempuan")]]></printWhenExpression>
+				</reportElement>
+			</line>
+			<textField>
+				<reportElement x="120" y="135" width="300" height="17" uuid="ad1b6938-cfcd-498b-80ed-558187b57018">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{pasien_bangsa}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="120" y="152" width="300" height="17" uuid="dc242b32-5cba-400f-963f-2cb4e763c204">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{pasien_agama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="120" y="169" width="300" height="17" uuid="00592a68-95f7-42d7-86c2-9c680b7035e9">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{pasien_pekerjaan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="120" y="186" width="300" height="17" uuid="18d84078-b1db-44ed-a680-a4474e509329">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{pasien_alamat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="120" y="203" width="300" height="17" uuid="bd9546a3-d61a-4d50-b717-780dc1ecb570">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{pasien_hub_dengan_pasien}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="140" y="305" width="10" height="17" uuid="be05a37b-0b14-4dcc-b138-3470103826ca">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="288" width="10" height="17" uuid="27eac668-0d63-4f2a-9115-237b26c44057">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="271" width="10" height="17" uuid="170177ee-6072-4778-b094-97b2d207aeb1">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="254" width="10" height="17" uuid="7e76e843-ecb4-4193-9f9a-8347693a59a8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="150" y="254" width="300" height="17" uuid="85d07711-e0af-4543-80d1-1615e726e157">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{pelayanan_tanggal}+" "+$F{pelayanan_jam}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="270" width="300" height="17" uuid="ab535b18-58ec-4943-9b07-4201c21f4a7d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{pelayanan_nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="288" width="300" height="17" uuid="9d23c97f-11bf-4d8c-99e4-ec455044e47a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{pelayanan_tanggal_1}+" "+$F{pelayanan_jam_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="305" width="300" height="17" uuid="d5c08773-0904-4b96-bfde-2bd4f80f0930">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{pelayanan_telepon}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="4" y="445" width="130" height="17" uuid="7835e5c3-982c-4d42-860c-171c5bb7b53c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{ttd_pasien}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="445" width="155" height="17" uuid="55a04b55-470a-450b-b1ab-77d85ec27163">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{ttd_perawat}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="21" y="11" width="60" height="55" uuid="80f0adc0-ff5d-45e5-9d3a-8f1d33c0c01e"/>
+				<imageExpression><![CDATA[new java.net.URL($P{server_address}+"/images/rs/LogoPKU.jpeg")]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+</jasperReport>

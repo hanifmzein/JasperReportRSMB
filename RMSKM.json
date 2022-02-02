@@ -1,0 +1,31 @@
+{
+	"bertandatangan":"Stephen Strange",
+	"pasien":{
+		"nama":"Peter",
+		"no_rm":"000412",
+		"tanggal_lahir":"2021-11-01",
+		"kelamin":"Perempuan",
+		"alamat":"Uriale",
+		"diagnosa":[
+			"Sakit hati",
+			"Bibir pecah-pecah",
+			"Kaki kesemutan",
+			"Panas dalam",
+			"Tidak bernafas"
+		],
+		"perawatan_selama":30,
+		"tanggal":{
+			"dari":"2021-11-01",
+			"sampai":"2021-11-01"
+		},
+		"waktu":{
+			"tanggal":"2021-11-01",
+			"jam":"06:00:00"
+		}
+	},
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"hormat_saya":"Stephen strange"
+	}
+}

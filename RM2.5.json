@@ -1,0 +1,199 @@
+{
+  "asesmen_obstetri_igd": {
+    "tanggal": "2021-11-01",
+    "jam": "06:00:00",
+    "oleh": "Saipul"
+  },
+  "data_subyektif": {
+    "antenatal_disini": {
+      "pilihan": "Ya",
+      "jumlah": 2
+    },
+    "antenatal_tempat_lain": {
+      "pilihan": "Tidak",
+      "jumlah": 0
+    },
+    "pemeriksaan_dokter": {
+      "asesmen": {
+        "g": "4",
+        "p": "5",
+        "a": "6",
+        "ah": "7"
+      },
+      "keadaan_sekarang": "Baik baik saja",
+      "riwayat_haid": {
+        "siklus": 28,
+        "lama_haid": 7,
+        "hpht": "2021-11-01",
+        "hpl": "2021-11-01",
+        "usia_kehamilan": 5
+      },
+      "perkawinan": {
+        "jumlah": 1,
+        "lama": 3
+      },
+      "riwayat_obstetri": [
+        {
+          "keadaan_kehamilan": "Sehat",
+          "cara_persalinan": "Normal",
+          "keadaan_nifas": "Normal",
+          "tanggal_lahir": "2021-11-01",
+          "keadaan_anak": "Sehat",
+          "tempat": "Bidan"
+        }
+      ],
+      "riwayat_penyakit_dahulu": "Tidak ada",
+      "riwayat_kehamilan_sekarang": {
+        "pilihan": [
+          "Anemia",
+          "Diabetes",
+          "Asma"
+        ],
+        "lain_lain": ""
+      },
+      "kebiasaan_ibu": {
+        "pilihan": [
+          "Minum Obat"
+        ],
+        "nama_obat": "Parasetamol"
+      },
+      "berat_badan_hamil": 50,
+      "psiko_sosial_eko": {
+        "kondisi": [
+          "Sulit Tidur"
+        ],
+        "gangguan_jiwa": "Tidak",
+        "keluarga_gangguan_jiwa": {
+          "pilihan": "Tidak",
+          "nama": ""
+        },
+        "perilaku": [
+          "Gangguan Memori"
+        ],
+        "status_pernikahan": "Menikah",
+        "tinggal_dengan": "Sendiri",
+        "keluarga_dekat": {
+          "nama": "Sami",
+          "hubungan": "Kerabat",
+          "telpon": "+6254893"
+        },
+        "penelantaran": "Tidak",
+        "kegiatan_ibadah": "Tepat waktu",
+        "ibadah_lainnya": "Sedekah",
+        "bekerja": "Ya",
+        "tinggal_bersama": "Tidak"
+      },
+      "nutrisi": {
+        "asupan_berkurang": "Tidak",
+        "gangguan_metabolisme": "Tidak",
+        "perubahan_bb": "Ya",
+        "hb_hct": "Abnormal",
+        "total_skor": 1
+      },
+      "skor_nyeri": 2
+    }
+  },
+  "data_obyektif": {
+    "tanda_vital": {
+      "td": {
+        "sistole": 80.6,
+        "diastole": 50.6
+      },
+      "rr": 20,
+      "bb": 60,
+      "hr": 20,
+      "t": 36,
+      "tb": 165
+    },
+    "keadaan_umum": {
+      "kesadaran": "Baik",
+      "kepala": {
+        "pilihan": "Normal",
+        "lain_lain": ""
+      },
+      "mata": {
+        "pilihan": "Normal",
+        "lain_lain": ""
+      },
+      "leher": {
+        "pilihan": "Normal",
+        "lain_lain": ""
+      },
+      "gizi": "Sedang",
+      "tenggorokan": {
+        "pilihan": "Normal",
+        "lain_lain": ""
+      },
+      "hidung": {
+        "pilihan": "Normal",
+        "lain_lain": ""
+      },
+      "kulit": {
+        "pilihan": "Normal",
+        "lain_lain": ""
+      },
+      "mulut": {
+        "pilihan": "Normal",
+        "lain_lain": ""
+      },
+      "dada": {
+        "hati": {
+          "pilihan": "Normal",
+          "lain_lain": ""
+        },
+        "limpa": {
+          "pilihan": "Normal",
+          "lain_lain": ""
+        }
+      },
+      "perut": {
+        "hati": {
+          "pilihan": "Normal",
+          "lain_lain": ""
+        },
+        "limpa": {
+          "pilihan": "Normal",
+          "lain_lain": ""
+        }
+      },
+      "anggota_gerak_atas": {
+        "edema": "Tidak",
+        "varises": "Ya",
+        "reflek": "Negatif"
+      },
+      "anggota_gerak_bawah": {
+        "edema": "Tidak",
+        "varises": "Ya",
+        "reflek": "Positif"
+      }
+    },
+    "status_obstetrik": {
+      "pemeriksaan_abdomen": {
+        "leopold": [
+          {
+            "tfu": 24,
+            "tbj": 18,
+            "djj": 14,
+            "frekuensi": 2,
+            "his": 8
+          }
+        ]
+      },
+      "pemeriksaan_dalam": "Tidak"
+    },
+    "pemeriksaan_laboratorium": {
+      "darah": {
+        "hb": 64,
+        "lekosit": 25,
+        "hbsag": 35,
+        "protainuria": "positif",
+        "pemeriksaan_lain": "Tidak ada"
+      }
+    },
+    "diagnosa_kebidanan": "-",
+    "tindakan": "-",
+    "tanggal_pengkajian": "2021-11-01",
+    "jam_pengkajian": "06:00:00",
+    "nama_bidan_pengkaji": "Sisusi"
+  }
+}

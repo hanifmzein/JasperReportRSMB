@@ -1,0 +1,21 @@
+{
+	"poli":{
+		"pilihan":"lain_lain",
+		"lain_lain":"Lainnya"
+	},
+	"pasien":{
+		"nama":"Tesla",
+		"no_rm":"0001524",
+		"tanggal_lahir":"2021-11-01",
+		"kelamin":"Laki-laki",
+		"diagnosis":"Mageran",
+		"dokter_penanggung_jawab":"Sober",
+		"dokter_pengirim":"Soverin",
+		"kamar_perawatan":"HCU"
+	},
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"dokter":"Saritem"
+	}
+}

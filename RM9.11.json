@@ -1,0 +1,20 @@
+{
+	"permohonan_konsul":{
+		"dokter":"Jhon Doe",
+		"hasil_laboratorium":"catchpharse",
+		"konsultasi_yang_diminta":"Rawat bersama",
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"nama_dpjp":"Jane Doe"
+	},
+	"jawaban_konsul":{
+		"dokter":"Doe doe",
+		"penemuan_klinis":"catchpharse1",
+		"pemeriksaan_khusus":"catchpharse2",
+		"diagnosis":"catchpharse3",
+		"program_saran":"catchpharse4",
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"nama_dokter_pemeriksa":"~"
+	}
+}

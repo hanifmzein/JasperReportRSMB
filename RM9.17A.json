@@ -1,0 +1,100 @@
+{
+	"asesmen_risiko_jatuh_dewasa":{
+		"asesmen_awal":{
+			"riwayat_jatuh":{
+				"pilihan":"Ya",
+				"skor":25
+			},
+			"diagnosa_sekunder":{
+				"pilihan":"Tidak",
+				"skor":0
+			},
+			"alat_bantu_jalan":{
+				"pilihan":"Berpegangan pada benda-benda di sekitar (kursi, lemari, meja)",
+				"skor":30
+			},
+			"terapi_intravena":{
+				"pilihan":"Ya",
+				"skor":20
+			},
+			"gaya_berjalan":{
+				"pilihan":"Normal\/bed rest\/immobile (tidak dapat bergerak sendiri)",
+				"skor":0
+			},
+			"status_mental":{
+				"pilihan":"Pasien mengalami ketebatasan daya ingat",
+				"skor":15
+			},
+			"total":90,
+			"waktu":{
+				"tanggal":"2021-11-01",
+				"jam":"06:00:00"
+			}
+		},
+		"asesmen_ulang":[
+			{
+				"riwayat_jatuh":{
+					"pilihan":"Tidak",
+					"skor":0
+				},
+				"diagnosa_sekunder":{
+					"pilihan":"Ya",
+					"skor":25
+				},
+				"alat_bantu_jalan":{
+					"pilihan":"Kruk\/tongkat\/walker",
+					"skor":15
+				},
+				"terapi_intravena":{
+					"pilihan":"Ya",
+					"skor":20
+				},
+				"gaya_berjalan":{
+					"pilihan":"Gangguan\/tidak normal (pincang\/diseret)",
+					"skor":20
+				},
+				"status_mental":{
+					"pilihan":"Pasien mengalami ketebatasan daya ingat",
+					"skor":15
+				},
+				"total":95,
+				"waktu":{
+					"tanggal":"2021-11-01",
+					"jam":"06:00:00"
+				}
+			},
+			{
+				"riwayat_jatuh":{
+					"pilihan":"Ya",
+					"skor":25
+				},
+				"diagnosa_sekunder":{
+					"pilihan":"Ya",
+					"skor":25
+				},
+				"alat_bantu_jalan":{
+					"pilihan":"Kruk\/tongkat\/walker",
+					"skor":15
+				},
+				"terapi_intravena":{
+					"pilihan":"Ya",
+					"skor":20
+				},
+				"gaya_berjalan":{
+					"pilihan":"Gangguan\/tidak normal (pincang\/diseret)",
+					"skor":20
+				},
+				"status_mental":{
+					"pilihan":"Pasien mengalami ketebatasan daya ingat",
+					"skor":15
+				},
+				"total":120,
+				"waktu":{
+					"tanggal":"2021-11-01",
+					"jam":"06:00:00"
+				}
+			}
+		]
+	},
+	"nama":"Andy"
+}

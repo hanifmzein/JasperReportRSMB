@@ -1,0 +1,17 @@
+[
+   {
+      "waktu":"2019-04-21T13:00:00",
+      "ppa":"Perawat",
+      "soap":{
+         "subyektif":"Sepertinya karena belum makan",
+         "obyektif":"Asam lambung naik",
+         "assesmen":"Makan",
+         "planning":"Makan 3 kali sehari"
+      },
+      "instruksi":"Anjuran makan pada jamnya",
+      "ttd":{
+         "nama":"Siti Mayanti",
+         "tanggal":"2019-04-21"
+      }
+   }
+]

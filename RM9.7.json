@@ -1,0 +1,66 @@
+{
+	"saya":{
+		"nama":"Achmaud",
+		"tanggal":"2021-11-01",
+		"jam":"06:00:00",
+		"pekerjaan":"Pengarit profesional",
+		"instansi":"Are It Comp."
+	},
+	"pasien":{
+		"nama":"Pak Dody",
+		"kelamin":"Laki-laki",
+		"umur":{
+			"value":828,
+			"keterangan":"Bulan"
+		},
+		"alamat":"Padang beras",
+		"diagnosis_medis":"Kurang bahagia",
+		"alasan_rujuk":"bosen",
+		"riwayat_penyakit_sekarang":"Tidak ada",
+		"tingkat_kesadaran":"Kriyep-kriyep",
+		"gcs":"Setengah sadar",
+		"data_pemeriksaan_penunjang":{
+			"pilihan":"Lain-lain",
+			"lain_lain":"Sunat"
+		},
+		"jenis_layanan":{
+			"pilihan":"JKN KIS",
+			"jkn_kis":"PBI",
+			"value":"tes"
+		},
+		"pemeriksaan_ttv":{
+			"td":2,
+			"n":30,
+			"rr":21,
+			"suhu":3
+		},
+		"terapi":[
+			{
+				"tanggal":"2021-11-01",
+				"jenis_obat":"Paracetamol",
+				"dosis_pemberian":"3 Sachet",
+				"jam_pemberian_terakhir":"06:00:00",
+				"ttd":"Karimun"
+			},
+			{
+				"tanggal":"2020-09-11",
+				"jenis_obat":"Ibuprofen",
+				"dosis_pemberian":"10 pack",
+				"jam_pemberian_terakhir":"09:00:00",
+				"ttd":"Simon"
+			}
+		]
+	},
+	"tempat":"Banjar",
+	"tanggal":"2021-11-01",
+	"ttd":{
+		"pengirim":{
+			"nama":"Ulum",
+			"hp":"082414214"
+		},
+		"penerima":{
+			"nama":"Remi",
+			"nik":"1129462191"
+		}
+	}
+}

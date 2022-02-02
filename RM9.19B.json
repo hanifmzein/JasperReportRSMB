@@ -1,0 +1,46 @@
+{
+	"implementasi":{
+		"nama_pasien":"Some name here",
+		"tanggal_lahir":"2021-11-01",
+		"no_rm":"0001401",
+		"ruangan":"Mawar",
+		"diagnosa_masuk":"Sakit Jiwa",
+		"catatan":{
+			"pelaksanaan_perencanaan":{
+				"value":"Catchpharse",
+				"tanggal":"2021-11-01",
+				"jam":"06:00:00"
+			},
+			"monitoring":{
+				"value":"Catchpharse 1",
+				"tanggal":"2021-11-01",
+				"jam":"06:00:00"
+			},
+			"fasilitasi":{
+				"value":"Catchpharse 2",
+				"tanggal":"2021-11-01",
+				"jam":"06:00:00"
+			},
+			"advokasi":{
+				"value":"Catchpharse 3",
+				"tanggal":"2021-11-01",
+				"jam":"06:00:00"
+			},
+			"hasil_pelayanan":{
+				"value":"Catchpharse 4",
+				"tanggal":"2021-11-01",
+				"jam":"06:00:00"
+			},
+			"terminasi":{
+				"value":"Catchpharse 5",
+				"tanggal":"2021-11-01",
+				"jam":"06:00:00"
+			}
+		},
+		"ttd":{
+			"kota":"Some city here",
+			"tanggal":"2021-11-01",
+			"mpp":"Some name here"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"tanggal_pengkajian":"2021-11-01",
+	"pengkajian_fisik":{
+		"keadaan_umum":"Penuh Optimisme tetapi sedikit lunglai",
+		"tekanan_darah":{
+			"sistole":21,
+			"diastole":30
+		},
+		"nadi":2,
+		"gcs":{
+			"e":2,
+			"v":3,
+			"m":34
+		},
+		"suhu":1,
+		"spo2":4,
+		"nafas":4
+	},
+	"indikasi_pemasangan":{
+		"pilihan":"lain_lain",
+		"lain_lain":"Another..."
+	},
+	"cedera_atau_luka":{
+		"pilihan":"Ada",
+		"ada":"Cedera hati"
+	},
+	"persetujuan_oleh_dokter":"Observasi",
+	"jenis_restrain":{
+		"restrain_non_farmakologi":{
+			"pilihan":"lain_lain",
+			"lain_lain":"Kepala"
+		},
+		"restrain_farmakologi":"Some text here..."
+	},
+	"pemberitahuan_kepada_keluarga":{
+		"keluarga_sudah_diberitahu":"Ya",
+		"nama":"Herman",
+		"hubungan_dengan_pasien":"Ayah",
+		"kebutuhan_untuk_restrain":"Fisik",
+		"tujuan_restrain":"Gabut",
+		"risiko_dan_komplikasi":"Ngantuk"
+	},
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"jam":"06:00:00",
+		"yang_menerima_informasi":{
+			"nama_dpjp":"Ahmad",
+			"nama":"Rima"
+		}
+	}
+}

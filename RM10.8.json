@@ -1,0 +1,24 @@
+{
+    "saya_yang_bertanda_tangan": {
+      "nama": "Herman",
+      "umur": 31,
+      "kelamin": "Laki-laki",
+      "alamat": "Kepengkolan",
+      "telp": "087214214216",
+      "bukti_diri": "30001247821"
+    },
+    "wali": {
+      "bertindak_sebagai": "Diri Sendiri",
+      "nama": "Kismir",
+      "no_rm": "0003123",
+      "umur": 31,
+      "jenis_kelamin": "Perempuan"
+    },
+    "ttd": {
+      "kota": "Banjarnegara",
+      "tanggal": "2021-11-01",
+      "perawat": "Minol",
+      "saksi_pasien": "Raimi",
+      "yang_membuat_pernyataan": "Kimsir"
+    }
+  }

@@ -1,0 +1,416 @@
+{
+    "kegiatan": {
+      "menerima_pasien_baru": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : true,
+            "m" : true
+        },
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : false
+        }
+      ],
+      "orientasi_pasien_baru": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "edukasi_pasien": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "melakukan_operan_jaga": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "melakukan_verbeden": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "mendampingi_visit_dokter": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "menghadiri_rapat": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "dokumentasi_keperawatan": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "observasi_vital_sign": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "memberikan_kompres": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "monitor_balance_cairan": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "memberikan_diet": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "menyuapi_pasien": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "memberikan_asi": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "memandikan_pasien": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "oral_hygiene": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "perawatan_kateter_urin": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "mengganti_pakaian": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "menyiapkan_tempat_tidur": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "mengganti_alat_tenun": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "membantu_mobilisasi": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "melatih_mobilisasi": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "menganti_posisi": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "membantu_bak_bab": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "sunction": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "pasang_infus": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "skin_test": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "pasang_lepas_kateter_urin": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "monitoring_pasang_ecg": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "pemasangan_aff_ngt": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "perawatan_luka": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "cuci_lambung_lavase": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "memberikan_terapi_injeksi": {
+        "value": [{
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }],
+        "lain_lain": [{
+            "kegiatan" : "Terapi bakar rumah sakit",
+            "value": [
+				{
+                	"tanggal" : "2021-11-08",
+                	"p" : "1",
+                	"s" : false,
+                	"m" : true
+            	},
+				{
+                	"tanggal" : "2021-11-08",
+                	"p" : "2",
+                	"s" : true,
+                	"m" : true
+            	}]
+			},
+			{
+            "kegiatan" : "Terapi bakar rumah sembuh",
+            "value": [
+				{
+                	"tanggal" : "2021-11-08",
+                	"p" : "3",
+                	"s" : false,
+                	"m" : true
+            	},
+				{
+                	"tanggal" : "2021-11-08",
+                	"p" : "4",
+                	"s" : true,
+                	"m" : true
+            	}]
+			}
+		]
+      },
+      "memberikan_terapi_oral": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "memberikan_nebulazier": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "perawatan_infus": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "memasang_infus_pump": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "memasang_sryng_pump": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "memberikan_oksigen": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "foto_terapi": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "pemakaian_apd": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : true,
+            "m" : true
+        }
+      ],
+      "cuci_tangan": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "mengganti_cairan_infus": [
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        },
+        {
+            "tanggal" : "2021-11-08",
+            "p" : true,
+            "s" : false,
+            "m" : true
+        }
+      ],
+      "lain_lain": [
+        {
+            
+            "kegiatan": "Cuci kaki",
+            "value": [{
+                "tanggal" : "2021-11-08",
+                "p" : true,
+                "s" : false,
+                "m" : true   
+            }]
+        },
+        {
+            
+            "kegiatan": "Ganti kasur",
+            "value": [{
+                "tanggal" : "2021-11-08",
+                "p" : true,
+                "s" : false,
+                "m" : true   
+            }]
+        }
+      ]
+      
+    }
+}

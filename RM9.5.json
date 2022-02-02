@@ -1,0 +1,29 @@
+{
+	"identitas":{
+		"nama":"Marche",
+		"alamat":"Ivalice",
+		"tanggal_lahir":"2021-11-01",
+		"kelamin":"Laki-laki",
+		"telp":"087812937164",
+		"atas_nama":"Saudara"
+	},
+	"pasien":{
+		"nama":"Donned",
+		"alamat":"Ivalice",
+		"tanggal_lahir":"2021-11-01",
+		"kelamin":"Laki-laki",
+		"no_rm":"0000214141",
+		"telp":"0816311631",
+		"tanggal_masuk":"2013-11-01",
+		"tanggal_keluar":"2021-11-01"
+	},
+	"alasan":"Bokek",
+	"tanggal":"2021-11-01",
+	"jam":"06:00:00",
+	"ttd":{
+		"dpjp":"Cid",
+		"petugas_rs":"Babus",
+		"keluarga":"Ritz",
+		"yang_menyatakan":"Marche"
+	}
+}

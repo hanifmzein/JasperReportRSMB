@@ -1,0 +1,53 @@
+{
+      "keputusan_tindakan": {
+        "jam": "13:00:00",
+        "keterangan": "a"
+      },
+      "lapor_dokter_jaga": {
+        "jam": "13:00:00",
+        "keterangan": "aa"
+      },
+      "spo": {
+        "jam": "13:00:00",
+        "keterangan": "aaa"
+      },
+      "laborat": {
+        "jam": "13:00:00",
+        "keterangan": "b"
+      },
+      "darah": {
+        "jam": "13:00:00",
+        "keterangan": "bb"
+      },
+      "tim_ok": {
+        "pilihan": "Instrumen",
+        "jam": "13:00:00",
+        "keterangan": "bbb"
+      },
+      "berangkat_ok": {
+        "jam": "13:00:00",
+        "keterangan": "c"
+      },
+      "waktu_tunggu_ok": {
+        "jam": "13:00:00",
+        "keterangan": "cc"
+      },
+      "mulai_anestesi": {
+        "jam": "13:00:00",
+        "keterangan": "ccc"
+      },
+      "mulai_op": {
+        "jam": "13:00:00",
+        "keterangan": "d"
+      },
+      "selesai_op": {
+        "jam": "13:00:00",
+        "keterangan": "dd"
+      },
+      "total_jam": {
+        "total_1": 69,
+        "total_2": 15
+      },
+      "catatan": "catchpharse",
+      "nama_petugas": "Tontowi Prasetyo"
+}

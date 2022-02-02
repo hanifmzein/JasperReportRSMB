@@ -1,0 +1,77 @@
+{
+	"asesmen_risiko_jatuh_anak":{
+		"asesmen_awal":{
+			"umur":{
+				"pilihan":"Lebih dari 13 tahun",
+				"standar":1
+			},
+			"jenis_kelamin":{
+				"pilihan":"Perempuan",
+				"standar":1
+			},
+			"diagnosa":{
+				"pilihan":"Lain-lain",
+				"standar":1
+			},
+			"gangguan_kognitif":{
+				"pilihan":"Dapat menggunakan daya pikir tanpa hambatan",
+				"standar":1
+			},
+			"faktor_lingkungan":{
+				"pilihan":"Area pasien rawat jalan",
+				"standar":1
+			},
+			"respon_terhadap_pembedahan":{
+				"pilihan":"Lebih dari 48 jam \/ tidak ada respon",
+				"standar":1
+			},
+			"penggunaan_obat":{
+				"pilihan":"",
+				"standar":1
+			},
+			"total":7,
+			"waktu":{
+				"tanggal":"2021-11-01",
+				"jam":"06:00:00"
+			}
+		},
+		"asesmen_ulang":[
+			{
+				"umur":{
+					"pilihan":"7 tahun - 13 tahun",
+					"standar":2
+				},
+				"jenis_kelamin":{
+					"pilihan":"Laki-laki",
+					"standar":2
+				},
+				"diagnosa":{
+					"pilihan":"Perilaku",
+					"standar":2
+				},
+				"gangguan_kognitif":{
+					"pilihan":"Pelupa, berkurangnya orientasi sekitar",
+					"standar":2
+				},
+				"faktor_lingkungan":{
+					"pilihan":"Pasien di tempat tidur standar",
+					"standar":2
+				},
+				"respon_terhadap_pembedahan":{
+					"pilihan":"Dalam 48 jam",
+					"standar":2
+				},
+				"penggunaan_obat":{
+					"pilihan":"Salah satu dari obat diatas",
+					"standar":2
+				},
+				"total":14,
+				"waktu":{
+					"tanggal":"2021-11-01",
+					"jam":"06:00:00"
+				}
+			}
+		]
+	},
+	"nama":"Fance"
+}

@@ -1,0 +1,77 @@
+{
+	"asesmen_kemampuan_kemauan_belajar":{
+		"pengkajian_hambatan":[
+			"Bahasa",
+			"Pendengaran"
+		],
+		"pengkajian":{
+			"bicara":{
+				"pilihan":"Normal",
+				"kapan":"Minggu lalu"
+			}
+		},
+		"bahasa_sehari_hari":{
+			"pilihan":[
+				"Indonesia",
+				"Daerah"
+			],
+			"indonesia":"Aktif",
+			"daerah":"Jawa",
+			"lain_lain":""
+		},
+		"pendidikan_terakhir":"S1\/D4",
+		"agama":{
+			"pilihan":"Islam",
+			"lain_lain":""
+		},
+		"nilai_nilai_pasien_budaya":"Konvensional",
+		"kesediaan_menerima_informasi":"Tidak"
+	},
+	"asesmen_kebutuhan_belajar":{
+		"penterjemah":{
+			"pilihan":"Ya",
+			"bahasa":"Medan"
+		},
+		"saran_edukasi_lain":"Sekolah"
+	},
+	"perencanaan_kebutuhan_edukasi":[
+		"Kewajiban Pasien",
+		"Fasilitas Ruangan"
+	],
+	"petugas_asesmen":{
+		"nama":"Tontowi Prasetyo",
+		"tanggal":"2019-04-21",
+		"pukul":"13:00:00"
+	},
+	"edukasi":[
+		{
+			"tanggal":"2019-04-21",
+			"jam":"13:00:00",
+			"penerima_edukasi_status":[
+				"Pasien",
+				"Keluarga"
+			],
+			"penerima_edukasi":"Muhammad Rafif Adum Pratama",
+			"metode":[
+				"Diskusi",
+				"Visual"
+			],
+			"sarana":[
+				"Leaflet"
+			],
+			"profesi":[
+				"TPPRI"
+			],
+			"isi_edukasi":[
+				"Hak dan Kewajiban Pasien"
+			],
+			"pre_edukasi":[
+				"Tidak Mengerti"
+			],
+			"post_edukasi":[
+				"Menyatakan Paham"
+			],
+			"pemberi_edukasi":"Siti Mayanti"
+		}
+	]
+}

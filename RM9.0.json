@@ -1,0 +1,36 @@
+{
+    "tempat_pengkajian": {
+      "pilihan": "poli",
+      "lain_lain": ""
+    },
+    "questioner": {
+      "fatigue": "tidak",
+      "resistance": "ya",
+      "aerobic": "tidak",
+      "illnesses": "ya",
+      "loss_of_weight": "tidak"
+    },
+    "cognitive_screen": {
+      "menandai_jam": 1,
+      "waktu_benar": 1,
+      "apel": 0,
+      "bolpoin": 1,
+      "dasi": 1,
+      "rumah": 0,
+      "mobil": 1,
+      "tempat_di_cerita": 1,
+      "total_skor_1": 8,
+      "hilang_berat_badan": {
+        "label": "Tidak yakin",
+        "value": 2
+      },
+      "turun_nafsu_makan": {
+        "label": "Tidak",
+        "value": 0
+      },
+      "total_skor_2": 2
+    },
+    "tanggal": "2021-11-01",
+    "jam": "06:00:00",
+    "pemberi_asuhan": "Samsunk"
+}

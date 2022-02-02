@@ -1,0 +1,94 @@
+{
+    "gejala_seperti_mau_muntah": {
+      "kegawatan_pernafasan": "Dyspnoe",
+      "kehilangan_tonus_otot": "Inkontinensia Urine",
+      "nyeri": {
+        "pilihan": "Ya",
+        "value": "Nyeri otot?"
+      },
+      "perlambatan_sirkulasi": "Sianosis pada ekstremitas"
+    },
+    "faktor_yang_meningkatkan": {
+      "pilihan": "lain_lain",
+      "lain_lain": "Lainya"
+    },
+    "manajemen_gejala_saat": {
+      "masalah_keperawatan": "Mual"
+    },
+    "orientasi_spiritual_pasien": {
+      "apakah_perlu_pelayanan_spiritual": {
+        "pilihan": "Ya",
+        "oleh": "Dukun"
+      }
+    },
+    "urusan_dan_kebutuhan_spiritual_pasien": {
+      "perlu_didoakan": "Tidak",
+      "perlu_bimbingan_rohani": "Ya",
+      "perlu_pendampingan_rohani": "Ya"
+    },
+    "status_psikososial_dan_keluarga": {
+      "apakah_ada_orang_yang_ingin_dihubungi": {
+        "pilihan": "Ya",
+        "ya": {
+          "siapa": "Hewan peliharaan",
+          "dimana": "Rumah",
+          "hubungan": "Majikan dan hewan peliharaan",
+          "telp": "-"
+        }
+      },
+      "bagaimana_rencana_perawatan": {
+        "pilihan": "Tetap dirawat di RS",
+        "apakah_lingkungan_rumah": {
+          "pilihan": "Ya",
+          "ya": {
+            "pilihan": "Ya",
+            "oleh": "Hewan peliharaan"
+          },
+          "tidak": "Ya"
+        }
+      },
+      "reaksi_pasien_atas_penyakitnya": {
+        "asesmen_informasi": {
+          "pilihan": "Lainnya",
+          "lain_lain": "Yang lainya"
+        },
+        "masalah_keperawatan": {
+          "pilihan": "Lainnya",
+          "lain_lain": "Yang lain"
+        }
+      },
+      "reaksi_keluarga_atas_penyakit_pasien": {
+        "asesmen_informasi": {
+          "pilihan": "Lainnya",
+          "lain_lain": "lain lain"
+        },
+        "masalah_keperawatan": {
+          "pilihan": "Lainnya",
+          "lain_lain": "yang lain"
+        }
+      }
+    },
+    "kebutuhan_dukungan_atau_kelonggaran": {
+        "value":[
+        	"Pasien perlu didampingi keluarga",
+			"Sahabat dapat mengunjungi pasien di luar waktu berkunjung"
+        ],
+        "lain_lain":""
+    },
+    "apakah_ada_kebutuhan": {
+      "pilihan": "Donasi Organ",
+      "lain_lain": "",
+      "donasi_organ": "Ginjal"
+    },
+    "faktor_resiko": {
+      "asesmen_informasi": {
+        "pilihan": "Lainnya",
+        "lainnya": "Yang lain"
+      },
+      "masalah_keperawatan": {
+        "pilihan": "Distress Spiritual",
+        "lain_lain": "Yang lain-nya"
+      }
+    },
+    "nama_perawat": "Sujiman"
+}

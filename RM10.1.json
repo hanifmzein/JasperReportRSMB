@@ -1,0 +1,91 @@
+{
+	"pemberian_informasi":{
+		"dpjp":"Some name",
+		"pemberi_informasi":"Some diff name",
+		"penerima_informasi":"Some other name"
+	},
+	"jenis_informasi":{
+		"diagnosa":{
+			"isi_informasi":"Catchparse",
+			"tanda":"Ya"
+		},
+		"dasar_diagnosa":{
+			"isi_informasi":"Catchparse 2",
+			"tanda":"Ya"
+		},
+		"tindakan_kedokteran":{
+			"isi_informasi":"Catchpharse 3",
+			"tanda":"Tidak"
+		},
+		"indikasi_tindakan":{
+			"isi_informasi":"Catchpharse 4",
+			"tanda":"Ya"
+		},
+		"tata_cara":{
+			"isi_informasi":"Catchpharse 5",
+			"tanda":"Ya"
+		},
+		"tujuan":{
+			"isi_informasi":"Catchpharse 6",
+			"tanda":"Ya"
+		},
+		"risiko":{
+			"isi_informasi":"Catchpharse 7",
+			"tanda":"Ya"
+		},
+		"komplikasi":{
+			"isi_informasi":"Catchpharse 8",
+			"tanda":"Ya"
+		},
+		"prognosis":{
+			"isi_informasi":"Catchpharse 9",
+			"tanda":"Ya"
+		},
+		"alternatif":{
+			"isi_informasi":"Catchpharse 10",
+			"tanda":"Ya"
+		},
+		"lain_lain":{
+			"isi_informasi":"Catchpharse 11",
+			"tanda":"Ya"
+		}
+	},
+	"ttd_dokter":"James",
+	"ttd_pasien":"Howlet",
+	"persetujuan_tindakan_kedokteran":{
+		"yang_bertandatangan":{
+			"nama":"Isolet",
+			"umur":51,
+			"kelamin":"Perempuan",
+			"alamat":"Jurang"
+		},
+		"terhadap":{
+			"pilihan":"lain_lain",
+			"lain_lain":"Saudara",
+			"bernama":"Balmora",
+			"umur":21,
+			"kelamin":"Laki-laki",
+			"alamat":"Gunung"
+		}
+	},
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"jam":"06:00:00",
+		"saksi_1":{
+			"nama":"Henry",
+			"hubungan_keluarga":"Sahabat"
+		},
+		"saksi_2":{
+			"nama":"Norman",
+			"perawat":"May"
+		},
+		"pasien":{
+			"nama":"Rommy",
+			"status":{
+				"pilihan":"Wali",
+				"wali":"Saudara"
+			}
+		}
+	}
+}

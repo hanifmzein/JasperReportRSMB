@@ -1,0 +1,115 @@
+{
+    "waktu_pengkajian": "2019-04-21T13:00:00",
+    "identitas": {
+        "istri": {
+            "nama": "Siti Mayanti",
+            "umur": 25,
+            "agama": "Islam",
+            "pendidikan": "S1",
+            "pekerjaan": "Pegawai Swasta",
+            "alamat": "Krapyak Wetan"
+        },
+        "suami": {
+            "nama": "Hendro",
+            "umur": 25,
+            "agama": "Islam",
+            "pendidikan": "S1",
+            "pekerjaan": "Pegawai Swasta",
+            "alamat": "Krapyak Wetan"
+        }
+    },
+    "anamnesa": {
+        "masalah_keluhan": "Ingin anak lahir tanggal 11 Maret",
+        "riwayat_kehamilan": "Belum pernah",
+        "riwayat_menstruasi": {
+            "hpht": "2019-04-21",
+            "hpl": "2019-04-21",
+            "ukj": "7 bulan"
+        },
+        "g": 1,
+        "p": 1,
+        "a": 1,
+        "persalinan": [
+            {
+                "tanggal_persalinan": "2019-04-21",
+                "umur_kehamilan": 40,
+                "jenis_persalinan": "Normal",
+                "penyakit": "-",
+                "keadaan_anak": {
+                    "berat_badan": 3.6,
+                    "sehat": "Ya",
+                    "kelamin": "Perempuan"
+                }
+            }
+        ],
+        "riwayat_alergi": "-"
+    },
+    "gizi_awal": {
+        "penurunan_berat_badan_6_bulan_akhir": {
+            "pilihan": "Tidak",
+            "nilai": 0
+        },
+        "asupan_makan_berkurang": {
+            "pilihan": "Tidak",
+            "nilai": 0
+        },
+        "diagnosa_khusus": "Tidak ada",
+        "total_skor": 0,
+        "resiko_malnutrisi": "Rendah",
+        "rujuk_ke_dietisien": false,
+        "resiko_jatuh": "Rendah",
+        "tindakan_resiko_jatuh": "Edukasi"
+    },
+    "skrining_nyeri": {
+        "pilihan": "Ya",
+        "waktu": "2019-04-21T13:00:00",
+        "skala": 4,
+        "lokasi": "Lutut"
+    },
+    "pemeriksaan_fisik": {
+        "tekanan_darah": {
+            "nadi": 20,
+            "respirasi": 80,
+            "suhu": 49,
+            "berat_badan": 55,
+            "tinggi_badan": 165,
+            "lingkar_lengan": 30
+        },
+        "ekstremitas": "Oedema",
+        "abdomen": {
+            "bekas_luka_operasi": false,
+            "benjolan": "",
+            "ascites": "",
+            "keadaan": ""
+        },
+        "leopold_i": {
+            "tfu": 0,
+            "tbj": 0,
+            "djj": 0,
+            "frekuensi": 0,
+            "his": 0,
+            "deskripsi": "Tidak ada"
+        },
+        "leopold_ii": "",
+        "leopold_iii": "",
+        "leopold_iv": "",
+        "periksa_dalam": ""
+    },
+    "diagnosa": {
+        "deskripsi": "",
+        "waktu_pengkajian": "2019-04-21T13:00:00"
+    },
+    "asesmen_status_lokalis": {
+        "pemeriksaan_fisik": "",
+        "pemeriksaan_penunjang": "Tidak ada",
+        "diagnosa_kerja": "",
+        "diagnosa_banding": "",
+        "perencanaan_pelayanan": {
+            "diagnosis": "",
+            "terapi": "",
+            "monitoring": "",
+            "edukasi": ""
+        }
+    },
+    "nama_dokter": "Tontowi Prasetyo"
+}

@@ -1,0 +1,25 @@
+{
+	"kepada":{
+		"rs":"RSPKU MUHAMMADIAH BANJARNGARA",
+		"smf":"112351",
+		"di":"Tempat"
+	},
+	"pasien":{
+		"tipe":"Mohon nasehat",
+		"nama":"Djie Tsam Tsue",
+		"tanggal_lahir":"2021-11-01",
+		"alamat":"Bojong kidul",
+		"no_rm":"0000421"
+	},
+	"anamnesis":"Lorem ipsum dolor amet....",
+	"hasil_pemeriksaan_penunjang":"Lorem ipsum dolor amet....",
+	"diagnosa_kerja":"Lorem ipsum dolor amet....",
+	"telah_diberikan_pengobatan":"Lorem ipsum dolor amet....",
+	"alasan_dirujuk":"Gabut",
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"yang_menerima_rujukan":"Steve",
+		"dokter":"Rogers"
+	}
+}

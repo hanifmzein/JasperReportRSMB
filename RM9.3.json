@@ -1,0 +1,61 @@
+{
+	"nama_rs":"RSU PKU Muhammadiyah Banjarnegara",
+	"lokasi_kejadian":"Pesisir Pantai",
+	"tanggal_kejadian":"2021-11-01",
+	"nama":"Paimon",
+	"kelamin":"P",
+	"usia":{
+		"value":1355,
+		"pilihan":"th"
+	},
+	"tanggal_lahir":"0666-06-06",
+	"yang_menemukan":"Tim Code Blue",
+	"penyebab_arrest_":"Submersion",
+	"penanganan_awal":{
+		"resusitasi_jantung_paru":{
+			"pilihan":"Ya",
+			"waktu":"06:06:00"
+		},
+		"defibrilasi":{
+			"pilihan":"Tidak",
+			"jam":":00"
+		}
+	},
+	"kedatangan_tim_code_blue":{
+		"konfirmasi_cardiac_arrest":"Ya",
+		"resusitasi_oleh_code_blue":{
+			"pilihan":"Tidak",
+			"jika_tidak":"DNR"
+		},
+		"saksi_kejadian_arrest":{
+			"pilihan":"Ya",
+			"jika_ya":"06:00:00"
+		},
+		"initial_rhythm":"Irama lain \/ PEA",
+		"kompresi_dada":"Ya",
+		"ventilasi":"Tidak",
+		"defibrilasi":"Ya",
+		"obat":"Tidak",
+		"advanced_airway":"Tanpa alat bantu \/ BHD"
+	},
+	"waktu":{
+		"perkiraan_waktu_kolap":"06:00:00",
+		"panggil_code_blu":"06:00:00",
+		"pertama_rjp":"06:00:00",
+		"analisis_irama_jantung_aw":"06:00:00",
+		"awal_defibrilas":"06:00:00",
+		"kematian_ditentukan_di_lokasi":{
+			"pilihan":"Ya",
+			"jika_ya":"06:00:00"
+		},
+		"ditransportasikan_dengan":"Ambulance",
+		"pakah_pada_pasien_ditemukan_pulsas":"Ya",
+		"diperoleh_sirkulasi_spontan":"Tidak"
+	},
+	"ttd":{
+		"dokter_jaga":"M. Solehudin",
+		"perawat_1":"Maria Cristine",
+		"perawat_2":"Hu Tao",
+		"perawat_3":"Sapto Brahma"
+	}
+}

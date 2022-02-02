@@ -1,0 +1,36 @@
+{
+	"evaluasi_awal":{
+		"nama_pasien":"Some name here...",
+		"tanggal_lahir":"2021-11-01",
+		"no_rm":"00125734",
+		"ruangan":"Melati",
+		"diagnosa_masuk":"Gabut",
+		"catatan":{
+			"identifikasi":{
+				"value":"Mall praktek",
+				"tanggal":"2021-11-01",
+				"jam":"06:00:00"
+			},
+			"asesmen_mpp":{
+				"value":"Some text here..",
+				"tanggal":"2021-11-01",
+				"jam":"06:00:00"
+			},
+			"identifikasi_masalah_mpp":{
+				"value":"Some input here...",
+				"tanggal":"2021-11-01",
+				"jam":"06:00:00"
+			},
+			"perencanaan_manajemen":{
+				"value":"Some... whatever here",
+				"tanggal":"2021-11-01",
+				"jam":"06:00:00"
+			}
+		},
+		"ttd":{
+			"kota":"Banjarnegara",
+			"tanggal":"2021-11-01",
+			"mpp":"Some name here"
+		}
+	}
+}

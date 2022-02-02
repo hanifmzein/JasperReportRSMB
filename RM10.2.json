@@ -1,0 +1,41 @@
+{
+	"nama_dpjp":"Jane",
+	"pemberi_informasi":"Sutikno",
+	"penerima_informasi":"Steven",
+	"diberikan_pada":{
+		"tanggal":"2021-11-01",
+		"jam":"06:00:00"
+	},
+	"informasi":{
+		"pengertian_tranfusi_darah":true,
+		"jenis_darah":true,
+		"tujuan":true,
+		"resiko":true,
+		"tata_cara":true,
+		"lain_lain":{
+			"hemaglobin":42,
+			"eritrosit":12,
+			"hematokrit":41,
+			"lainnya":"Lain lain",
+			"jenis_darah":"O",
+			"jumlah_kantong":30
+		}
+	},
+	"dokter":"Hartanto",
+	"pasien":"Tresno",
+	"reaksi_transfusi":{
+		"no_label_darah":"009431",
+		"tanggal_pengambilan":"2021-11-01",
+		"riwayat_reaksi_tranfusi_sebelumnya":"Kejang kejang",
+		"reaksi_tranfusi_saat_ini":"Santuy",
+		"tindakan_reaksi_tranfusi":{
+			"pilihan":"lain_lain",
+			"lain_lain":"Kasih indomie dan teh anget"
+		},
+		"waktu_pemeriksaan":{
+			"tanggal":"2021-11-01",
+			"jam":"06:00:00"
+		},
+		"nama_petugas":"Kamingsun"
+	}
+}

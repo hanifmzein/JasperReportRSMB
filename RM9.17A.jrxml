@@ -1,0 +1,2134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.18.1.final using JasperReports Library version 6.18.1-9d75d1969e774d4f179fb3be8401e98a0e6d1611  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="RM9.17A" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="66ba98ef-eeb2-450a-af13-d59c6f2143f4">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="RM9.17A.xml"/>
+	<parameter name="server_address" class="java.lang.String">
+		<defaultValueExpression><![CDATA["http://192.168.1.200:5000"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="riwayat_jatuh_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.riwayat_jatuh.pilihan"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.riwayat_jatuh.pilihan]]></fieldDescription>
+	</field>
+	<field name="riwayat_jatuh_skor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.riwayat_jatuh.skor"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.riwayat_jatuh.skor]]></fieldDescription>
+	</field>
+	<field name="diagnosa_sekunder_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.diagnosa_sekunder.pilihan"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.diagnosa_sekunder.pilihan]]></fieldDescription>
+	</field>
+	<field name="diagnosa_sekunder_skor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.diagnosa_sekunder.skor"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.diagnosa_sekunder.skor]]></fieldDescription>
+	</field>
+	<field name="alat_bantu_jalan_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.alat_bantu_jalan.pilihan"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.alat_bantu_jalan.pilihan]]></fieldDescription>
+	</field>
+	<field name="alat_bantu_jalan_skor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.alat_bantu_jalan.skor"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.alat_bantu_jalan.skor]]></fieldDescription>
+	</field>
+	<field name="terapi_intrevena_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.terapi_intravena.pilihan"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.terapi_intravena.pilihan]]></fieldDescription>
+	</field>
+	<field name="terapi_intrevena_skor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.terapi_intravena.skor"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.terapi_intravena.skor]]></fieldDescription>
+	</field>
+	<field name="gaya_berjalan_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.gaya_berjalan.pilihan"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.gaya_berjalan.pilihan]]></fieldDescription>
+	</field>
+	<field name="gaya_berjalan_skor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.gaya_berjalan.skor"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.gaya_berjalan.skor]]></fieldDescription>
+	</field>
+	<field name="status_mental_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.status_mental.pilihan"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.status_mental.pilihan]]></fieldDescription>
+	</field>
+	<field name="status_mental_skor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.status_mental.skor"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.status_mental.skor]]></fieldDescription>
+	</field>
+	<field name="asesmen_awal_total" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.total"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.total]]></fieldDescription>
+	</field>
+	<field name="asesmen_awal_tanggal" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.waktu.tanggal"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.waktu.tanggal]]></fieldDescription>
+	</field>
+	<field name="asesmen_awal_jam" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_awal.waktu.jam"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_awal.waktu.jam]]></fieldDescription>
+	</field>
+	<field name="ulang_riwayat_jatuh_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.riwayat_jatuh.pilihan"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.riwayat_jatuh.pilihan]]></fieldDescription>
+	</field>
+	<field name="ulang_riwayat_jatuh_skor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.riwayat_jatuh.skor"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.riwayat_jatuh.skor]]></fieldDescription>
+	</field>
+	<field name="ulang_diagnosa_sekunder_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.diagnosa_sekunder.pilihan"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.diagnosa_sekunder.pilihan]]></fieldDescription>
+	</field>
+	<field name="ulang_diagnosa_sekunder_skor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.diagnosa_sekunder.skor"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.diagnosa_sekunder.skor]]></fieldDescription>
+	</field>
+	<field name="ulang_alat_bantu_jalan_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.alat_bantu_jalan.pilihan"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.alat_bantu_jalan.pilihan]]></fieldDescription>
+	</field>
+	<field name="ulang_alat_bantu_jalan_skor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.alat_bantu_jalan.skor"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.alat_bantu_jalan.skor]]></fieldDescription>
+	</field>
+	<field name="ulang_terapi_intravena_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.terapi_intravena.pilihan"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.terapi_intravena.pilihan]]></fieldDescription>
+	</field>
+	<field name="ulang_terapi_intravena_skor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.terapi_intravena.skor"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.terapi_intravena.skor]]></fieldDescription>
+	</field>
+	<field name="ulang_gaya_berjalan_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.gaya_berjalan.pilihan"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.gaya_berjalan.pilihan]]></fieldDescription>
+	</field>
+	<field name="ulang_gaya_berjalan_skor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.gaya_berjalan.skor"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.gaya_berjalan.skor]]></fieldDescription>
+	</field>
+	<field name="ulang_status_mental_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.status_mental.pilihan"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.status_mental.pilihan]]></fieldDescription>
+	</field>
+	<field name="ulang_status_mental_skor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.status_mental.skor"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.status_mental.skor]]></fieldDescription>
+	</field>
+	<field name="ulang_total" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.total"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.total]]></fieldDescription>
+	</field>
+	<field name="ulang_tanggal" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.waktu.tanggal"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.waktu.tanggal]]></fieldDescription>
+	</field>
+	<field name="ulang_jam" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="asesmen_risiko_jatuh_dewasa.asesmen_ulang.waktu.jam"/>
+		<fieldDescription><![CDATA[asesmen_risiko_jatuh_dewasa.asesmen_ulang.waktu.jam]]></fieldDescription>
+	</field>
+	<field name="nama" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="nama"/>
+		<fieldDescription><![CDATA[nama]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="80" splitType="Stretch">
+			<rectangle>
+				<reportElement x="428" y="0" width="282" height="63" uuid="0b9c7ef3-78e9-43fa-a760-0a77e0e7338d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="80" y="0" width="348" height="63" uuid="7d1aac89-5cba-4cb1-b782-28ea3c1bf32a"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="160" y="5" width="180" height="15" uuid="8c5a9ca9-cc05-4c16-aa13-1e9b7d6e0016"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Liberation Serif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RUMAH SAKIT UMUM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="160" y="20" width="180" height="12" uuid="00557331-bb85-4ee0-bfff-3115b3480a61">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PKU MUHAMMADIYAH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="160" y="32" width="180" height="12" uuid="cb076ff3-2bd5-461f-83bf-e9b09bea6123">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BANJARNEGARA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="160" y="44" width="180" height="9" uuid="468a2194-5c86-4da0-a1e8-05ff16ba6d94">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" size="7"/>
+				</textElement>
+				<text><![CDATA[Jln Raya Banjarnegara-Banyumas Km 18 Danaraja,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="160" y="53" width="180" height="9" uuid="e531d73d-d929-47b0-a152-bf477db36c5a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" size="7"/>
+				</textElement>
+				<text><![CDATA[Purwanegara, Banjarnegara]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="460" y="7" width="77" height="10" uuid="32623e4f-35c8-40fe-b03b-2a40037f51f8"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[No. Rekam Medik :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="530" y="5" width="13" height="13" uuid="0305072c-c36d-4f1c-adc5-6b7cb53f6f2f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="543" y="5" width="13" height="13" uuid="f4fd0ba8-276a-4a7e-922f-fb50585fd571">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="556" y="5" width="13" height="13" uuid="ca847770-1ab6-4bb7-9b6d-eeedf34555c9">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="595" y="5" width="13" height="13" uuid="53864100-41dd-4208-861f-d32c424f040c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="582" y="5" width="13" height="13" uuid="49f298eb-c48f-4420-8817-d1a748243373">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="569" y="5" width="13" height="13" uuid="b076f6aa-ac90-48fb-ae3b-d69042be40f3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="460" y="34" width="37" height="10" uuid="9e19af80-061e-4c54-a819-fe9148f4b83c"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Tgl Lahir]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="460" y="48" width="37" height="10" uuid="a1f10b99-a198-4af2-babc-9ac588fffe7a"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Alamat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="499" y="21" width="6" height="10" uuid="24aee46c-e99a-44ac-acd8-b092f7024de1">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="499" y="34" width="6" height="10" uuid="11e38f5e-009b-44d4-8006-13a7d1b1f33f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="499" y="48" width="6" height="10" uuid="6e4d84ae-3ded-4016-8938-d41a0b666689">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="509" y="21" width="109" height="10" uuid="6e030617-e7dc-4c14-a751-7cdb4b24c681"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[............................... (L / P)*]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="509" y="34" width="83" height="10" uuid="49459513-96c5-4764-9b48-1c8eabc3d905"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[...............................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="509" y="48" width="83" height="10" uuid="8ea589f7-93ab-4eed-a5c0-cb289db5b975"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[...............................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="460" y="21" width="37" height="10" uuid="060d80ab-4f38-409b-bd51-ff4747a6409f"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="710" y="0" width="90" height="63" uuid="e5b3e208-38e2-435b-9abf-0be5b799012c"/>
+				<box padding="4">
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[RM
+9.17 A]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="0" width="80" height="63" uuid="d9b8470b-85c8-4778-b7e5-15f296219f1d"/>
+			</rectangle>
+			<image>
+				<reportElement x="15" y="4" width="60" height="55" uuid="e5e60caa-f25d-4a84-bc02-be446f702ad9"/>
+				<imageExpression><![CDATA[new java.net.URL($P{server_address}+"/images/rs/LogoPKU.jpeg")]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<detail>
+		<band height="433" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="16" width="16" height="32" uuid="4498a331-a22f-4c4c-8840-6de3eeb46229"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[NO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="16" width="272" height="32" uuid="086f3397-9a12-4b9e-b077-b5fe2b826b48"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[PENGKAJIAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="16" width="64" height="32" uuid="cd0f1f40-a7e3-467e-987c-3eff629f69b6"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[STANDAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="352" y="16" width="64" height="32" uuid="2a22f587-5e0f-4df4-ae37-c016806d758c"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[ASESMEN
+AWAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="416" y="16" width="64" height="32" uuid="6d0b47db-8cdd-4ce5-acd8-13f627283a5a"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[ASESMEN
+ULANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="480" y="16" width="64" height="32" uuid="636f9d2e-1d9a-4e2e-abe8-57f04793bb7a"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[ASESMEN
+ULANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="544" y="16" width="64" height="32" uuid="2b735d6b-f856-458c-ad21-41b2d6cdbab3"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[ASESMEN
+ULANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="608" y="16" width="64" height="32" uuid="b161a83c-83d6-4b93-af6a-ecdbbf5b0e74"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[ASESMEN
+ULANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="672" y="16" width="64" height="32" uuid="27cbb7f2-d0c9-4ccd-9c99-761a1a77747b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[ASESMEN
+ULANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="64" width="272" height="16" uuid="229520ee-40a4-49fc-a058-d72caac58090"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Apakah pasien pernah jatuh dalam 3 (tiga) bulan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="48" width="32" height="16" uuid="9bca871d-d132-47b6-8859-ce6fa9eb8b44"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Tidak]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="48" width="32" height="16" uuid="c334e7eb-db6b-495d-820d-df1a2d098c5b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[0]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="48" width="272" height="16" uuid="a592a33c-6859-4b68-baef-f73be2ef52a4"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Riwayat jatuh : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="80" width="272" height="16" uuid="0f65b8db-4daf-4f1e-a3d5-9267a870d52e"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Diagnosa sekunder :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="96" width="272" height="16" uuid="14893ada-bfe5-4813-b3b6-990001910757"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Apakah pasien memiliki lebih dari satu penyakit?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="112" width="272" height="16" uuid="0e4f80fc-e0a2-4e2d-bd20-a753b70306be"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Alat bantu jalan :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="128" width="272" height="16" uuid="78d1ee11-0ec9-4099-8815-53f8a4d4cd29"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[- Bed rest/dibantu pesawat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="144" width="272" height="16" uuid="ee6e2f40-f72e-4695-bbd9-68597ebfd6f1"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[- Kruk/tongkat/walker]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="160" width="272" height="16" uuid="9a8bf66a-27c2-4bda-8652-3bf7055c3aba"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[- Berpegangan pada benda-benda di sekitar]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="176" width="272" height="16" uuid="50a0339e-751e-495a-b792-d87d3e25bc11"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Terapi intravena :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="208" width="272" height="16" uuid="b1bbb6c8-1672-491b-9263-d728939d6a97"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Gaya berjalan/cara berpindah:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="240" width="272" height="16" uuid="d77696d3-c1fd-4d57-938b-27f14b318068"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[- Lemah (tidak bertenaga)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="224" width="272" height="16" uuid="059b256c-b306-4414-8b68-35f81bd6b9fd"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[- Normal/bed rest/immobile (tidak dapat bergerak)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="192" width="272" height="16" uuid="097930e8-b077-4e67-a338-17990000c08d"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Apakah saat ini pasien terpasang infus?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="256" width="272" height="16" uuid="3d226b73-4110-4d98-b258-d26f555d5a1c"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[- Gangguan/tidak normal (pincang/diseret)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="288" width="272" height="16" uuid="5ef01782-956d-4460-b72b-75dcea1a5c57"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[- Pasien menyadarai kondisi dirinya]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="304" width="272" height="16" uuid="1677f85a-2a4c-4f97-8702-904a78d05e62"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[- Pasien mengalami keterbatasan daya ingat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="272" width="272" height="16" uuid="f34e4cd2-70eb-4082-b5be-4a1c6d3233d1"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Status mental : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="64" width="32" height="16" uuid="9a8a8dcf-c608-45ae-a707-5426fa938d4e"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Ya]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="96" width="32" height="16" uuid="92e28c47-b127-4a5c-8deb-b46f597f3205"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Ya]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="80" width="32" height="16" uuid="2e49440d-b72c-4845-bb14-fbcaed0c3835"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Tidak]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="192" width="32" height="16" uuid="e91bf714-4816-4413-81f2-3712f6ab8ebc"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Ya]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="176" width="32" height="16" uuid="c088cffb-a750-4ced-afca-6149b91d8dd8"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Tidak]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="64" width="32" height="16" uuid="52a582ae-fe8d-42e1-8b5d-16d0eadbebb5"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[25]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="80" width="32" height="16" uuid="d9b12e9c-666d-4bd5-a129-6dab9e90e939"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[0]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="96" width="32" height="16" uuid="bd9d8b7f-6d73-48eb-aa1d-dbb910ed410e"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[25]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="112" width="32" height="32" uuid="d6ce294a-6e45-4cab-ab47-0139f9ea5313"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[0]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="144" width="32" height="16" uuid="fffd3447-0038-42fe-b964-a5e687bca7f0"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[15]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="160" width="32" height="16" uuid="0b186305-dc0e-42e1-a4aa-23df101dff71"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[30]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="176" width="32" height="16" uuid="6d3e1c0b-4c34-41f2-83cc-1d0bb15b1597"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[0]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="192" width="32" height="16" uuid="2631b223-8fbe-4319-bc90-0f5787fe05d6"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[20]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="240" width="32" height="16" uuid="4a650e4a-0aca-478a-bc3e-d5f3654162cf"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[10]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="256" width="32" height="16" uuid="0ed6ad83-b740-4189-b55a-9b8ab3fb8205"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[20]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="208" width="32" height="32" uuid="18530fa8-3796-472d-9af2-8532adf8f954"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[0]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="272" width="32" height="32" uuid="4b71a8b5-42fa-421d-acf8-e8f5454ecf1e"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[0]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="304" width="32" height="16" uuid="1e77f23f-e77c-4a8f-8382-cc84f65525f6"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[15]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="112" width="32" height="32" uuid="47e501c3-d101-4a9c-9859-aeaefb39a173"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="144" width="32" height="16" uuid="9546fd78-a451-4fdd-9f5d-8bb6a06ca109"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="160" width="32" height="16" uuid="00306cf5-fcd1-4d0f-a17d-0659ff0425cd"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="256" width="32" height="16" uuid="be51d032-f52b-4f50-bf7f-95f0a896165c"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="272" width="32" height="32" uuid="0b092254-0b00-43cb-a51d-382e625fdd32"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="240" width="32" height="16" uuid="dbf4d80d-24fd-4e3b-91da-39b2dc227427"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="208" width="32" height="32" uuid="d981375c-94e5-4d3c-abbf-7941d73fdc74"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="304" width="32" height="16" uuid="c1edf24b-d1d3-4596-a3e8-bd9702b8e399"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="48" width="16" height="32" uuid="f2d2ef84-ce99-453e-8b81-84c2c40c4c78"/>
+				<box topPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="80" width="16" height="32" uuid="31c9670c-cd85-4d38-ba57-f8eaddbeafb7"/>
+				<box topPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top"/>
+				<text><![CDATA[2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="112" width="16" height="63" uuid="d3eb40fc-a59b-473d-b2ca-dd1093101509"/>
+				<box topPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top"/>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="175" width="16" height="33" uuid="f8c182a8-b069-49b2-83a7-9b007340c6f8"/>
+				<box topPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top"/>
+				<text><![CDATA[4]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="208" width="16" height="64" uuid="441cb300-9922-418c-8fd3-9caaabb5a742"/>
+				<box topPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top"/>
+				<text><![CDATA[5]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="272" width="16" height="48" uuid="b164a43f-e5c7-49eb-bcb6-0468d18a1198"/>
+				<box topPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top"/>
+				<text><![CDATA[6]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="352" y="144" width="64" height="16" uuid="beb1120e-f738-4cb6-82e2-5d0a0a0d2959"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{alat_bantu_jalan_pilihan}.contains("tongkat")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="352" y="160" width="64" height="16" uuid="de9b040f-84e7-44b7-a651-9eed30242b04"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{alat_bantu_jalan_pilihan}.contains("Berpegangan")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="352" y="176" width="64" height="32" uuid="fc5725be-7d5b-4bad-8461-9074441dbe57"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{terapi_intrevena_pilihan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="352" y="80" width="64" height="32" uuid="15904bd3-3a51-404a-9468-be475ab58000"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{diagnosa_sekunder_pilihan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="352" y="48" width="64" height="32" uuid="074325d5-4471-4d7f-9caa-6992800e063e"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{riwayat_jatuh_pilihan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="352" y="256" width="64" height="16" uuid="5c492930-a2b0-4658-9cb7-26561dd24f47"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{gaya_berjalan_pilihan}.contains("Gangguan")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="352" y="272" width="64" height="32" uuid="f7400eaf-dbf5-44d4-b3bb-73b571932dc4"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{status_mental_pilihan}.contains("menyadari kondisi")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="352" y="240" width="64" height="16" uuid="04085ac5-e392-430a-903a-768d06975c75"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{gaya_berjalan_pilihan}.contains("Lemah")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="352" y="112" width="64" height="32" uuid="ead11221-d6e1-47aa-ac27-12bdda383285"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{alat_bantu_jalan_pilihan}.contains("Bed rest")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="352" y="208" width="64" height="32" uuid="94296b24-76fd-45e3-b4ee-209dad752aae"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{gaya_berjalan_pilihan}.contains("Normal")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="352" y="304" width="64" height="16" uuid="41b74004-590f-4564-9000-a9cd6783b6e5"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{status_mental_pilihan}.contains("mengalami")?"V":""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="416" y="240" width="64" height="16" uuid="bd7a1832-1b5d-4d68-ae97-a2599816f218"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=1)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[0].contains("Lemah")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="416" y="304" width="64" height="16" uuid="3129584c-9aaa-48a8-ba5f-eb5d5a78f59b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",").length>=1)?($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",")[0].contains("mengalami")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="416" y="112" width="64" height="32" uuid="08b02f7b-1d39-4653-8e78-c47a79d65f0b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",").length>=1)?($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",")[0].contains("Bed rest")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="416" y="80" width="64" height="32" uuid="21e38e24-b43c-4487-a41d-da3873fbfdac"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_diagnosa_sekunder_pilihan}.substring(1, $F{ulang_diagnosa_sekunder_pilihan}.length()-1).replace("\"","").split(",").length>=1)?$F{ulang_diagnosa_sekunder_pilihan}.substring(1, $F{ulang_diagnosa_sekunder_pilihan}.length()-1).replace("\"","").split(",")[0]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="416" y="256" width="64" height="16" uuid="333b6995-c3c9-4b11-bb2d-5f9f61e95489"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=1)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[0].contains("Gangguan")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="416" y="144" width="64" height="16" uuid="d611385b-89aa-43ce-86b8-4abf456452f8"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",").length>=1)?($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",")[0].contains("tongkat")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="416" y="160" width="64" height="16" uuid="c4bc4223-7a51-4a91-b0e7-2387be4d2280"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",").length>=1)?($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",")[0].contains("Berpegangan")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="416" y="208" width="64" height="32" uuid="1893f222-2d32-410c-b74a-c6c402d9acb9"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=1)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[0].contains("Normal")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="416" y="272" width="64" height="32" uuid="7ccc32d6-822b-47c3-9aea-e5ef81e25396"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",").length>=1)?($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",")[0].contains("menyadari kondisi")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="416" y="176" width="64" height="32" uuid="dcbd2cb7-0661-446e-ac2a-9ae026604b67"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_terapi_intravena_pilihan}.substring(1, $F{ulang_terapi_intravena_pilihan}.length()-1).replace("\"","").split(",").length>=1)?$F{ulang_terapi_intravena_pilihan}.substring(1, $F{ulang_terapi_intravena_pilihan}.length()-1).replace("\"","").split(",")[0]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="416" y="48" width="64" height="32" uuid="dbc5ce70-709a-4a92-a39f-a75e750bc541"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",").length>=1)?$F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",")[0]:""]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="320" width="320" height="16" uuid="c3c1e531-d71e-4047-a6cf-371fa3ff956a"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Total Nilai]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="336" width="320" height="16" uuid="f5e7e378-013b-4754-b48d-733a2f742928"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[TANGGAL DAN JAM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="352" width="320" height="16" uuid="84af1661-3747-4434-b2b7-32da0a03fe08"/>
+				<box leftPadding="2">
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Keterangan : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="368" width="128" height="16" uuid="e99e351f-8d6a-439d-863f-9e717d5e53a2"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Tingkatan Resiko]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="128" y="368" width="80" height="16" uuid="e3763a5f-dad0-4cf3-9f97-34c33885b2d3"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Nilai MFS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="384" width="128" height="16" uuid="17fe4148-6d1d-4ad6-9692-fdbc763e2648"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Tidak beresiko]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="400" width="128" height="16" uuid="67d54c8e-b76c-4161-9e18-c15769c1d3a4"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Resiko rendah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="416" width="128" height="16" uuid="aa010ae1-ba7d-47df-9e46-2e9aa1a083f5"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Resiko tinggi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="128" y="384" width="80" height="16" uuid="5c4cc66d-9949-4d4a-bef1-c474d63b2a3c"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[0-24]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="128" y="416" width="80" height="16" uuid="36eb22ee-a992-4484-8536-709e54851b53"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[>50]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="128" y="400" width="80" height="16" uuid="e5479571-4d8f-4e92-a798-de4d3a354f22"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[25-50]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="384" width="272" height="16" uuid="32f93383-261b-4a18-9a3c-9d9615237bb2"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Perawatan dasar]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="416" width="272" height="16" uuid="ea86f0d9-cdf9-4e6c-8d21-52df6901da6e"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Pelaksanaan intervensi pencegahan jatuh resiko tinggi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="400" width="272" height="16" uuid="6352e477-22a6-4c8c-9c4a-e2fc3c120304"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Pelaksanaan intervensi pencegahan jatuh standar]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="368" width="272" height="16" uuid="9fbcaf51-1544-4128-bb7f-28ededea5ac2"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Tindakan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="800" height="16" uuid="5fca1eff-bc08-4290-b238-1831309208d2"/>
+				<box leftPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ASESMEN RESIKO JATUH DEWASA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="576" y="416" width="224" height="16" uuid="a5eeb9d0-233c-4cbf-aaea-6bb75e2421e9"/>
+				<box leftPadding="2">
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[nama periksa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="576" y="400" width="224" height="16" uuid="cbca4d53-e4dd-4b45-ac39-7434afea6b3a"/>
+				<box leftPadding="2">
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[tanda tangan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="736" y="16" width="64" height="32" uuid="03d590f4-5e44-4a4b-9411-fb42da58c3a6"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[ASESMEN
+ULANG]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="480" y="272" width="64" height="32" uuid="d1119791-5d85-4b4b-a5ac-20e2679ea045"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",").length>=2)?($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",")[1].contains("menyadari kondisi")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="144" width="64" height="16" uuid="5ca4766f-323b-4290-91af-aaac28675e89"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",").length>=2)?($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",")[1].contains("tongkat")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="208" width="64" height="32" uuid="eb9ec795-3cad-4894-be63-0e3045029b20"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=2)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[1].contains("Normal")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="160" width="64" height="16" uuid="7f011867-d17e-44cf-9674-41d269fc5e05"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",").length>=2)?($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",")[1].contains("Berpegangan")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="80" width="64" height="32" uuid="38d57e6f-5aff-4584-a51f-64bd7ec26d71"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_diagnosa_sekunder_pilihan}.substring(1, $F{ulang_diagnosa_sekunder_pilihan}.length()-1).replace("\"","").split(",").length>=2)?$F{ulang_diagnosa_sekunder_pilihan}.substring(1, $F{ulang_diagnosa_sekunder_pilihan}.length()-1).replace("\"","").split(",")[1]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="304" width="64" height="16" uuid="6d69c59a-b43b-4dfd-bf0a-8e68c6c3a14b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",").length>=2)?($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",")[1].contains("mengalami")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="240" width="64" height="16" uuid="7e708188-e4df-4ba1-af26-dae1520233f4"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=2)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[1].contains("Lemah")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="48" width="64" height="32" uuid="f4b03bdc-373d-4fdb-bcaa-06bde29dfc59"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",").length>=2)?$F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",")[1]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="176" width="64" height="32" uuid="9be4817b-77f3-4bca-931a-566fd9ccfd9a"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_terapi_intravena_pilihan}.substring(1, $F{ulang_terapi_intravena_pilihan}.length()-1).replace("\"","").split(",").length>=2)?$F{ulang_terapi_intravena_pilihan}.substring(1, $F{ulang_terapi_intravena_pilihan}.length()-1).replace("\"","").split(",")[1]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="256" width="64" height="16" uuid="e177a22b-6499-4430-9fe2-e8c6de703bf2"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=2)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[1].contains("Gangguan")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="112" width="64" height="32" uuid="4337f4bd-3dbd-4a59-b4a4-b164fe140cf1"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",").length>=2)?($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",")[1].contains("Bed rest")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="544" y="272" width="64" height="32" uuid="d1119791-5d85-4b4b-a5ac-20e2679ea045"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",").length>=3)?($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",")[2].contains("menyadari kondisi")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="544" y="144" width="64" height="16" uuid="5ca4766f-323b-4290-91af-aaac28675e89"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",").length>=3)?($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",")[2].contains("tongkat")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="544" y="208" width="64" height="32" uuid="eb9ec795-3cad-4894-be63-0e3045029b20"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=3)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[2].contains("Normal")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="544" y="160" width="64" height="16" uuid="7f011867-d17e-44cf-9674-41d269fc5e05"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",").length>=3)?($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",")[2].contains("Berpegangan")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="544" y="80" width="64" height="32" uuid="38d57e6f-5aff-4584-a51f-64bd7ec26d71"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_diagnosa_sekunder_pilihan}.substring(1, $F{ulang_diagnosa_sekunder_pilihan}.length()-1).replace("\"","").split(",").length>=3)?$F{ulang_diagnosa_sekunder_pilihan}.substring(1, $F{ulang_diagnosa_sekunder_pilihan}.length()-1).replace("\"","").split(",")[2]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="544" y="304" width="64" height="16" uuid="6d69c59a-b43b-4dfd-bf0a-8e68c6c3a14b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",").length>=3)?($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",")[2].contains("mengalami")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="544" y="240" width="64" height="16" uuid="7e708188-e4df-4ba1-af26-dae1520233f4"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=3)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[2].contains("Lemah")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="544" y="48" width="64" height="32" uuid="f4b03bdc-373d-4fdb-bcaa-06bde29dfc59"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",").length>=3)?$F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",")[2]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="544" y="176" width="64" height="32" uuid="9be4817b-77f3-4bca-931a-566fd9ccfd9a"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_terapi_intravena_pilihan}.substring(1, $F{ulang_terapi_intravena_pilihan}.length()-1).replace("\"","").split(",").length>=3)?$F{ulang_terapi_intravena_pilihan}.substring(1, $F{ulang_terapi_intravena_pilihan}.length()-1).replace("\"","").split(",")[2]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="544" y="256" width="64" height="16" uuid="e177a22b-6499-4430-9fe2-e8c6de703bf2"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=3)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[2].contains("Gangguan")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="544" y="112" width="64" height="32" uuid="4337f4bd-3dbd-4a59-b4a4-b164fe140cf1"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",").length>=3)?($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",")[2].contains("Bed rest")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="608" y="272" width="64" height="32" uuid="d1119791-5d85-4b4b-a5ac-20e2679ea045"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",").length>=4)?($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",")[3].contains("menyadari kondisi")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="608" y="144" width="64" height="16" uuid="5ca4766f-323b-4290-91af-aaac28675e89"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",").length>=4)?($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",")[3].contains("tongkat")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="608" y="208" width="64" height="32" uuid="eb9ec795-3cad-4894-be63-0e3045029b20"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=4)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[3].contains("Normal")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="608" y="160" width="64" height="16" uuid="7f011867-d17e-44cf-9674-41d269fc5e05"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",").length>=4)?($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",")[3].contains("Berpegangan")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="608" y="80" width="64" height="32" uuid="38d57e6f-5aff-4584-a51f-64bd7ec26d71"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_diagnosa_sekunder_pilihan}.substring(1, $F{ulang_diagnosa_sekunder_pilihan}.length()-1).replace("\"","").split(",").length>=4)?$F{ulang_diagnosa_sekunder_pilihan}.substring(1, $F{ulang_diagnosa_sekunder_pilihan}.length()-1).replace("\"","").split(",")[3]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="608" y="304" width="64" height="16" uuid="6d69c59a-b43b-4dfd-bf0a-8e68c6c3a14b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",").length>=4)?($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",")[3].contains("mengalami")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="608" y="240" width="64" height="16" uuid="7e708188-e4df-4ba1-af26-dae1520233f4"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=4)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[3].contains("Lemah")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="608" y="48" width="64" height="32" uuid="f4b03bdc-373d-4fdb-bcaa-06bde29dfc59"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",").length>=4)?$F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",")[3]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="608" y="176" width="64" height="32" uuid="9be4817b-77f3-4bca-931a-566fd9ccfd9a"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_terapi_intravena_pilihan}.substring(1, $F{ulang_terapi_intravena_pilihan}.length()-1).replace("\"","").split(",").length>=4)?$F{ulang_terapi_intravena_pilihan}.substring(1, $F{ulang_terapi_intravena_pilihan}.length()-1).replace("\"","").split(",")[3]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="608" y="256" width="64" height="16" uuid="e177a22b-6499-4430-9fe2-e8c6de703bf2"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=4)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[3].contains("Gangguan")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="608" y="112" width="64" height="32" uuid="4337f4bd-3dbd-4a59-b4a4-b164fe140cf1"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",").length>=4)?($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",")[3].contains("Bed rest")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="672" y="272" width="64" height="32" uuid="d1119791-5d85-4b4b-a5ac-20e2679ea045"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",").length>=5)?($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",")[4].contains("menyadari kondisi")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="672" y="144" width="64" height="16" uuid="5ca4766f-323b-4290-91af-aaac28675e89"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",").length>=5)?($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",")[4].contains("tongkat")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="672" y="208" width="64" height="32" uuid="eb9ec795-3cad-4894-be63-0e3045029b20"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=5)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[4].contains("Normal")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="672" y="160" width="64" height="16" uuid="7f011867-d17e-44cf-9674-41d269fc5e05"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",").length>=5)?($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",")[4].contains("Berpegangan")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="672" y="80" width="64" height="32" uuid="38d57e6f-5aff-4584-a51f-64bd7ec26d71"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_diagnosa_sekunder_pilihan}.substring(1, $F{ulang_diagnosa_sekunder_pilihan}.length()-1).replace("\"","").split(",").length>=5)?$F{ulang_diagnosa_sekunder_pilihan}.substring(1, $F{ulang_diagnosa_sekunder_pilihan}.length()-1).replace("\"","").split(",")[4]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="672" y="304" width="64" height="16" uuid="6d69c59a-b43b-4dfd-bf0a-8e68c6c3a14b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",").length>=5)?($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",")[4].contains("mengalami")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="672" y="240" width="64" height="16" uuid="7e708188-e4df-4ba1-af26-dae1520233f4"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=5)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[4].contains("Lemah")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="672" y="48" width="64" height="32" uuid="f4b03bdc-373d-4fdb-bcaa-06bde29dfc59"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",").length>=5)?$F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",")[4]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="672" y="176" width="64" height="32" uuid="9be4817b-77f3-4bca-931a-566fd9ccfd9a"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_terapi_intravena_pilihan}.substring(1, $F{ulang_terapi_intravena_pilihan}.length()-1).replace("\"","").split(",").length>=5)?$F{ulang_terapi_intravena_pilihan}.substring(1, $F{ulang_terapi_intravena_pilihan}.length()-1).replace("\"","").split(",")[4]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="672" y="256" width="64" height="16" uuid="e177a22b-6499-4430-9fe2-e8c6de703bf2"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=5)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[4].contains("Gangguan")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="672" y="112" width="64" height="32" uuid="4337f4bd-3dbd-4a59-b4a4-b164fe140cf1"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",").length>=5)?($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",")[4].contains("Bed rest")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="736" y="272" width="64" height="32" uuid="d1119791-5d85-4b4b-a5ac-20e2679ea045"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",").length>=6)?($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",")[5].contains("menyadari kondisi")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="736" y="144" width="64" height="16" uuid="5ca4766f-323b-4290-91af-aaac28675e89"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",").length>=6)?($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",")[5].contains("tongkat")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="736" y="208" width="64" height="32" uuid="eb9ec795-3cad-4894-be63-0e3045029b20"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=6)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[5].contains("Normal")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="736" y="160" width="64" height="16" uuid="7f011867-d17e-44cf-9674-41d269fc5e05"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",").length>=6)?($F{ulang_alat_bantu_jalan_pilihan}.substring(1, $F{ulang_alat_bantu_jalan_pilihan}.length()-1).replace("\"","").split(",")[5].contains("Berpegangan")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="736" y="80" width="64" height="32" uuid="38d57e6f-5aff-4584-a51f-64bd7ec26d71"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_diagnosa_sekunder_pilihan}.substring(1, $F{ulang_diagnosa_sekunder_pilihan}.length()-1).replace("\"","").split(",").length>=6)?$F{ulang_diagnosa_sekunder_pilihan}.substring(1, $F{ulang_diagnosa_sekunder_pilihan}.length()-1).replace("\"","").split(",")[5]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="736" y="304" width="64" height="16" uuid="6d69c59a-b43b-4dfd-bf0a-8e68c6c3a14b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",").length>=6)?($F{ulang_status_mental_pilihan}.substring(1, $F{ulang_status_mental_pilihan}.length()-1).replace("\"","").split(",")[5].contains("mengalami")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="736" y="240" width="64" height="16" uuid="7e708188-e4df-4ba1-af26-dae1520233f4"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=6)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[5].contains("Lemah")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="736" y="48" width="64" height="32" uuid="f4b03bdc-373d-4fdb-bcaa-06bde29dfc59"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",").length>=6)?$F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",")[5]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="736" y="176" width="64" height="32" uuid="9be4817b-77f3-4bca-931a-566fd9ccfd9a"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_terapi_intravena_pilihan}.substring(1, $F{ulang_terapi_intravena_pilihan}.length()-1).replace("\"","").split(",").length>=6)?$F{ulang_terapi_intravena_pilihan}.substring(1, $F{ulang_terapi_intravena_pilihan}.length()-1).replace("\"","").split(",")[5]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="736" y="256" width="64" height="16" uuid="e177a22b-6499-4430-9fe2-e8c6de703bf2"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",").length>=6)?($F{ulang_gaya_berjalan_pilihan}.substring(1, $F{ulang_gaya_berjalan_pilihan}.length()-1).replace("\"","").split(",")[5].contains("Gangguan")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="736" y="112" width="64" height="32" uuid="4337f4bd-3dbd-4a59-b4a4-b164fe140cf1"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",").length>=6)?($F{ulang_riwayat_jatuh_pilihan}.substring(1, $F{ulang_riwayat_jatuh_pilihan}.length()-1).replace("\"","").split(",")[5].contains("Bed rest")?"V":""):""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="561" y="416" width="175" height="16" uuid="33c1da28-9525-44e4-959f-9376d7886188"/>
+				<box leftPadding="2">
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

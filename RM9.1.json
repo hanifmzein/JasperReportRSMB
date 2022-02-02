@@ -1,0 +1,38 @@
+{
+    "berat_badan": 60,
+    "penyebab_alergi": [
+      {
+        "tanggal": "2019-04-21",
+        "nama_obat": "Paracetamol",
+        "raksi_alergi": "Gatal-gatal"
+      }
+    ],
+    "pengetahuan_alergi": {
+      "pilihan": "Tidak Tahu Ada Alergi",
+      "dari": "",
+      "tanggal_dari": "2019-04-21",
+      "ke": "",
+      "tanggal_ke": "2019-04-21"
+    },
+    "daftar_obat": [
+      {
+        "nama_obat": "Combatrin",
+        "dosis": "1 ml",
+        "waktu": "2019-04-21T13:00:00",
+        "indikasi_obat": "hijau",
+        "dilanjut_ranap": "Ya",
+        "dilanjut_pulang": "Tidak"
+      }
+    ],
+    "konsumsi_obat": {
+      "pilihan": "Saat ini Tidak Mengkonsumsi Obat",
+      "tanggal_diserahkan": "",
+      "nama_penerima": "Siti Mayanti"
+    },
+    "daftar_obat_pulang": "Paracetamol",
+    "diberikan_pasien": {
+      "tanggal_diberikan": "2019-04-21",
+      "nama_pemberi": "Muhammad Rafif Adum Pratama"
+    },
+    "petugas_rekonsiliasi": "Tontowi Prasetyo"
+}

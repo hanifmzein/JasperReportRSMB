@@ -1,0 +1,61 @@
+{
+	"waktu_mulai_cpr":{
+		"tanggal":"2021-11-01",
+		"jam":"06:00:00"
+	},
+	"waktu_panggilan_tim":{
+		"tanggal":"2021-11-01",
+		"jam":"06:00:00"
+	},
+	"waktu_kedatangan_tim":{
+		"tanggal":"2021-11-01",
+		"jam":"06:00:00"
+	},
+	"jenis_kegagalan":"Jantung",
+	"tempat_kejadian":"Jonggol",
+	"jalan_napas":"Oral",
+	"pernapasan":"Mouth to mouth",
+	"irama_jantung":"Asystole",
+	"diagnosa_utama":"Kelelahan",
+	"diagnosa_sekunder":"Kecapaian",
+	"data":[
+		{
+			"jam":"06:00:00",
+			"obat":{
+				"nama":"Pexilecin",
+				"dosis":"2 galon per-3 bulan",
+				"rute":"mulut"
+			},
+			"joule_defib":"Apaan nih, ga bisa basa enggres",
+			"ekg_dan_ttv":{
+				"td":2,
+				"hr":21,
+				"rr":3,
+				"irama":"apa nih"
+			},
+			"catatan_pengembangan":"Catchpharse"
+		},
+		{
+			"jam":"07:00:00",
+			"obat":{
+				"nama":"Amocillin",
+				"dosis":"1 tetes per detik",
+				"rute":"mulut"
+			},
+			"joule_defib":"Apaan nih, ga bisa basa enggres",
+			"ekg_dan_ttv":{
+				"td":21,
+				"hr":1,
+				"rr":23,
+				"irama":"Dangdut"
+			},
+			"catatan_pengembangan":"Catchpharse2"
+		}
+	],
+	"waktu_penghentian_cpr":{
+		"tanggal":"2021-11-01",
+		"jam":"06:00:00"
+	},
+	"keadaan":"ROSC",
+	"dinyatakan_meninggal_oleh":"Tom Hardy"
+}

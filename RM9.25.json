@@ -1,0 +1,51 @@
+{
+	"tanggal_pengkajian":"2021-11-01",
+	"pengkajian_fisik":{
+		"keadaan_umum":"Relatif umum",
+		"gcs":{
+			"e":2,
+			"v":10,
+			"m":2
+		},
+		"tanda_vital":{
+			"tekanan_darah":{
+				"sistole":1,
+				"diastole":2
+			},
+			"nadi":4,
+			"pernafasan":3,
+			"suhu":31,
+			"spo2":31
+		}
+	},
+	"hasil_observasi":"Pasien gelisah atau berontak",
+	"jenis_restrain":{
+		"restrain_non_farmakologi":{
+			"pilihan":"lain_lain",
+			"lain_lain":"Lainnya"
+		},
+		"restrain_farmakologi":"Catchpharse"
+	},
+	"cedera_atau_luka":{
+		"pilihan":"Ada",
+		"ada":"Tidak ada"
+	},
+	"restrain_dilanjutkan":"Ya",
+	"pemberitahuan_kepada_keluarga":{
+		"keluarga_sudah_diberitahu":"Ya",
+		"nama":"Amoled",
+		"hubungan_dengan_pasien":"Saudara"
+	},
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"jam":"06:00:00",
+		"yang_menerima_informasi":{
+			"nama_dpjp":"Syam",
+			"nama_dan_hubungan":{
+				"nama":"Amoled",
+				"hubungan":"Saudara"
+			}
+		}
+	}
+}

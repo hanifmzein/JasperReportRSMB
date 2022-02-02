@@ -1,0 +1,141 @@
+{
+    "waktu": "2019-04-21T13:00:00",
+    "identitas": {
+        "istri": {
+            "nama": "Siti Mayanti",
+            "umur": 25,
+            "agama": "Islam",
+            "pendidikan": "S1",
+            "pekerjaan": "Pegawai Swasta",
+            "alamat": "Jamal"
+        },
+        "suami": {
+            "nama": "Muhammad Rafif Adum Pratama",
+            "umur": 25,
+            "agama": "Islam",
+            "pendidikan": "S1",
+            "pekerjaan": "Pegawai Swasta",
+            "alamat": "Jamal"
+        }
+    },
+    "anamnesa": {
+        "masalah_keluhan": "Reproduksi terlalu lancar",
+        "riwayat_obsteri": {
+            "riwayat_menstruasi": {
+                "menarche": {
+                    "umur": 24,
+                    "teratur_tidak": {
+                        "pilihan": true,
+                        "keterangan": "Sebulan sekali"
+                    },
+                    "siklus": 28,
+                    "lama": 7,
+                    "banyak": 10
+                },
+                "dismenorrhoe": {
+                    "teratur_tidak": {
+                        "pilihan": true,
+                        "keterangan": "-"
+                    },
+                    "lama": 7
+                }
+            },
+            "planning": "Olahraga yang cukup",
+            "asesmen": "Olahraga ringan",
+            "jumlah_anak_hidup": {
+                "laki_laki": {
+                    "ada_tidak": false,
+                    "jumlah": 0
+                },
+                "perempuan": {
+                    "ada_tidak": true,
+                    "jumlah": 2
+                },
+                "total_anak": 2
+            }
+        },
+        "riwayat_kb": {
+            "jenis": "IUD",
+            "lama_pakai": 2,
+            "tanggal_lepas": "2019-04-21"
+        },
+        "riwayat_alergi": "Sea Food",
+        "riwayat_operasi": "Melahirkan",
+        "psiko_spiritual": "Sangat berserah diri"
+    },
+    "gizi_awal": {
+        "penurunan_berat_badan_6_bulan_akhir": {
+            "pilihan": "Tidak",
+            "nilai": 0
+        },
+        "asupan_makan_berkurang": {
+            "pilihan": "Tidak",
+            "nilai": 0
+        },
+        "diagnosa_khusus": {
+            "keterangan": "Tidak ada",
+            "nilai": 0
+        },
+        "khusus_pediatrik": {
+            "lingkar_kepala": 30,
+            "lingkar_lengan_atas": 25
+        },
+        "total_skor": 0
+    },
+    "resiko_jatuh": {
+        "alat_bantu": "Tidak",
+        "sempoyongan": "Tidak",
+        "kesimpulan": "Rendah",
+        "tindakan": "Edukasi"
+    },
+    "skrining_nyeri": {
+        "pilihan": "Ya",
+        "waktu": "2019-04-21T13:00:00",
+        "skala": 4,
+        "lokasi": "Lutut"
+    },
+    "pemeriksaan_fisik": {
+        "tekanan_darah": {
+            "nadi": 20,
+            "respirasi": 80,
+            "suhu": 49,
+            "berat_badan": {
+                "tanggal_lalu": "2019-04-21",
+                "lalu": 60,
+                "sekarang": 60
+            },
+            "tinggi_badan": 170
+        },
+        "abdomen": {
+            "bekas_luka_operasi": "Tidak",
+            "bejolan": "Tidak ada",
+            "ascites": "Tidak",
+            "keadaan": "Normal"
+        },
+        "ano_genital": {
+            "perineum": "Kaku",
+            "keadaan": "Terbilang normal",
+            "kelenjar_bartholini": "Pembengkakan",
+            "anus": "Haemorhoid"
+        },
+        "periksa_inspekulo": "-",
+        "periksa_dalam": "-",
+        "diagnosa": {
+            "isian_diagnosa": "-",
+            "waktu": "2019-04-21T13:00:00"
+        }
+    },
+    "asesmen_status_lokalis": {
+        "pemeriksaan_fisik": "Nampak baik hanya sedikit lunglai",
+        "pemeriksaan_penunjang": "Lab OK, Radiologi OK",
+        "diagnosa_kerja": "Metode 2",
+        "diagnosa_banding": "Metode 5",
+        "perencanaan_pelayanan": {
+            "diagnosis": "Perlu reposisi",
+            "terapi": "Kretek",
+            "monitoring": "Tidak terlalu perlu",
+            "edukasi": "Sudah memahami"
+        }
+    },
+    "nama_dokter": "Dedy Fajar Setyawan"
+}

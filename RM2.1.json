@@ -1,0 +1,30 @@
+{
+    "tanggal_datang": "2019-04-21",
+    "jam_datang": "13:00:00",
+    "jalan_nafas": {
+        "warna": "Hijau",
+        "value": "Paten"
+    },
+    "pernafasan": {
+        "warna": "Hijau",
+        "value": "Normal"
+    },
+    "sirkulasi": {
+        "warna": "Hijau",
+        "value": "Stabil"
+    },  
+    "kesadaran": {
+        "warna": "Hijau",
+        "value": "15"
+    },
+    "nyeri": {
+        "warna": "Hijau",
+        "value": "Ringan"
+    },
+    "kondisi_mental": {
+        "warna": "Hijau",
+        "value": "Kooperatif"
+    },
+    "resiko_penularan_infeksi": "Batuk > 2 minggu dengan demam dan sesak",
+    "petugas_triase": "Siti Mayanti"
+}

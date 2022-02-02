@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.18.1.final using JasperReports Library version 6.18.1-9d75d1969e774d4f179fb3be8401e98a0e6d1611  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Persetujuan_Umum" pageWidth="612" pageHeight="1008" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b33551a6-0ace-49ae-bbb6-9b8a4a06dd48">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="RM10.7.xml"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="server_address" class="java.lang.String">
+		<defaultValueExpression><![CDATA["http://192.168.1.200:5000"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="rumah_sakit_privasi_khusus" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="privasi.rumah_sakit_privasi_khusus"/>
+		<fieldDescription><![CDATA[privasi.rumah_sakit_privasi_khusus]]></fieldDescription>
+	</field>
+	<field name="rumah_sakit_memberi_akses" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="privasi.rumah_sakit_memberi_akses"/>
+		<fieldDescription><![CDATA[privasi.rumah_sakit_memberi_akses]]></fieldDescription>
+	</field>
+	<field name="sebutkan_nama" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="privasi.sebutkan_nama"/>
+		<fieldDescription><![CDATA[privasi.sebutkan_nama]]></fieldDescription>
+	</field>
+	<field name="kebutuhan pendmapingan_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebutuhan_pendampingan.pilihan"/>
+		<fieldDescription><![CDATA[kebutuhan_pendampingan.pilihan]]></fieldDescription>
+	</field>
+	<field name="kebutuhan pendmapingan_oleh" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="kebutuhan_pendampingan.oleh"/>
+		<fieldDescription><![CDATA[kebutuhan_pendampingan.oleh]]></fieldDescription>
+	</field>
+	<field name="nilai_dan_kepercayaan_pilihan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="nilai_dan_kepercayaan_yang_bertetangan.pilihan"/>
+		<fieldDescription><![CDATA[nilai_dan_kepercayaan_yang_bertetangan.pilihan]]></fieldDescription>
+	</field>
+	<field name="nilai_dan_kepercayaan_sebutkan" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="nilai_dan_kepercayaan_yang_bertetangan.sebutkan"/>
+		<fieldDescription><![CDATA[nilai_dan_kepercayaan_yang_bertetangan.sebutkan]]></fieldDescription>
+	</field>
+	<field name="saya_telah_membaca_dan_sepenuhnya_setuju" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="saya_telah_membaca_dan_sepenuhnya_setuju"/>
+		<fieldDescription><![CDATA[saya_telah_membaca_dan_sepenuhnya_setuju]]></fieldDescription>
+	</field>
+	<field name="ttd" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ttd"/>
+		<fieldDescription><![CDATA[ttd]]></fieldDescription>
+	</field>
+	<field name="tanggal" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ttd.tanggal"/>
+		<fieldDescription><![CDATA[ttd.tanggal]]></fieldDescription>
+	</field>
+	<field name="pasien" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ttd.pasien"/>
+		<fieldDescription><![CDATA[ttd.pasien]]></fieldDescription>
+	</field>
+	<field name="pemberi_informasi" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ttd.pemberi_informasi"/>
+		<fieldDescription><![CDATA[ttd.pemberi_informasi]]></fieldDescription>
+	</field>
+	<field name="saksi1" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ttd.saksi1"/>
+		<fieldDescription><![CDATA[ttd.saksi1]]></fieldDescription>
+	</field>
+	<field name="saksi2" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ttd.saksi2"/>
+		<fieldDescription><![CDATA[ttd.saksi2]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="968" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<rectangle>
+				<reportElement x="10" y="10" width="553" height="57" uuid="0633efdd-9ab6-4e63-aac5-4e847c893c39">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="92" y="10" width="180" height="57" uuid="54bc49a5-862e-4b2b-bd10-a1e58d2a4f2c"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="92" y="10" width="180" height="15" uuid="8e275f46-5d19-4c2d-8e7f-8437c0d47c0d"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Liberation Serif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RUMAH SAKIT UMUM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="92" y="25" width="180" height="12" uuid="5879f81e-f6bd-4df4-a8ac-0f8c6fc790c7">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PKU MUHAMMADIYAH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="92" y="37" width="180" height="12" uuid="607139d3-5b2f-4925-a2b6-e7d03250a035">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BANJARNEGARA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="92" y="49" width="180" height="9" uuid="7a16eee0-b46c-4cfb-a909-d5ceb4098996">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" size="7"/>
+				</textElement>
+				<text><![CDATA[Jln Raya Banjarnegara-Banyumas Km 18 Danaraja,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="92" y="58" width="180" height="9" uuid="ee76b710-96b9-41dd-aef9-47bb9248d8a0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Liberation Serif" size="7"/>
+				</textElement>
+				<text><![CDATA[Purwanegara, Banjarnegara]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="275" y="13" width="77" height="10" uuid="0bf2a617-23fb-46f9-b6d4-f6a2c50bf3db"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[No. Rekam Medik :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="355" y="12" width="13" height="13" uuid="e80976a3-fcf1-442c-9bc2-e6d7c345eccf">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="368" y="12" width="13" height="13" uuid="063229f7-87a1-44a6-ab3b-3d5d9d7b73c9">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="381" y="12" width="13" height="13" uuid="6f85a6a7-b86a-4aa0-bf27-bc11aa2228da">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="420" y="12" width="13" height="13" uuid="5b031e15-7e12-4f19-9cdf-b31a7273e3f0">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="407" y="12" width="13" height="13" uuid="558b49f1-dbf9-4a9d-a757-4245f48fc5bc">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="394" y="12" width="13" height="13" uuid="78be6db8-321f-48c2-9924-2972abe7e2fe">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="275" y="40" width="37" height="10" uuid="5199035f-2c55-4426-a222-828d234d531c"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Tgl Lahir]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="275" y="54" width="37" height="10" uuid="eedc2cb3-dd62-4677-a7ef-6cf88d74b9e0"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Alamat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="314" y="27" width="6" height="10" uuid="88f2fabc-562f-48ba-87cf-e19dc938c27f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="314" y="40" width="6" height="10" uuid="0567fd76-1644-45dc-98bb-27d2da1b9acf">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="314" y="54" width="6" height="10" uuid="9a2e8caf-b04b-4cd7-ab8d-cc7c8550075a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="324" y="27" width="109" height="10" uuid="21e6a143-e684-4fb4-a1be-489bfceb409a"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[............................... (L / P)*]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="324" y="40" width="83" height="10" uuid="95a0a1f9-330d-45bb-b1ae-ad93ba0d6697"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[...............................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="324" y="54" width="83" height="10" uuid="f41034b6-8359-4e9f-bed1-e4a11f8ac168"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[...............................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="275" y="27" width="37" height="10" uuid="60d92515-3936-433e-ab45-2690f57670f9"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="510" y="10" width="53" height="57" uuid="108dd198-b0a9-4f0e-95b9-ddcfab9689ed"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="510" y="10" width="52" height="56" uuid="e2ed9323-4f4e-4100-9ec3-d2576f16a2de"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="67" width="553" height="17" uuid="98c5d787-b4a6-4b58-a6e1-3c4d3e44b908">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[PERSETUJUAN UMUM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="84" width="553" height="17" uuid="e095c3d4-2e1c-465d-a896-a9f450806646">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[A. HAK DAN KEWAJIBAN SEBAGAI PASIEN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="101" width="536" height="39" uuid="da16e945-66ef-49f3-8f7f-38c91b503ef9"/>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Saya mengakui bahwa pada proses pendaftaran untuk mendapatkan perawatan di RSU PKU Muhammadiyah Banjarnegara dan penandatanganan dokumen ini, saya telah mendapat informasi tentang hak-hak dan kewajiban saya sebagai pasien.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="140" width="73" height="17" uuid="a2ba3d6d-1ea0-45bf-baa1-94ee7cab2116">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HAK PASIEN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="157" width="535" height="13" uuid="2e81bfdb-5cba-45aa-a060-04ec71e0d742"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[1. Memperoleh informasi mengenai tata tertib dan peraturan yang berlaku di RSU PKU Muhammadiyah Banjarnegara]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="170" width="535" height="13" uuid="65b4120d-8942-4218-86d6-9bfbd029f197"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[2. Memperoleh informasi tentang hak dan kewajiban pasien]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="183" width="535" height="13" uuid="11aeca9c-3a15-4d60-a602-13837eb9081a"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3. Memperoleh layanan yang manusiawi, adil, jujur dan tanpa diskriminasi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="196" width="535" height="13" uuid="a4b93bc5-5bcf-4543-8245-4d4f208694a6"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[4. Memperoleh layanan kesehatan yang bermutu sesuai standar profesi dan standar prosedur operasional]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="235" width="535" height="13" uuid="424728c0-ee56-4838-be4b-7e307bc0dd7f"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[7. Memilih dokter dan kelas perawatan sesuai keinginannya dan peraturan yang berlaku di rumah sakit]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="222" width="535" height="13" uuid="af022b93-4204-46b9-bec6-47390dcf5aaa"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[6. Mengajukan pengaduan atas kualitas pelayanan yang didapatkan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="209" width="535" height="13" uuid="b2825e8c-7d7a-4944-b925-9b62b920a5df"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[5. Memperoleh layanan yang efektif dan efisien sehingga pasien terhindar dari kerugian fisik dan materi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="248" width="535" height="26" uuid="ae5003ba-3d89-482b-ba69-ba57aa6283b3"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[8. Meminta konsultasi tentang penyakit yang dideritanya pada dokter lain yang mempunyai surat ijin praktek (SIP) baik dalam maupun diluar rumah sakit]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="274" width="535" height="13" uuid="4a116147-b17b-4b15-8a57-27fea1546b42"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[9. Mendapatkan privasi dan kerahasiaan penyakit yang diderita termasuk data data medisnya]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="287" width="535" height="33" uuid="f6b0026d-b922-473f-bab4-733ea7cac028"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[10. Mendapatkan informasi yang meliputi diagnosa dan tata cara tindakan medis, tujuan tindakan medis, alternatif tindakan, resiko dan komplikasi yang mungkin terjadi dan prognosis terhadap tindakan yang akan dilakukan serta perkiraan biaya pengobatan.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="320" width="535" height="21" uuid="3fc1debb-0d96-49bd-9ac4-0d4d7b7f7170">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[11. Memberikan persetujuan atau menolak atas tindakan yang akan dilakukan oleh tenaga kesehatan terhadap penyakit yang dideritanya]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="341" width="535" height="13" uuid="8814b84e-b0b9-451e-861f-e9433894cf67"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[12. Didampingi keluarganya dalam keadaan kritis]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="354" width="535" height="13" uuid="b6da49ba-65e9-411f-87fc-3400102004c5"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[13. Menjalankan ibadah sesuai agama dan kepercayaan yang dianutnya selama itu tidak mengganggu pasien lain.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="367" width="535" height="13" uuid="fd266623-9b46-4d88-a868-b4e37fbefa86"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[14. Memperoleh keamanan dan keselamatan dirinya selama dalam perawatan di rumah sakit.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="380" width="535" height="13" uuid="1f1317fb-19b4-4565-8a9a-9b6e8ac92369"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[15. Mengajukan usul,saran perbaikan atas perlakuan rumah sakit terhadap dirinya.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="393" width="535" height="13" uuid="db62089c-5c22-45e4-90be-3486a7f5188c"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[16. Menolak bimbingan rohani yang tidak sesuai dengan agama dan kepercayaan yang dianutnya.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="406" width="535" height="24" uuid="13df26b5-ec03-4da9-8430-045d63c56a6e"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[17. Menggugat atau menuntut rumah sakit jika rumah sakit diduga memberikan pelayanan yang tidak sesuai dengan standar baik secara perdata maupun pidana.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="430" width="535" height="24" uuid="1be42654-17f5-4c9e-acad-f39c9ab4ad30"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[18. Mengeluhkan pelayanan rumah sakit yang tidak sesuai dengan standar pelayanan melalui media cetak dan elektronik sesuai dengan ketentuan peraturan perundang-undangan.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="454" width="423" height="17" uuid="be2078a8-b7db-419e-9f94-702a0c2b884e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HAL-HAL YANG MENJADI KEWAJIBAN PASIEN / KELUARGA ADALAH :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="471" width="535" height="13" uuid="6e95cac1-afd1-4db3-a8cb-2fc97e07da29"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[1. Memberikan informasi yang lengkap dan jujur tentang masalah kesehatannya]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="484" width="535" height="13" uuid="9d279537-1b8d-4695-b10a-006c8c00155e"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[2. Mematuhi nasehat dan petunjuk dokter]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="497" width="535" height="13" uuid="26f39b24-59e6-4efa-a7bd-e9af96d49374"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3. Mematuhi ketentuan yang berlaku di sarana pelayanan kesehatan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="510" width="535" height="13" uuid="ca345005-3f96-4ba3-9c12-6e5d4fdd73f1"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[4. Memberikan imbalan jasa atas pelayanan yang diberikan rumah sakit]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="523" width="535" height="13" uuid="b3a6f610-2422-4b45-a2ec-6d5d2c4597f6"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[5. Memenuhi hal-hal yang telah disepakati / perjanjian yang telah dibuat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="536" width="220" height="13" uuid="4c597dc8-e502-4c84-8b6b-4f32e4fe5738">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B. PERSETUJUAN PELAYANAN KESEHATAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="549" width="535" height="95" uuid="f9180ad8-c83f-49ce-8c6e-3d13d79fba7f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Saya menyetujui dan memberikan persetujuan untuk mendapat pelayanan kesehatan di RSU PKU Muhammadiyah Banjarnegara dan dengan ini meminta dan memberikan kuasa kepada RSU PKU Muhammadiyah Banjarnegara, dokter dan perawat dan tenaga kesehatan lainnya untuk memberikan perawatan, pemeriksaan fisik yang akan dilakukan oleh dokter dan perawat dan melakukan prosedur diagnostik, radiologi dan atau terapi dan tatalaksana sesuai pertimbangan dokter yang diperlukan atau disaranakan pada perawatan saya. Hal ini mencakup seluruh pemeriksaan dan prosedur diagnostik rutin, termasuk x-ray, pemberian dan atau tindakan medis penyuntikan (intramuskular, intravena dan prosedur invasif lainnya) produk farmasi dan obat-obatan, pemasangan alat kesehatan (kecuali yang membutuhkan persetujuan khusus/tertulis), dan pengambilan darah untuk pemeriksaan laboratorium atau pemeriksaan patologi yang dibutuhkan untuk pengobatan dan tindakan yang aman.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="644" width="220" height="13" uuid="0a12fa7c-7d7e-45e1-bc2e-5c10646c19fe">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[C. INFORMASI RAWAT INAP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="657" width="535" height="53" uuid="d88ef17e-b4d8-4bd0-91dc-31a25ef00bd5">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Saya telah menerima informasi tentang peraturan yang diberlakukan oleh rumah sakit dan saya beserta keluarga bersedia untuk mematuhinya termasuk akan mematuhi jam berkunjung pasien sesuai dengan aturan di rumah sakit. Anggota Keluarga saya yang menunggu saya, bersedia untuk selalu memakai tanda pengenal khusus yang diberikan oleh rumah sakit, dan demi keamanan seluruh pasien setiap keluarga dan siapapun yang akan mengunjungi saya diluar jam berkunjung bersedia untuk diminta atau diperiksa identitasnya]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="710" width="220" height="13" uuid="585391bf-5e1b-49fe-b42b-bcb3a3cdd7ad">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[D. PRIVASI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="723" width="535" height="21" uuid="281cbcdf-170d-45bf-87d6-11ff920598a9">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[1. Saya memberi kuasa pada RSU PKU Muhammadiyah Banjarnegara untuk menjaga privasi dan kerahasiaan penyakit saya selama dalam perawatan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="744" width="535" height="13" uuid="f6a025ff-ea45-4a1f-9e3f-c1d48d1dbbc5">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[2. Saya menginginkan / tidak menginginkan *) Rumah sakit privasi khusus. Sebutkan jika ada permintaan khusus]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="757" width="535" height="33" uuid="10475b81-1a7e-4c6f-9e27-e7eb1ea7524e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3. Saya menginginkan / tidak menginginkan *) rumah sakit memberi akses bagi : keluarga dan handai tualan serta orang-orang yang akan menengok / menemui saya serta untuk memberikan informasi tentang kondisi kesehatan, asuhan dan pengobatan saya pada anggota keluarga saya]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="790" width="535" height="13" uuid="d10a9eb7-87cf-4c05-baf0-663b6726398b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[4. Sebutkan nama ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="803" width="10" height="13" uuid="fb1d0768-7e01-4321-b4ab-52f4d281ddff">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[a.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="816" width="10" height="13" uuid="9943b6bb-6075-4fab-8ccb-d3db63b9347b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[b.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="829" width="220" height="13" uuid="1fa78df8-596c-4f12-a4b1-e24de31766d0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[B. RAHASIA KEDOKTERAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="842" width="535" height="33" uuid="2cf8fb6f-c7d1-4787-a604-661cece3e41d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Saya setuju RSU PKU Muhammadiyah Banjarnegara wajib menjamin rahasia kedokteran saya baik untuk kepentingan perawatan atau pengobatan, pendidikan maupun penelitian kecuali saya mengungkapkan sendiri atau orang lain yang saya beri kuasa sebagai penjamin.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="875" width="220" height="13" uuid="f35615f1-24a8-4323-8b49-63a7296b2d9d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[C. MEMBUKA RAHASIA KEDOKTERAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="888" width="535" height="33" uuid="c7d6bc41-4eb3-45d7-b4f7-5de498a9215e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Saya setuju untuk membuka rahasia kedokteran terkait dengan kondisi kesehatan, asuhan dan pengobatan yang saya terima kepada : Dokter dan tenaga kesehatan lain yang memberikan asuhan kepada saya, perusahaan asuransi kesehatan atau perusahaan lainnya atau pihak lain yang menjamin pembiayaan saya.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="50" y="803" width="215" height="13" uuid="437d1c6a-6f68-475f-b247-4596a4b5c237">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{sebutkan_nama}.substring(1, $F{sebutkan_nama}.length()-1).replace("\"","").split(",").length>=1)?$F{sebutkan_nama}.substring(1, $F{sebutkan_nama}.length()-1).replace("\"","").split(",")[0]:""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="816" width="215" height="13" uuid="5dcb46d9-189a-4737-84fa-c7e0db277830">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{sebutkan_nama}.substring(1, $F{sebutkan_nama}.length()-1).replace("\"","").split(",").length>=2)?$F{sebutkan_nama}.substring(1, $F{sebutkan_nama}.length()-1).replace("\"","").split(",")[1]:""]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="22" y="11" width="60" height="55" uuid="29f06bc6-3ecf-4f75-9649-b2034b85a6a5"/>
+				<imageExpression><![CDATA[new java.net.URL($P{server_address}+"/images/rs/LogoPKU.jpeg")]]></imageExpression>
+			</image>
+		</band>
+		<band height="968">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<rectangle>
+				<reportElement x="10" y="520" width="266" height="110" uuid="ebf11f84-9328-45bf-adba-4ac0e23577df">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="10" width="220" height="13" uuid="8188e8d1-ca57-41df-8178-9455659718a1">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[D. BARANG PRIBADI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="23" width="535" height="47" uuid="d8b79f5a-d2b2-44f5-8aa0-6aee1221b510">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Saya setuju untuk tidak membawa barang-barang berharga yang tidak dibutuhkan (seperti : perhiasan, elektronik dll) selama dalam perawatan di RSU PKU Muhammadiyah Banjarnegara. Saya memahami dan menyetujui bahwa apabila saya membawanya, maka RSU PKU Muhammadiyah Banjarnegara tidak bertanggungjawab terhadap kehilangan, kerusakan dan pencurian.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="70" width="220" height="13" uuid="ae73a8ee-9e7d-4f3f-b943-6d7ba2c434c4">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[E. PENGEJUAN KELUHAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="83" width="535" height="37" uuid="31c9e1b4-bf23-4fb7-a491-fe7dce9875f8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Saya menyatakan bahwa saya telah menerima informasi tentang tatacara mengajukan dan mengatasi keluhan terkait pelayanan medik yang diberikan terhadap diri saya. Saya setuju untuk mengikuti tatacara mengajukan keluhan sesuai prosedur yang ada.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="120" width="220" height="13" uuid="78c4b351-7a9c-4b2a-b9b6-14a7de841432">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[F. KEWAJIBAN PEMBAYARAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="27" y="133" width="535" height="47" uuid="996ef323-9a97-4bd2-9bee-4fab0e07b608">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Saya menyatakan setuju, baik sebagai wali atau sebagai pasien, bahwa sesuai pertimbangan pelayanan yang diberikan pada pasien, maka saya wajib untuk membayar total biaya pelayanan. Biaya pelayanan berdasarkan acuan biaya dan ketentuan RSU PKU Muhammadiyah Banjarnegara. Apabila menggunakan kartu jaminan kesehatan maka pembiayaan disesuaikan dengan ketentuan yang berlaku.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="180" width="220" height="13" uuid="f7c2452f-24a6-4192-9f32-efa70055fc2f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[G. KEBUTUHAN PENDAMPINGAN]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="29" y="196" width="7" height="7" uuid="911c8dbe-a662-4bce-829f-75974868fc4c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="41" y="193" width="30" height="13" uuid="7e6aa099-68eb-4c0e-9e8a-2d9d8f7adaae"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Tidak]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="29" y="209" width="7" height="7" uuid="488f6685-ce77-400a-ab64-d480cdd3ede5">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="41" y="206" width="51" height="13" uuid="0c8a1752-3d78-41a7-8c21-2bbb8c04ccb2"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Ya, Oleh]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="219" width="302" height="13" uuid="08cdae6f-ad78-47cc-8505-b76a8bebb3f1">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[H. NILAI NILAI DAN KEPERCAYAAN YANG BERTETANGAN ]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="29" y="235" width="7" height="7" uuid="75b39b06-328f-4be3-b77e-113350eadb2f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="41" y="232" width="30" height="13" uuid="3fd2893b-915a-4e1d-9c72-fd045bdfb52a"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Tidak]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="41" y="245" width="59" height="13" uuid="de8b3013-b2cd-4386-b99d-71645de1b4b0"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Ya, sebutkan]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="29" y="248" width="7" height="7" uuid="8f968df5-1ee7-4270-a6c2-b62a74dd69a6">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="29" y="258" width="521" height="13" uuid="0c966d0f-7aa8-4234-a00b-b09fc67750dd"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Saya juga menyadari dan memahami bahwa :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="29" y="271" width="532" height="25" uuid="d3dacb13-c991-44ad-be33-510f05d6ea91">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[1. Dalam waktu 1x24 jam saya akan segera melengkapi semua dokumen / berkas yang diperlukan untuk memperlancar proses administrasi atas jenis pembiayaan atau asuransi yang telah saya tentukan.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="29" y="296" width="532" height="34" uuid="01459c79-a94d-4fd4-8216-2869527eefcb">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[2. Apabila saya tidak memberi persetujuan, atau kemudian hari mencabut persetujuan saya untuk melepaskan rahasia kedokteran saya kepada perusahaan asuransi yang saya tentukan maka saya pribadi bertanggungjawab untuk membayar semua pelayanan dan tindakan medis dari RSU PKU Muhammadiyah Banjarnegara.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="29" y="330" width="532" height="34" uuid="b69265e6-b311-4db7-a19c-26050a057834">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3. Apabila rumah sakit membutuhkan proses hukum untuk menagih biaya pelayanan rumah sakit dari saya, saya memahami bahwa saya bertanggungjawab untuk membayar semua biaya yang disebabkan dari proses hukum tersebut.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="364" width="255" height="13" uuid="258c6234-9a93-478a-8249-b6d0b8a30fff">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SAYA TELAH MEMBACA DAN SEPENUHNYA SETUJU]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="265" y="364" width="296" height="13" uuid="f03a4ef6-9e0d-4151-8be9-ec47c6403613"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[dengan setiap pernyataan yang terdapat pada formulir ini dan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="377" width="296" height="13" uuid="a66ea7ef-496b-4088-94b1-397041123f96"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[menandatangani tanpa paksaan dan dengan kesadaran penuh.]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="10" y="410" width="266" height="110" uuid="850ebb53-4af5-421b-8624-f8fd01ef8abd">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="276" y="410" width="285" height="110" uuid="ca190bdb-4ce9-421c-8e0a-c0ba74041e53">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="429" width="266" height="13" uuid="813b261c-274e-432c-a69b-e9babf507de4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Pasien / Keluarga / Penanggungjawab]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="470" width="266" height="13" uuid="eea32f2c-8567-403f-b60c-77363815b7c8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[.....................................................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="483" width="86" height="13" uuid="4468565c-5069-47f3-af6a-722a1f55ccd4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Nama Lengkap]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="276" y="410" width="284" height="13" uuid="27026da2-9333-4cbf-b678-07ab3de64428"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Banjarnegara, "+$F{tanggal}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="276" y="429" width="284" height="13" uuid="3fd64525-1409-47ed-9780-aeb733fa6694"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Pemberi Informasi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="276" y="470" width="284" height="13" uuid="9450b645-92ca-46d8-a156-fd61019a758c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[.....................................................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="456" y="483" width="104" height="13" uuid="6d737bbe-7878-43a7-9725-ba0376d06d02"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Nama Lengkap]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="276" y="520" width="285" height="110" uuid="721b1c92-a7d4-4ddc-81b9-43f632f9ba68">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="539" width="266" height="13" uuid="44de9cda-f5c7-4a8f-b90c-594ff37561bc"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Saksi I,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="580" width="266" height="13" uuid="62ec8a69-614a-426b-860b-ea11fd117d45"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[.....................................................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="593" width="86" height="13" uuid="2c60302b-b1be-45d3-bda0-47b86dac4cc1"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Nama Lengkap]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="276" y="539" width="284" height="13" uuid="5b83d933-2655-49ee-a272-46daf6da28d0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Saksi II,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="276" y="580" width="284" height="13" uuid="eea828e0-c265-44f3-a814-d400c237f77f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[.....................................................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="456" y="593" width="104" height="13" uuid="d09ee512-5c8b-4f5f-9178-0fb5f53aa341"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Nama Lengkap]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="26" y="193" width="13" height="13" uuid="aaf4bd2e-9cbf-4c00-ac0d-11795ddb1051">
+					<printWhenExpression><![CDATA[$F{kebutuhan pendmapingan_pilihan}.contains("Tidak")]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[X]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="26" y="206" width="13" height="13" uuid="ffdb88e4-feb8-4612-8855-b315cf092943">
+					<printWhenExpression><![CDATA[$F{kebutuhan pendmapingan_pilihan}.contains("Ya")]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[X]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="83" y="206" width="89" height="13" uuid="398a4e67-ac22-4b36-a946-1964cb53d3df">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{kebutuhan pendmapingan_oleh}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="26" y="232" width="13" height="13" uuid="a08be176-df84-4125-92dc-60f816842250">
+					<printWhenExpression><![CDATA[$F{kebutuhan pendmapingan_pilihan}.contains("Tidak")]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[X]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="26" y="245" width="13" height="13" uuid="34189f81-7018-4d5c-a41f-f99469aa3dc2">
+					<printWhenExpression><![CDATA[$F{kebutuhan pendmapingan_pilihan}.contains("Ya")]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[X]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="101" y="245" width="179" height="13" uuid="cf3e9044-5f31-489b-b133-0425486d61f6">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nilai_dan_kepercayaan_sebutkan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="481" width="174" height="13" uuid="258a6b18-9b41-48d1-af39-cce4e9ffa9c7"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ttd}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="275" y="481" width="176" height="13" uuid="0986e78d-02b4-4fc7-8f03-68842d4379ec"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pemberi_informasi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="593" width="172" height="13" uuid="a8f6091a-28dd-497d-88c0-ad95a2c5d930"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{saksi1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="276" y="591" width="174" height="13" uuid="dafadf47-8ce2-4714-a52b-3540a285c4fb"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{saksi2}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

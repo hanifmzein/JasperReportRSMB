@@ -1,0 +1,30 @@
+{
+	"pasien":{
+		"nama":"Chamber",
+		"kelamin":"Laki-laki",
+		"tanggal_lahir":"2021-11-01",
+		"bangsa":"Sumeria",
+		"agama":"Lainnya",
+		"pekerjaan":"Bapak Rumah tangga",
+		"alamat":"Uruk",
+		"hub_dengan_pasien":"Diri sendiri"
+	},
+	"pelayanan_kerohanian":{
+		"waktu_permintaan":{
+			"tanggal":"2021-11-01",
+			"jam":"06:00:00"
+		},
+		"nama":"Reyna",
+		"waktu_kedatangan":{
+			"tanggal":"2021-11-01",
+			"jam":"06:00:00"
+		},
+		"telepon":"0856152151"
+	},
+	"ttd":{
+		"kota":"Banjarnegara",
+		"tanggal":"2021-11-01",
+		"pasien":"Samir",
+		"perawat":"Solem"
+	}
+}

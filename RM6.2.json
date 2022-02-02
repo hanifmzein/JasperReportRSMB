@@ -1,0 +1,143 @@
+{
+    "nama_bayi": "Miku",
+    "ruang": "XI Melati",
+    "tanggal_lahir": {
+      "tanggal": "2021-11-01",
+      "jam": "06:00:00"
+    },
+    "kelas": "XX",
+    "kelamin": "Perempuan",
+    "nomor_boks": "89218",
+    "jml_bayi_lahir": {
+      "pilihan": "Kembar",
+      "value": 5
+    },
+    "penolong": "Perawat\/ Bidan",
+    "keadaan_lahir": true,
+    "tanggal_masuk": "2021-11-01",
+    "pengirim": "Rumah Bersalin",
+    "penjamin": {
+      "pilihan": "Lainnya",
+      "lain_lain": "Tuhan"
+    },
+    "ukuran_bayi": {
+      "bb": 10,
+      "pb": 10,
+      "lk": 32,
+      "ld": 1,
+      "lla_kiri": 2,
+      "uub": {
+        "transv": 2,
+        "sagital": 4,
+        "anogenital": "catchpharse"
+      }
+    },
+    "ibu": {
+      "nama": "Ayaya",
+      "umur": 50,
+      "pekerjaan": "Ga ngapa ngapain",
+      "pendidikan": "SD"
+    },
+    "ayah": {
+      "nama": "Scharamouce",
+      "umur": 69,
+      "pekerjaan": "Bapak rumah tangga",
+      "pendidikan": "SMP"
+    },
+    "agama": {
+      "pilihan": "Lainnya",
+      "value": "Atletis"
+    },
+    "alamat": "Uruk, Mesopotamia",
+    "kesehatan_ibu": {
+      "g": 0,
+      "p": 0,
+      "a": 0,
+      "umur_kehamilan": {
+        "value": 2,
+        "pilihan": "Minggu"
+      },
+      "bb": 2,
+      "tb": 18,
+      "hpm": 41,
+      "hpl": 21,
+      "pemeriksaan_antenatal": 2,
+      "di": "Joong gool",
+      "sejak_kehamilan": {
+        "pilihan": "Teratur",
+        "value": 21
+      },
+      "komplikasi_kehamilan": "ga ada",
+      "kebiasaan_makanan": "Kembang 10 rupa",
+      "golongan_darah": "A",
+      "hbsag": "zxc",
+      "hiv": "asd"
+    },
+    "apgar": {
+      "frekwensi_jantung": {
+        "pilihan": "Tidak ada",
+        "nilai": "1"
+      },
+      "usaha_bernafas": {
+        "pilihan": "Lambat tak teratur",
+        "nilai": "5"
+      },
+      "tonus_otot": {
+        "pilihan": "Ext fleksi sedikit",
+        "nilai": "5"
+      },
+      "iribilitas_refleks": {
+        "pilihan": "Menangis",
+        "nilai": "10"
+      },
+      "warna_kulit": {
+        "pilihan": "Tumbuh kemerahan tangan & kaki biru",
+        "nilai": "1"
+      },
+      "jumlah_nilai": 0,
+      "tindakan": "Sunat",
+      "obat_yang_diberikan": "Parasetamol",
+      "deuresis": "catchpharse",
+      "mikonium": "duno"
+    },
+    "pemeriksaan_dokter": "Sepertinya tidak berpenyakid",
+    "riwayat_kelahiran": [{
+        "tgl"   : "2019-03-02",
+        "jk"    : "Perempuan",
+        "bb"    : 69,
+        "keadaan_bayi" : "Sehat al wafat",
+        "keadaan_kehamilan" : "Bisa aja sih",
+        "jenis_persalinan" : "Caesar",
+        "lain_lain" : "ga ada"         
+    },
+    {
+        "tgl"   : "2012-01-01",
+        "jk"    : "Laki-laki",
+        "bb"    : 96,
+        "keadaan_bayi" : "wafat al sehat",
+        "keadaan_kehamilan" : "ga Bisa",
+        "jenis_persalinan" : "Biasa",
+        "lain_lain" : "ada"         
+    },
+    {
+        "tgl"   : "2001-01-01",
+        "jk"    : "Perempuan",
+        "bb"    : 100,
+        "keadaan_bayi" : "Tertolong",
+        "keadaan_kehamilan" : "Au ah Gelap",
+        "jenis_persalinan" : "bacok",
+        "lain_lain" : "lainya"         
+    }],
+    "persalinan": "asd",
+    "ditolong_oleh": "zxc",
+    "cara_persalinan": "qwe",
+    "atas_indikasi": "fsafa",
+    "ketuban": {
+      "lama_pecah": 0
+    },
+    "air": {
+      "warna": "Pink",
+      "bau": "Parfum"
+    },
+    "keterangan_lain": "catchpharse"
+}

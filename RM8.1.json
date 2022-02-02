@@ -1,0 +1,81 @@
+{
+    "diagnosa_medis": "Magh Awal",
+    "riwayat_penyakit_dahulu": "Tidak ada",
+    "diit": "",
+    "riwayat_alergi_makan_minum": "Tidak ada",
+    "pola_makan": {
+      "karbohidrat": {
+        "frekuensi": "1x sehari",
+        "keterangan": ""
+      },
+      "protein_hewani": {
+        "frekuensi": "1x sehari",
+        "keterangan": ""
+      },
+      "protein_nabati": {
+        "frekuensi": "3-6x\/minggu",
+        "keterangan": ""
+      },
+      "sayuran": {
+        "frekuensi": "1-2x\/minggu",
+        "keterangan": ""
+      },
+      "buah": {
+        "frekuensi": "< 1x\/minggu",
+        "keterangan": ""
+      },
+      "minuman": {
+        "frekuensi": "Tidak pernah",
+        "keterangan": ""
+      },
+      "lain_lain": {
+        "frekuensi": "> 1x sehari",
+        "keterangan": ""
+      }
+    },
+    "kebiasaan_hidup": {
+      "merokok": {
+        "pilihan": "Ya",
+        "konsumsi": 3,
+        "lama": 1,
+        "satuan": "bulan"
+      },
+      "alkohol": "Tidak",
+      "obat": "Paracetamol",
+      "olahraga": {
+        "pilihan": "Ya",
+        "sebutkan": "Lari"
+      }
+    },
+    "diagnosa_gizi": "Kurang Minum",
+    "manajemen_diet": "Puasa Senin Kamis",
+    "kebutuhan_gizi": {
+      "energi": 30,
+      "karbohidrat": 10,
+      "protein": 40,
+      "lemak": 20
+    },
+    "evaluasi": {
+      "riwayat": [
+        {
+          "tanggal": "2019-04-21",
+          "diet": "Buah",
+          "asupan": {
+            "energi": 30,
+            "karbohidrat": 20,
+            "protein": 40,
+            "lemak": 50,
+            "vitamin": 10,
+            "mineral": 80
+          },
+          "berat_badan": 60,
+          "tinggi_badan": 170,
+          "lingkar_lengan": 30,
+          "lingkar_kepala": 40,
+          "status_gizi": "Normal"
+        }
+      ],
+      "catatan": "Normal"
+    },
+    "nutrisionis": "Siti Mayanti"
+}
